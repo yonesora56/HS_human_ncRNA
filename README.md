@@ -1,4 +1,6 @@
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.13&color=blue&logo=docker)](https://github.com/yonesora56/HS_rice_analysis/tree/main/.devcontainer)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.13&color=blue&logo=docker)](https://github.com/yonesora56/HS_human_ncRNA/tree/main/.devcontainer)
+[![Last commit](https://img.shields.io/github/last-commit/yonesora56/HS_human_ncRNA)](https://github.com/yonesora56/HS_human_ncRNA/commits/main)
+[![Repo size](https://img.shields.io/github/repo-size/yonesora56/HS_human_ncRNA)](https://github.com/yonesora56/HS_human_ncRNA)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.5.0-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
