@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.5.0-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![CWL](https://img.shields.io/badge/CWL-Common%20Workflow%20Language-1f6feb)](https://www.commonwl.org/)
+[![CWL](https://img.shields.io/badge/CWL-v1.2-%23B5314C?logo=commonworkflowlanguage&logoColor=white)](https://www.commonwl.org/)
 
 &nbsp;
 
