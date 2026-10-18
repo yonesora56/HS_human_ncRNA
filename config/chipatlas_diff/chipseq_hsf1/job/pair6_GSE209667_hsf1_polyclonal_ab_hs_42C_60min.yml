@@ -1,0 +1,30 @@
+# pair6: GSE209667_hsf1_polyclonal_ab_hs_42C_60min vs GSE209667_hsf1_polyclonal_ab_ctrl
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_hsf1/job/pair6/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_hsf1/job/pair6_GSE209667_hsf1_polyclonal_ab_hs_42C_60min.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair6_GSE209667_hsf1_polyclonal_ab_hs_42C_60min.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair6_GSE209667_hsf1_polyclonal_ab_ctrl.txt
+
+antigen_class: diffbind
+title: GSE209667_ChIPseq_HSF1_polyclonal_ab_hs_42C_60min
+result_basename: GSE209667_hsf1_polyclonal_ab_hs_42C_60min
+
+desc_a: GSE209667_hsf1_polyclonal_ab_hs_42C_60min
+desc_b: GSE209667_hsf1_polyclonal_ab_ctrl
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

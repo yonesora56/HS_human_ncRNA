@@ -1,0 +1,26 @@
+# execute date: 2026-02-20
+
+fastq_files:
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989376_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989377_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989392_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989393_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989396_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_SY5609/SRR23989397_1.fastq.gz

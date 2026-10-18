@@ -1,0 +1,35 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-3.9,GO:0034599,cellular response to oxidative stress,M1,1,0
+1,-2.2,R-HSA-1280215,Cytokine Signaling in Immune system,M1,1,0
+1,-2.5,GO:0051248,negative regulation of protein metabolic process,M1,1,0
+1,-11,R-HSA-2262752,Cellular responses to stress,M1,1,0
+1,-3,R-HSA-9839923,Dengue Virus Infection,M1,1,0
+1,-3.6,GO:0062197,cellular response to chemical stress,M1,1,0
+1,-2.2,GO:0045597,positive regulation of cell differentiation,M1,1,0
+1,-5.9,hsa04141,Protein processing in endoplasmic reticulum,M1,1,0
+1,-2.6,GO:0050865,regulation of cell activation,M1,1,0
+1,-7.5,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,M1,1,0
+1,-6.8,GO:0051604,protein maturation,M1,1,0
+1,-3,R-HSA-9679506,SARS-CoV Infections,M1,1,0
+1,-2.9,GO:0051249,regulation of lymphocyte activation,M1,1,0
+1,-2.7,GO:0080135,regulation of cellular response to stress,M1,1,0
+1,-2.7,GO:0002694,regulation of leukocyte activation,M1,1,0
+1,-6.5,GO:0035966,response to topologically incorrect protein,M1,1,0
+1,-10,R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,M1,1,0
+1,-9.4,R-HSA-3371571,HSF1-dependent transactivation,M1,1,0
+1,-8.5,GO:0009266,response to temperature stimulus,M1,1,0
+1,-3.2,GO:0050863,regulation of T cell activation,M1,1,0
+1,-8.1,GO:0034605,cellular response to heat,M1,1,0
+1,-3.8,hsa05417,Lipid and atherosclerosis,M1,1,0
+1,-3.5,GO:0051129,negative regulation of cellular component organization,M1,1,0
+1,-5.1,hsa04612,Antigen processing and presentation,M1,1,0
+1,-3.5,hsa05020,Prion disease,M1,1,0
+1,-2.8,R-HSA-6798695,Neutrophil degranulation,M1,1,0
+1,-4.4,hsa04915,Estrogen signaling pathway,M1,1,0
+1,-6.8,GO:0006986,response to unfolded protein,M1,1,0
+1,-12,R-HSA-3371556,Cellular response to heat stress,M1,1,0
+1,-2.5,GO:0031399,regulation of protein modification process,M1,1,0
+1,-3.2,GO:0006979,response to oxidative stress,M1,1,0
+1,-10,R-HSA-3371568,Attenuation phase,M1,1,0
+1,-9.2,GO:0006457,protein folding,M1,1,0
+1,-9.6,GO:0009408,response to heat,M1,1,0

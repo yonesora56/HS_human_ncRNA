@@ -1,0 +1,78 @@
+# up5p lncRNA ela BS-seq hyper-mr
+# Description: Find overlaps between up5p lncRNA ela and BS-seq hyper-mr peaks
+# Date: 2026-05-29
+# peak BED files are from ChIP-Atlas
+# these peak BED files are filtered by enrichment analysis results
+# related scripts: notebooks/ChIPatlas_enrichment/up5p_lncRNA_cre_ela_bs_hypermr.ipynb
+# related scripts: scripts/chip_atlas_download_bed.sh
+
+query_bed_file:
+  class: File
+  location: ../../out/fantabio/BED/fantabio_up5p_lncRNA_ela_v260705.bed
+
+peaks_bed_files:
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364766.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364768.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364769.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364773.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364774.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364775.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364776.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364777.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364778.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364779.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364781.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX11364782.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051571.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051572.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051573.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051574.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051575.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX19051576.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX26303595.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX26303596.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX814960.hg38.hypermr.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/BS-seq_hyper_mr/SRX814962.hg38.hypermr.bed

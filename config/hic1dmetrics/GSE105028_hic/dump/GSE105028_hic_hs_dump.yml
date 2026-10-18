@@ -1,0 +1,52 @@
+# GSE105028 Hi-C heat shock (merged) — scatter dump over chr1-22 and chrX
+# Resolution 5000 bp, KR normalization (matches the .hic zoom).
+#
+# Run:
+#   cwltool --outdir ./out/h1d/dump/GSE105028_hic/HiC_HS/ \
+#     ./Workflow/hic1dmetrics_dump_scatter.cwl \
+#     ./config/hic1dmetrics/dump/GSE105028_hic_hs_dump.yml
+
+hic_file:
+  class: File
+  location: ../../../../out/hic/GSE105028_hic_convert_hic/HiC_HS_merged_juicer_pre_output/HiC_HS_merged.hic
+
+genome_table:
+  class: File
+  format: iana:text/tab-separated-values
+  location: ../../../../out/h1d/hg38_genome_table.txt
+
+juicer_tools:
+  class: File
+  location: ../../../../out/h1d/juicer_tools.2.20.00.jar
+
+dump_script:
+  class: File
+  location: ../../../../scripts/hic1dmetrics_dump.py
+
+resolution: 5000
+normalize: KR
+
+chromosomes:
+  - chr1
+  - chr2
+  - chr3
+  - chr4
+  - chr5
+  - chr6
+  - chr7
+  - chr8
+  - chr9
+  - chr10
+  - chr11
+  - chr12
+  - chr13
+  - chr14
+  - chr15
+  - chr16
+  - chr17
+  - chr18
+  - chr19
+  - chr20
+  - chr21
+  - chr22
+  - chrX

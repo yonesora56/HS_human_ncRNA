@@ -1,0 +1,138 @@
+# ChIP-Atlas Diff Analysis scatter config for HS-related ATAC-seq pairs
+# (pair1–pair8, pair10–pair11 active; pair9 commented out)
+# See notebooks/00_metadata/12_8_metadata_atacseq.ipynb
+#
+# pair9 (GSE267931) disabled for genome=hg38:
+#   SRX24613861 is on ChIP-Atlas (https://chip-atlas.org/view?id=SRX24613861)
+#   but hg38 bigWig/BED is missing (hg19 only in experimentList.tab).
+#   Diff Analysis with hg38 fails at SRX24613861.bw download on the server.
+#   Workarounds: use genome=hg19 for pair9, or drop SRX24613861 from dataset_A.
+#
+# Run (collect outputs with --outdir):
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ATACseq/job/ \
+#     Workflow/chip_atlas_diff_scatter.cwl \
+#     config/chipatlas_diff/atacseq/atacseq_hs_diff_scatter.yml
+
+data_a_files:
+  - class: File
+    location: dataset_A/pair1_GSE101731_atacseq_hs_44C_1h.txt
+  - class: File
+    location: dataset_A/pair2_GSE101731_atacseq_hs_44C_2h.txt
+  - class: File
+    location: dataset_A/pair3_GSE154744_atacseq_hs_42C_uc12p5.txt
+  - class: File
+    location: dataset_A/pair4_GSE154744_atacseq_hs_42C_s_uc25.txt
+  - class: File
+    location: dataset_A/pair5_GSE154744_atacseq_hs_42C_s_uc40.txt
+  - class: File
+    location: dataset_A/pair6_GSE154744_atacseq_hs_42C_hss_uc30.txt
+  - class: File
+    location: dataset_A/pair7_GSE154744_atacseq_hs_42C_hss_uc60.txt
+  - class: File
+    location: dataset_A/pair8_GSE209675_atacseq_hs_42_1h.txt
+  # pair9 (GSE267931): SRX24613861 lacks hg38 assets — see header comment
+  # - class: File
+  #   location: dataset_A/pair9_GSE267931_atacseq_hs_39C_2h.txt
+  - class: File
+    location: dataset_A/pair10_GSE173536_atacseq_hs_42C_1h_d21.txt
+  - class: File
+    location: dataset_A/pair11_GSE173536_atacseq_hs_42C_1h_t21.txt
+
+data_b_files:
+  - class: File
+    location: dataset_B/pair1_GSE101731_atacseq_ctrl.txt
+  - class: File
+    location: dataset_B/pair2_GSE101731_atacseq_ctrl.txt
+  - class: File
+    location: dataset_B/pair3_GSE154744_atacseq_ctrl_s_uc0.txt
+  - class: File
+    location: dataset_B/pair4_GSE154744_atacseq_ctrl_s_uc0.txt
+  - class: File
+    location: dataset_B/pair5_GSE154744_atacseq_ctrl_s_uc0.txt
+  - class: File
+    location: dataset_B/pair6_GSE154744_atacseq_ctrl_hss_uc0.txt
+  - class: File
+    location: dataset_B/pair7_GSE154744_atacseq_ctrl_hss_uc0.txt
+  - class: File
+    location: dataset_B/pair8_GSE209675_atacseq_ctrl.txt
+  # pair9 (GSE267931): SRX24613861 lacks hg38 assets — see header comment
+  # - class: File
+  #   location: dataset_B/pair9_GSE267931_atacseq_ctrl.txt
+  - class: File
+    location: dataset_B/pair10_GSE173536_atacseq_ctrl_d21.txt
+  - class: File
+    location: dataset_B/pair11_GSE173536_atacseq_ctrl_t21.txt
+
+antigen_classes:
+  - diffbind
+  - diffbind
+  - diffbind
+  - diffbind
+  - diffbind
+  - diffbind
+  - diffbind
+  - diffbind
+  # - diffbind   # pair9
+  - diffbind
+  - diffbind
+
+job_titles:
+  - GSE101731_ATACseq_44C_1h
+  - GSE101731_ATACseq_44C_2h
+  - GSE154744_ATACseq_s_uc12p5
+  - GSE154744_ATACseq_s_uc25
+  - GSE154744_ATACseq_s_uc40
+  - GSE154744_ATACseq_hss_uc30
+  - GSE154744_ATACseq_hss_uc60
+  - GSE209675_ATACseq_42C_1h
+  # - GSE267931_ATACseq_39C_2h   # pair9
+  - GSE173536_ATACseq_D21_42C_1h
+  - GSE173536_ATACseq_T21_42C_1h
+
+result_basenames:
+  - GSE101731_atac_1hHS
+  - GSE101731_atac_2hHS
+  - GSE154744_atac_s_uc12p5
+  - GSE154744_atac_s_uc25
+  - GSE154744_atac_s_uc40
+  - GSE154744_atac_hss_uc30
+  - GSE154744_atac_hss_uc60
+  - GSE209675_atac
+  # - GSE267931_atac_hs_39C_2h   # pair9
+  - GSE173536_atac_d21
+  - GSE173536_atac_t21
+
+desc_a_list:
+  - GSE101731_atacseq_hs_44C_1h
+  - GSE101731_atacseq_hs_44C_2h
+  - GSE154744_atacseq_hs_42C_uc12p5
+  - GSE154744_atacseq_hs_42C_s_uc25
+  - GSE154744_atacseq_hs_42C_s_uc40
+  - GSE154744_atacseq_hs_42C_hss_uc30
+  - GSE154744_atacseq_hs_42C_hss_uc60
+  - GSE209675_atacseq_hs_42_1h
+  # - GSE267931_atacseq_hs_39C_2h   # pair9
+  - GSE173536_atacseq_hs_42C_1h_d21
+  - GSE173536_atacseq_hs_42C_1h_t21
+
+desc_b_list:
+  - GSE101731_atacseq_ctrl
+  - GSE101731_atacseq_ctrl
+  - GSE154744_atacseq_ctrl_s_uc0
+  - GSE154744_atacseq_ctrl_s_uc0
+  - GSE154744_atacseq_ctrl_s_uc0
+  - GSE154744_atacseq_ctrl_hss_uc0
+  - GSE154744_atacseq_ctrl_hss_uc0
+  - GSE209675_atacseq_ctrl
+  # - GSE267931_atacseq_ctrl   # pair9
+  - GSE173536_atacseq_ctrl_d21
+  - GSE173536_atacseq_ctrl_t21
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+# Root for download/extract inside the CWL job dir; use cwltool --outdir to collect outputs
+out_dir: results
+
+skip_preflight: false
+url_input: false

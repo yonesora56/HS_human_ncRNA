@@ -1,0 +1,47 @@
+# Dev Container Python packages (image system Python)
+# Install with: uv pip install --system -r requirements.txt
+# version update 2026-09-04
+jupyter==1.0.0
+retry==0.9.2
+ipykernel==6.30.1
+pandas==2.3.2
+pyarrow==21.0.0
+polars==1.40.1
+numpy==2.3.2
+matplotlib==3.10.6
+seaborn==0.13.2
+scipy==1.16.1
+statsmodels==0.14.5
+urllib3==2.5.0
+requests==2.32.5
+upsetplot==0.9.0
+papermill==2.6.0
+goatools==1.6.5
+geofetch==0.12.8
+peppy==0.40.7
+PyYAML==6.0.2
+qrcode==8.2
+plotly==6.3.0
+cwltool==3.1.20250715140722
+cwltest==2.6.20250818005349
+cwl_runner==1.0
+pipx==1.7.1
+pytximport==0.13.0
+pydeseq2==0.5.4
+pybedtools==0.12.0
+adjustText==1.4.0
+h1d==0.2.12
+pyGenomeTracks==3.9
+# rpy2 needs R at build time. R is installed later by the r-rig feature,
+# so rpy2 is installed in postCreateCommand (see devcontainer.json).
+# rpy2==3.6.7
+# marimo==0.17.7
+
+langchain==1.0.0
+langchain-openai==1.0.0
+langchain-huggingface==1.0.0
+langchain-community==0.4
+streamlit==1.50.0
+faiss-cpu==1.12.0
+langchain-text-splitters==1.0.0
+# langchain-google-genai==2.1.3

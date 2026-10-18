@@ -1,0 +1,23 @@
+bed_a:
+  class: File
+  location: ../../../out/fantabio/BEDfile/up5p/fantabio_up5p_all_pla_v261001.bed
+
+bed_b:
+  class: File
+  location: ../../../out/fantabio/BEDfile_ref/human-CREv1.2.1.hg38.cre-peaks_pla_gencode_transcript_linked.bed
+
+antigen_class: Histone
+title: up5p_all_cre_pla_histone
+result_basename: up5p_all_cre_pla_histone
+
+desc_a: up5p_all_cre_pla
+desc_b: fantabio_all_cre_pla_gencode_transcript_linked
+
+genome: hg38
+cell_class: "All cell types"
+threshold: "100"
+sbatch_options: "-p epyc -t 1440"
+
+poll_interval: 300
+out_dir: results
+formats: html,tsv

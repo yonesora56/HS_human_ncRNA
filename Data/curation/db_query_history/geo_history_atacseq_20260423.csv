@@ -1,0 +1,18 @@
+Recent queries in gds
+Search,Query,Items found,Time
+#14,"Search ((((""homo sapiens""[Organism]) AND ""other""[DataSet Type]) AND ""gds sra""[Filter])) AND ((((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]) OR ""heat stroke""[Description])",46,02:07:35
+#13,"Search ((""homo sapiens""[Organism]) AND ""other""[DataSet Type]) AND ""gds sra""[Filter]",7392,02:07:21
+#12,"Search ((((""homo sapiens""[Organism]) AND ""genome binding/occupancy profiling by high throughput sequen""[Filter]) AND ""gds sra""[Filter])) AND ((((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]) OR ""heat stroke""[Description])",57,02:03:23
+#11,"Search (((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]) OR ""heat stroke""[Description]",20743,02:02:10
+#10,"Search ""heat stroke""[Description]",54,02:01:50
+#9,"Search ""hyperthermia""[Description]",644,02:01:32
+#8,"Search ""high temperature stress""[Description]",93,02:01:17
+#7,"Search ""heat stress""[Description]",7854,02:00:58
+#6,"Search ""heat shock""[Description]",12533,02:00:43
+#5,"Search ""heat shock response""[MeSH Terms]",13043,02:00:28
+#4,"Search ((""homo sapiens""[Organism]) AND ""genome binding/occupancy profiling by high throughput sequen""[Filter]) AND ""gds sra""[Filter]",10908,02:00:09
+#3,"Search ""gds sra""[Filter]",5509310,01:59:59
+#2,"Search ""genome binding/occupancy profiling by high throughput sequen""[Filter]",48769,01:59:06
+#1,"Search ""homo sapiens""[Organism]",4568344,01:58:42
+
+

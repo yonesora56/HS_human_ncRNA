@@ -1,0 +1,26 @@
+# FANTOM-CAT lv4 stringent BED12 (hg38) -> GTF (bed2gtf 2.0.0)
+# Prepare the CrossMap BED first:
+#   cwltool --outdir ./Data/Database/FANTOM/FANTOM-CAT \
+#     ./Tools/fantomcat/prepare_bed12_for_bed2gtf.cwl \
+#     ./config/fantomcat/prepare_bed12_lv4_stringent_hg38.yml
+#
+# Run:
+#   cwltool --outdir ./Data/Database/FANTOM/FANTOM-CAT \
+#     ./Tools/fantomcat/bed2gtf.cwl \
+#     ./config/fantomcat/bed2gtf_lv4_stringent_hg38.yml
+#
+# Output:
+#   FANTOM_CAT.lv4_stringent.hg38.gtf
+
+input_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/FANTOM/FANTOM-CAT/FANTOM_CAT.lv4_stringent.hg38.txid.bed
+
+isoforms_file:
+  class: File
+  location: ../../Data/Database/FANTOM/FANTOM-CAT/fantomcat_lv4_stringent_hg19_tx2gene.tsv
+
+bed_type: "12"
+threads: 16
+output_gtf_file_name: "FANTOM_CAT.lv4_stringent.hg38.gtf"

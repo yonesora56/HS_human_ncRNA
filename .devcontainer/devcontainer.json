@@ -1,0 +1,64 @@
+{
+  "name": "HS_human_ncrna",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--init"
+    ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "anysphere.cursorpyright",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.pylint",
+        "njqdev.vscode-python-typehint",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "GitHub.copilot",
+        "ms-azuretools.vscode-docker",
+        "mechatroner.rainbow-csv",
+        "usernamehw.errorlens",
+        "hediet.vscode-drawio",
+        "sbg-rabix.benten-cwl",
+        "REditorSupport.r",
+        "julialang.language-julia",
+        "vadimcn.vscode-lldb",
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "astral-sh.ty"
+        // "marimo-team.vscode-marimo"
+        ]
+      }
+    },
+  "remoteUser": "root",
+  "features": {
+    // version update 2026-05-23: engine 28.5 alone is not enough; moby-containerd 2.3.0 breaks on bookworm (erofs/transfer plugin)
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "28.5"
+    },
+    "ghcr.io/devcontainers/features/git:1": "os-provided",
+    "ghcr.io/rocker-org/devcontainer-features/r-rig:latest": {
+      "version": "4.5.0" // version update 2026-02-14
+    },
+    "ghcr.io/julialang/devcontainer-features/julia:1": {
+    },
+    "ghcr.io/devcontainers/features/rust:1": {
+      "version": "latest"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/r-packages:1.1.0": { // add r packages for executing simona and other r packages (entropy, IRkernel, languageserver, IRdisplay...)
+      "packages": "repr,entropy,IRkernel,languageserver,IRdisplay,magick,igraph,Cairo,DiagrammeR,dplyr,UpSetR,ggplot2,ComplexUpset",
+      "installSystemRequirements": true
+    }
+  },
+  // version update 2026-05-23: dind feature pins engine only; containerd 2.3.0 breaks on bookworm
+  "postBuild": "/usr/local/share/fix-dind.sh",
+  "postStartCommand": "/usr/local/share/fix-dind.sh",
+  "postCreateCommand": "uv pip install --system --no-cache rpy2==3.6.7 && R -e \"if (!require('BiocManager', quietly = TRUE)) install.packages('BiocManager'); BiocManager::install(c('simona', 'UniProtKeywords','simplifyEnrichment', 'AnnotationHub', 'ComplexHeatmap', 'AnnotationDbi', 'InteractiveComplexHeatmap')); IRkernel::installspec(user = FALSE)\""
+}

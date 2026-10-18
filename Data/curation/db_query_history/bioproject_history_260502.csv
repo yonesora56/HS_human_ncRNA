@@ -1,0 +1,11 @@
+Recent queries in bioproject
+Search,Query,Items found,Time
+#7,"Search ((((((((((heat stress) OR heat shock) OR high temperature stress) OR hyperthermia) OR heat stroke)) AND ""homo sapiens""[Organism]) AND ""transcriptome gene expression""[Filter]) AND ""bioproject sra""[Filter])) NOT ""bioproject gds""[Filter]",9,03:52:03
+#6,"Search ((((((((heat stress) OR heat shock) OR high temperature stress) OR hyperthermia) OR heat stroke)) AND ""homo sapiens""[Organism]) AND ""transcriptome gene expression""[Filter]) AND ""bioproject sra""[Filter]",159,03:51:49
+#5,"Search ""bioproject gds""[Filter]",260184,03:51:38
+#4,"Search ""bioproject sra""[Filter]",665651,03:51:26
+#3,"Search ""transcriptome gene expression""[Filter]",267738,03:51:11
+#2,"Search ""homo sapiens""[Organism]",145874,03:50:44
+#1,"Search ((((heat stress) OR heat shock) OR high temperature stress) OR hyperthermia) OR heat stroke",4114,03:50:18
+
+

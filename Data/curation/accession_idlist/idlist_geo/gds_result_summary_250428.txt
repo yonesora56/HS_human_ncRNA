@@ -1,0 +1,1178 @@
+
+1. A transcriptional enhancer regulates cardiac maturation [scRNA-seq]
+(Submitter supplied) Cardiomyocyte maturation is crucial for generating adult cardiomyocytes and the application of human pluripotent stem cell derived-cardiomyocytes (hPSC-CMs). However, regulation at the cis-regulatory element level, and its role in heart disease remain unclear. Alpha-actinin 2 (ACTN2) levels increase during CM maturation. Here, we investigate a clinically relevant, conserved ACTN2 enhancer’s effects on CM maturation using hPSC and mouse models. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 1 Sample
+FTP download: GEO (CSV, MTX, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266307/
+Series		Accession: GSE266307	ID: 200266307
+
+2. HSP70 binds RNA and regulates transcription by RNA Polymerase III [RNA-seq]
+(Submitter supplied) We examined the RNA binding ability of the 70-kDa heat shock protein (HSP70) family member HSPA1A and identified the RNA species bound to HSP70 in vivo. We used a UV-crosslinkiung and immunoprecipitation based approach named FLASH-seq (Aktaş et al., 2017) using 3xFLAG-Histidine-Biotin tagged ectopically expressed protein in HEK293T cells.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21290 2 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE191nnn/GSE191244/
+Series		Accession: GSE191244	ID: 200191244
+
+3. Single-cell RNA-seq of human head and neck squamous cell carcinoma (HNSCC) to compare different tissue dissociation methods
+(Submitter supplied) Tissue dissociation, mechanical and/or enzymatic, is a method of disaggregating 3D connective tissue to release cells for downstream single cell analysis.  Without proper controls for tissue dissociation experiments, potential artifacts can be mistaken for baseline tissue data. We hypothesized that enzymatic (collagenase/hyaluronidase) compared to mechanical dissociation leads to dissociated related artifacts not found in endogenous tumor tissue. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 2 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243359/
+Series		Accession: GSE243359	ID: 200243359
+
+4. Quantifying RNA Synthesis at Rate-Limiting Steps of Transcription Using Nascent RNA-sequencing Data
+(Submitter supplied) Precision Run-On sequencing (PRO-seq) data from human K562 cells, mapped to hg38.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL18573 2 Samples
+FTP download: GEO (BED, BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181161/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA750851
+Series		Accession: GSE181161	ID: 200181161
+
+5. Knocking out C9ORF72 exacerbates axonal trafficking defects associated with hexanucleotide repeat expansion and reduces levels of heat shock proteins II
+(Submitter supplied) wild type iPSCs were edited using CRISPR/Cas9 to knockout C9ORF72 followed by differentiation into neurons.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 2 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE143nnn/GSE143744/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA601467
+Series		Accession: GSE143744	ID: 200143744
+
+6. Heat-shock influence on gene expression in HEK293T human cells.
+(Submitter supplied) RNA-Seq procedure was used for analysis of expression in HEK293T cells. Heat shock treatments was performed for 20 min at 43°C. Then heat shock treated cells were incubated for 6 h at 37°C and replicates were separately lysed with Trisol reagent. Total RNA was extracted from cell lysed with Trisol reagent and PureLink RNA Micro Kit (Invitrogen) according to manufacture instruction. RNA Quality was checked with  BioAnalyser and  RNA 6000 Nano Kit(Agilent). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18460 2 Samples
+FTP download: GEO (BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE130nnn/GSE130493/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA540473
+Series		Accession: GSE130493	ID: 200130493
+
+7. Heat shock-induced ribosomal intergenic spacer RNA
+(Submitter supplied) Cells adapt to environmental stressors such as heat shock and extracellular acidosis through formation of nuclear membrane-less compartments called Amyloid bodies (A-bodies). Stressors activate formation of Amyloid bodies (A-bodies) via induction of ribosomal intergenic spacer RNA (rIGSRNA). RNA-seq on non-ribosome depleted RNA from human MCF7 cells exposed to heat shock (43C, 30 minutes) revealed the heat shock-specific expression profile of rIGSRNA.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 2 Samples
+FTP download: GEO (BED) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115731/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA475962
+Series		Accession: GSE115731	ID: 200115731
+
+8. Proteostasis perturbation of N-Myc by HSP70 inhibition improves treatment in neuroendocrine prostate cancer I
+(Submitter supplied) N-Myc is a key driver of neuroendocrine tumors, such as neuroblastoma and neuroendocrine prostate cancer (NEPC). However, N-Myc is considered undruggable because it lacks clear binding sites for small molecules. One potential way to circumvent this challenge is to identify and target the protein homeostasis (proteostasis) system(s) that maintain N-Myc levels. Here we developed a novel spontaneously indefinite prostate cancer cell line UCDCaP and its paired castration-resistant line UCDCaP-CR, which exhibits neural lineage plasticity and high levels of N-Myc protein expression. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249916/
+Series		Accession: GSE249916	ID: 200249916
+
+9. Impact of LARP7 depletion on the pA+ transcriptome of HEK293 cells upon heat shock
+(Submitter supplied) The La-related protein LARP7 has been mainly described as a component of the 7SK small nuclear ribonucleoprotein (snRNP) complex, which negatively regulates RNA polymerase II by sequestering the positive transcription elongation factor b (P-TEFb). In our studies, we discovered a novel, 7SK snRNP-independent function of LARP7. We show that LARP7 interacts with the U6 spliceosomal RNA as well as with the small nucleolar RNAs (snoRNAs) directing the 2'-O-methylations of U6. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 3 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE134nnn/GSE134813/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA556491
+Series		Accession: GSE134813	ID: 200134813
+
+10. Heat Shock Factor 1 (HSF1) acquires transcriptional competence under 17b-estradiol in ERa-positive breast cancer cells [RNA-seq]
+(Submitter supplied) Heat Shock Transcription Factor 1 (HSF1) is a well-known regulator of gene expression during acute environmental stress that enables the cells to survive. Its high level in estrogen receptor-positive breast cancer patients correlated with a worse prognosis. Here, we demonstrated that 17β-estradiol (E2) as well as bisphenol A (BPA) and propyl pyrazole triol (PPT, ERα agonist) led to HSF1 phosphorylation on S326 in ERα positive mammary breast cancer cells, but not in ERα-negative ones. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137559/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA565925
+Series		Accession: GSE137559	ID: 200137559
+
+11. Histone H3.3 chaperone HIRA is required for acquired tolerance by rendering stress-responsive genes poised for prospective lethal stresses [RNA-seq]
+(Submitter supplied) Appropriate responses to environmental challenges are imperative for the survival of all living organisms. Exposure to low-dose stresses is recognized to yield increased cellular fitness, a phenomenon termed hormesis. However, our molecular understanding of how cells respond to low-dose stress remains profoundly limited. Here we report that histone variant H3.3-specific chaperone, HIRA, is required for acquired tolerance, where low-dose heat stress exposure confers resistance to subsequent lethal heat stress. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 4 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE253nnn/GSE253874/
+Series		Accession: GSE253874	ID: 200253874
+
+12. Proteostasis perturbation of N-Myc by HSP70 inhibition improves treatment in neuroendocrine prostate cancer II
+(Submitter supplied) N-Myc is a key driver of neuroendocrine tumors, such as neuroblastoma and neuroendocrine prostate cancer (NEPC). However, N-Myc is considered undruggable because it lacks clear binding sites for small molecules. One potential way to circumvent this challenge is to identify and target the protein homeostasis (proteostasis) system(s) that maintain N-Myc levels. Here we developed a novel spontaneously indefinite prostate cancer cell line UCDCaP and its paired castration-resistant line UCDCaP-CR, which exhibits neural lineage plasticity and high levels of N-Myc protein expression. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249917/
+Series		Accession: GSE249917	ID: 200249917
+
+13. CPYPP induces paraptosis in MDA-MB-231 and MDA-MB-435 melanoma cells
+(Submitter supplied) Background: Paraptosis is a programmed cell death characterized by cytoplasmic vacuolation, which has been used as an alternative cell death method for cancer treatment and is associated with cancer resistance. However, the mechanisms underlying the progression of paraptosis in cancer cells are largely unknown. Methods: Paraptosis-inducing agents, CPYPP, cyclosporin, and curcumin, were utilized to investigate the underlying mechanism of paraptosis. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262661/
+Series		Accession: GSE262661	ID: 200262661
+
+14. AFF4 globally affects the release of paused RNA polymerase II in HEL cells [RNA-seq]
+(Submitter supplied) P-TEFb, a heterodimer of kinase, CDK9, and Cyclin T1, is a critical regulator of promoter-proximal pause release of Pol II in metazoans. It is capable of forming three larger multiprotein complexes, including the super elongation complex (SEC), the BRD4/P-TEFb complex and the 7SK snRNP. In the SEC or the BRD4/P-TEFb, P-TEFb is enzymatically active, while in the 7SK snRNP, its activity is inhibited. The SEC consists of AFF1 or 4, ENL or AF9, ELL1, 2 or 3 and EAF1 or 2 in addition to P-TEFb, the only subunit with catalytic activity, and the noncatalytic subunits have been found to be able to regulate pause release through P-TEFb. One recent study showed that in human DLD-1 cells, the SEC only regulates pause release of heat shock (HS) genes, whereas the BRD4/P-TEFb complex regulates pause release of the rest of the genes. In this study, we found that AFF4 knockdown in human HEL cells decreased not only cellular level but also global chromatin occupancy of CTD serine 2 phosphorylated Pol II, and notably, increased promoter-proximal pause of Pol II on several hundred HS and thousands of non-HS genes. Mechanistically, AFF4 facilitates pause release likely by facilitating the binding of P-TEFb to Pol II. These results suggest that the extent of impact of AFF4 on pause release is likely to be context-dependent or cell-type dependent.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234617/
+Series		Accession: GSE234617	ID: 200234617
+
+15. Allosteric HSP70 inhibitors perturb mitochondrial proteostasis and overcome proteasome inhibitor resistance in multiple myeloma
+(Submitter supplied) Proteasome inhibitor (PI) resistance remains a central challenge in multiple myeloma. To identify pathways mediating resistance, we first map proteasome-associated genetic co-dependencies. We identify cytosolic heat shock protein 70 (HSP70) chaperones as a potential target, consistent with proposed mechanisms of myeloma tumor cells overcoming PI-induced stress. These results led us to explore allosteric HSP70 inhibitors as myeloma therapeutics. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23227 4 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148659/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625299
+Series		Accession: GSE148659	ID: 200148659
+
+16. ROCK1 translocates to the nucleus and inhibits human cytomegalovirus propagation
+(Submitter supplied) Rho-associated coiled-coil kinase (ROCK) protein is a central kinase that regulates numerous cellular functions, including cellular polarity, motility, proliferation and apoptosis. Here, we demonstrate that ROCK has antiviral properties and inhibition of its activity results in enhanced propagation of human cytomegalovirus (HCMV). We show that during HCMV infection ROCK1 translocates to the nucleus and concentrates in the nucleolus were it co-localizes with the stress related chaperone, heat shock cognate 71 kDa protein (Hsc70) . more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 4 Samples
+FTP download: GEO (TAB) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE134nnn/GSE134315/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA554689
+Series		Accession: GSE134315	ID: 200134315
+
+17. Gene expression profiling in an induced pluripotent stem cell model of the developing human telencephalon: effect of heat shock and its potential impact on the development of neuropsychiatric disorders
+(Submitter supplied) Schizophrenia (SZ) and autism spectrum disorders (ASD) are highly heritable neuropsychiatric/neurodevelopmental disorders, although environmental factors, such as maternal immune activation (MIA), play a role as well. Inflammatory cytokines appear to mediate the effects of MIA on neurogenesis and behavior in animal models. However, drugs and cytokines that trigger MIA can also induce a febrile reaction, which could have independent effects on neurogenesis through heat shock (HS)-regulated cellular stress pathways. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE53nnn/GSE53667/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA232603
+Series		Accession: GSE53667	ID: 200053667
+
+18. Allosteric inhibition of proteolytic and ATPase activities of the proteasome by the BTK inhibitor CGI-1746
+(Submitter supplied) Bruton’s tyrosine kinase (BTK) inhibitor Ibrutinib has been shown to synergize in vitro with proteasome inhibitors (PIs) in reducing the viability of cells derived from B-cell malignancies, but the mechanism is not known. We report here that an off-target effect of Ibrutinib causes synergy because not all BTK inhibitors exhibited the synergistic effect, and those that synergized did so even in cells that do not express BTK. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 5 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239482/
+Series		Accession: GSE239482	ID: 200239482
+
+19. RNA Polymerase II Pausing Can Be Retained or Acquired During Activation of Genes Involved in the Epithelial to Mesenchymal Transition
+(Submitter supplied) Promoter-proximal RNA polymerase II (Pol II) pausing is implicated in the regulation of gene transcription. However, the mechanisms of pausing including its dynamics during transcriptional responses remain to be fully understood. We performed global analysis of short capped RNAs and Pol II Chromatin Immunoprecipitation sequencing in MCF-7 breast cancer cells to map Pol II pausing across the genome, and used permanganate footprinting to specifically follow pausing during transcriptional activation of several genes involved in the Epithelial to Mesenchymal Transition (EMT). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL15520 5 Samples
+FTP download: GEO (BEDGRAPH) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67041/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA278768
+Series		Accession: GSE67041	ID: 200067041
+
+20. Rapid isolation of extracellular vesicles from cell culture and biological fluids using a synthetic peptide with specific affinity for heat shock proteins
+(Submitter supplied) Background: Exosomes and extracellular vesicles (EVs) are increasingly recognized as important sources of biomarkers for disease study and diagnosis. Results: A synthetic peptide, Vn96, allows for capture of EVs from biological fluids using basic laboratory equipment. Conclusion: The Vn96-captured EVs are qualitatively equivalent or superior to exosomes isolated by ultracentrifugation. Significance: The Vn96 peptide provides an effective affinity-capture method for the isolation of EVs from biological fluids.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL17303 5 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58464/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA252722
+Series		Accession: GSE58464	ID: 200058464
+
+21. Interferon-alpha mediates the development of autoimmunity by direct tissue toxicity and through immune-cell recruitment mechanisms
+(Submitter supplied) Interferon-alpha is a major therapeutic agent for many diverse diseases.  However, the interferon-alpha mechanism of therapeutic action and associated side effects are not well understood. In particular, thyroiditis is a common unexplained complication.  We hypothesized that direct thyroid-toxic actions coupled with immune mechanisms play a major role in the thyroiditis etiology. To test this hypothesis, we investigated the actions of interferon-alpha on cultured thyrocytes in vitro, and in vivo by creating transgenic mice overexpressing interferon-alpha tissue specifically in thyrocytes. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL10999 GPL11002 5 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25115/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA134511
+Series		Accession: GSE25115	ID: 200025115
+
+22. Mitochondrial HSP90 is involved in cellular physiology
+(Submitter supplied) We generated TRAP1 KO in HeLa and observed extensive transcriptional reprogramming. The KO does not activate the canonical heat-shock response but an alternate transcriptional response.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21290 6 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147486/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA614965
+Series		Accession: GSE147486	ID: 200147486
+
+23. Immune profiles of heatstroke patients
+(Submitter supplied) Background: Heatstroke was the most life-threatening disease caused by hyperthermia, but lack of rapidly diagnostic biomarkers. Immune system disturbance was a common feature of the ‘Dual pathway model’ characterized by endotoxemia and hyperthermia, but the specific profiles of the immune system were unclear. Objectives: Our study aimed to explore the specific immune profiles that distinguish heatstroke from aseptic inflammation and sepsis patients, and find diagnostic biomarkers to differentiate heatstroke from sepsis. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE275nnn/GSE275259/
+Series		Accession: GSE275259	ID: 200275259
+
+24. Effect of knockdown of GRP94 on gene expression of MKN-45 cells
+(Submitter supplied) Anoikis resistance allows cancer cells to avoid death caused by detachment from the extracellular matrix's adhesion, enabling these cells to infiltrate and migrate to regions such as the peritoneum.Glucose-regulated protein 94 (GRP94, alternatively labeled as HSP90B1) is typically stress-induced and is part of the heat shock protein 90 (Hsp90) family.GRP94 is closely tied to cellular resistance to stress, apoptosis, proliferation, invasion, inflammation, and immunity.Our findings indicated that while attached culture didn't impact the apoptosis rate between shGRP94 and shCtrl groups, GRP94 knockdown weakened anoikis resistance, migration, and invasion abilities. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267811/
+Series		Accession: GSE267811	ID: 200267811
+
+25. Transcriptomic profiling change of MDA-MB-231 cells overexpressing DNAJC12
+(Submitter supplied) Purpose: DnaJ heat shock protein family (Hsp40) member C12 (DNAJC12) belongs to Hsp40/DnaJ protein family containing a J domain.The goal of this study is to compare the transcriptomic profiling change of MDA-MB-231 cells overexpressing DNAJC12 compared with MDA-MB-231 cells transfected with empty vector. Methods: 5×10^6 cells of each sample were collected, and total RNA was extracted using TRIZOL. After extraction, the RNA integrality was validated by Agilent 2100 bioanalyzer, and the qualified RNA was used to establish an RNA library, which was checked by quality control with Agilent 2100 bioanalyzer before sequencing. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE191nnn/GSE191110/
+Series		Accession: GSE191110	ID: 200191110
+
+26. Heat promotes melanogenesis by increasing the paracrine effects in keratinocytes via the TRPV3/Ca2+/Hh signaling pathway
+(Submitter supplied) Global warming and rising temperature significantly increase the incidence of heat stress, which is known to affect the process of inflammation and aging. However, the effect of heat stress on skin melanogenesis is not fully known. We found that healthy foreskin tissues underwent significant pigmentation when exposed to 41℃. Furthermore, heat stress promoted melanogenesis in pigment cells by increasing the paracrine effects of keratinocytes. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE229nnn/GSE229915/
+Series		Accession: GSE229915	ID: 200229915
+
+27. Heat Shock Protein Family A Member 1 Promotes Intracellular Amplification of Hepatitis B Virus Covalently Closed Circular DNA
+(Submitter supplied) Hepatitis B virus (HBV) contains a partially double-stranded relaxed circular DNA (rcDNA) genome that is converted into a covalently closed circular DNA (cccDNA) in the nucleus of infected hepatocyte by cellular DNA repair machinery. cccDNA associates with nucleosomes to form a minichromosome that transcribes RNA to support the expression of viral proteins and reverse transcriptional replication of viral DNA. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30173 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE209nnn/GSE209863/
+Series		Accession: GSE209863	ID: 200209863
+
+28. Disruption of DNA Repair and Survival Pathways through Heat Shock Protein inhibition by Onalespib to Sensitize Malignant Gliomas to Chemoradiation therapy
+(Submitter supplied) Purpose: Proficient DNA repair by homologous recombination (HR) facilitates resistance to chemo-radiation in glioma stem cells (GSCs). We evaluated whether compromising HR by targeting HSP90, a molecular chaperone required for the function of key HR proteins, using onalespib, a long-acting, brain-penetrant HSP90 inhibitor, would sensitize high-grade gliomas to chemo-radiation in vitro and in vivoExperimental Design: The ability of onalespib to deplete HR client proteins, impair HR repair capacity, and sensitize GBM to chemo-radiation was evaluated in vitro in GSCs, and in vivo using zebrafish and mouse intracranial glioma xenograft models. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193635/
+Series		Accession: GSE193635	ID: 200193635
+
+29. Heat shock-mediated global gene downregulation is achieved by premature transcription termination [4SU_mRNA-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In parallel, a large portion of the genome becomes repressed. HS associated global gene repression is still largely poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 6 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165367/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694164
+Series		Accession: GSE165367	ID: 200165367
+
+30. Global gene expression profiles of cellular response in human induced pluripotent stem cell-derived cardiomyocytes to CFZ treatment
+(Submitter supplied) Purpose: Evaluate the molecular changes associated with Cfz -induced cardiotoxicity Methods: RNA-Seq analysis was performed to analyze global transcriptome profiles of hiPSC-CMs treated with DMSO (Control group), 1 µM  Carfilzomib ( Cfz group). The Illumina TruSeq technology was used to prepare RNA-Seq libraries, and next-generation sequencing was done via an Illumina HiSeq 2000. RNA sequence reads were aligned to the human reference genome (GRCh38) using STAR v2.5. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163102/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA684906
+Series		Accession: GSE163102	ID: 200163102
+
+31. Long non-coding RNA lnc-TSSK2-8 activates canonical Wnt/β-catenin signaling through small shock proteins HSPA6 and CRYAB
+(Submitter supplied) Congenital heart defect (CHD) is the most common birth defect worldwide. Copy number variations (CNVs) have been revealed as an important source of pathogenic factor of CHD. 22q11.2 deletion syndrome is the most common microdeletion disorder which has been frequently associated with conotruncal malformations. By now, the dosage sensitive geneTBX1 has been adopted as the major pathogenic gene responsible for 22q11.2 deletion-related heart defects. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23227 6 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165927/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA698585
+Series		Accession: GSE165927	ID: 200165927
+
+32. Local Translation in Nuclear Condensate Amyloid-bodies
+(Submitter supplied) We report that solid-like condensates Amyloid-bodies are hubs of stress-resistant local nuclear translation in cells responding to high temperature. RNA-seq. analysis of purified Amyloid-bodies confirms that HSF1-transcribed mRNAs accumulate in these solid-like condensates during stress.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 6 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164846/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA692199
+Series		Accession: GSE164846	ID: 200164846
+
+33. HEK293 Heat-shock experiment
+(Submitter supplied) HEK293 cells were heatshocked and differentially expressed transcripts were identified
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 6 Samples
+FTP download: GEO (CSV, FPKM_TRACKING, GTF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE79nnn/GSE79680/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA316856
+Series		Accession: GSE79680	ID: 200079680
+
+34. Gene target specificity of the Super Elongation Complex (SEC) family: How HIV-1 Tat employs selected SEC members to activate viral transcription
+(Submitter supplied) The AF4/FMR2 proteins AFF1 and AFF4 act as a scaffold to assemble the Super Elongation Complex (SEC) that strongly activates transcriptional elongation of HIV-1 and cellular genes. Although they can dimerize, it is unclear whether the dimers exist and function within a SEC in vivo. Furthermore, it is unknown whether AFF1 and AFF4 function similarly in mediating SEC-dependent activation of diverse genes. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69021/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA284330
+Series		Accession: GSE69021	ID: 200069021
+
+35. RNAseq of GFP-FOXR1 and GFP-FOXR1 M280L vs GFP CTL
+(Submitter supplied) The forkhead box (Fox) family of transcription factors are highly conserved and play essential roles in a wide range of cellular and developmental processes. We report an individual with severe neurological symptoms including postnatal microcephaly, progressive brain atrophy and global developmental delay associated with a de novo missense variant (M280L) in the FOXR1 gene. At the protein level, M280L impaired FOXR1 expression and induced a nuclear aggregate phenotype due to protein misfolding and proteolysis. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 7 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182851/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA758063
+Series		Accession: GSE182851	ID: 200182851
+
+36. Synergetic Support of Cartilage Homeostasis via Coupled Thermal-Pressure Stimuli: A Transcriptomic Study in Human Cartilage Explants
+(Submitter supplied) During daily activities, cartilage encounters complex biophysical cues upon loading. Foremost among these is the coupled stimulation of hydrostatic pressure (HP) and loading-induced temperature increase (T), which encompasses both mechanical and thermal aspects of biophysical stimulations in cartilage. While prior research on this subject has been initiated in our laboratory, the detailed mechanisms of combined HP-T effects on chondrocytes in their natural environment remain largely unexplored. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242710/
+Series		Accession: GSE242710	ID: 200242710
+
+37. Blood cells with trisomy 21 overreact to heat shock stress [PRO-seq]
+(Submitter supplied) Lymphoblastoid cells trisomic for chromosome 21 activate the heat shock response more robustly than disomic cells.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 8 Samples
+FTP download: GEO (BEDGRAPH) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE173nnn/GSE173537/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA725916
+Series		Accession: GSE173537	ID: 200173537
+
+38. RPRD1B is required for proper heat shock response [TTchem-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In this study, we demonstrate that the RNAPII interactor RPRD1B is required for proper transcription of heat shock induced genes and for survival to heat shock.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 8 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE197nnn/GSE197992/
+Series		Accession: GSE197992	ID: 200197992
+
+39. HSF1 Activation Can Restrict HIV Replication
+(Submitter supplied) Host protein folding stress responses can play important roles in RNA virus replication and evolution. Intriguingly, prior work revealed a complicated interplay between the cytosolic proteostasis stress response, controlled by its master regulator heat shock factor 1 (HSF1) and human immunodeficiency virus-1 (HIV-1). We sought to isolate HSF1 transcription factor activity from proteostasis stress and elucidate the function of HSF1 in HIV-1 lifecycle in absence of cellular stress. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137591/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA565977
+Series		Accession: GSE137591	ID: 200137591
+
+40. Cytoplasmic proteotoxicity regulates HRI-dependent phosphorylation of eIF2a via the Hsp70-Bag3 module.
+(Submitter supplied) The major heat shock protein Hsp70 has been shown to form a complex with a scaffold protein Bag3, linking it to multiple signaling pathways. Via these interactions, the Hsp70-Bag3 module functions as a proteotoxicity sensor that controls cell signaling. Here, as a tool to identify signaling pathways regulated by this complex, we utilized JG-98, an allosteric inhibitor of Hsp70 that blocks its interaction with Bag3. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23227 8 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE171nnn/GSE171440/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA719638
+Series		Accession: GSE171440	ID: 200171440
+
+41. Hijacking of stress response machinery by oncogenes in acute leukaemia [RNA-seq]
+(Submitter supplied) Our data demonstrate binding of NOTCH1 on the promoters of HSF1 and HSF1 targets. We performed RNA-seq upon control conditions, inhibition of the NOTCH1 pathway by gSI, HSF1 knockdown and combination of HSF1 knockdown and gSI treatment. Our results show that NOTCH1 regulates the expression of heat shock response genes. Moreover, combination of HSF1 downregulation and gSI treatment further decreased the expression of heat shock response genes compared to single treatments.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90715/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA355574
+Series		Accession: GSE90715	ID: 200090715
+
+42. The bromodomain protein BRD4 regulates splicing during heat shock
+(Submitter supplied) During heat stress cyto-protective genes including heat shock proteins are transcriptionally up-regulated and post-transcriptional splicing is inhibited. In contrast, co-transcriptional mRNA-splicing is maintained. These factors closely resemble the proteotoxic stress response during tumor development. The bromodomain protein BRD4 has been identified as an integral member of the oxidative stress as well as of the inflammatory response. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE73nnn/GSE73471/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA297109
+Series		Accession: GSE73471	ID: 200073471
+
+43. Transriptional profiling upon heat shock and recovery in cells deficient for FBXW7 and their wild type counterpart.
+(Submitter supplied) FBXW7 modulates stress response by post-translational modification of HSF1 HSF1 orchestrates the heat-shock response upon exposure to heat stress and activates a transcriptional program vital for cancer cells. Genes positively regulated by HSF1 show increeased expression during heat shock while their expression is reduced during recovery. Genes negatively regulated by HSF1 show the opposite pattern. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE57nnn/GSE57397/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA246391
+Series		Accession: GSE57397	ID: 200057397
+
+44. m6A mapping in human RNA (with treatments)
+(Submitter supplied) We developed a novel approach, m6A-seq, for high-resolution mapping of the transcriptome-wide m6A landscape, based on antibody-mediated capture followed by massively parallel sequencing.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL10999 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE37nnn/GSE37002/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA158109
+Series		Accession: GSE37002	ID: 200037002
+
+45. Polo like kinase 2 (PLK2) promotes microglial activation via regulation of the HSP90α/IKKβ pathway [II]
+(Submitter supplied) Microglial overactivation is actively involved in the pathogenesis of neurodegenerative diseases. Polo-like kinase 2 (PLK2) is a serine/threonine protein kinase associated with the regulation of synaptic plasticity and centriole duplication. Here, we identified PLK2 as an important early response gene in lipopolysaccharide (LPS)-stimulated microglial cells. Knockdown or inhibition of PLK2 remarkably attenuated LPS-induced expression of pro-inflammatory factors such as IL-1β, IL-6, COX2, TNF-α,and iNOS in microglial cells via suppressing the IKKβ-NF-κB signaling pathway.Notably, overexpression of PLK2 induced expression of pro-inflammatory factors and NF-κB transcriptional activation in the absence of inflammatory stimuli. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30209 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276245/
+Series		Accession: GSE276245	ID: 200276245
+
+46. Inflammatory stress-mediated chromatin changes underlie dysfunction in endothelial cells. [RNA-Seq]
+(Submitter supplied) Inflammatory stresses underlie endothelial dysfunction and contribute to the development of chronic cardiovascular disorders such as atherosclerosis and vascular fibrosis. The initial transcriptional response of endothelial cells to pro-inflammatory cytokines such as TNF-alpha is well established. However, very few studies uncover the effects of inflammatory stresses on chromatin architecture. We used integrative analysis of ATAC-seq and RNA-seq data to investigate chromatin alterations in human endothelial cells in response to TNF-alpha and febrile-range heat stress exposure. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 9 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267930/
+Series		Accession: GSE267930	ID: 200267930
+
+47. Identification of 17-DMAG as a novel KDM4B inhibitor for combination therapy [RNA-seq]
+(Submitter supplied) Histone lysine demethylases (KDMs) are emerging as therapeutic targets in cancer. Development of potent KDM inhibitors may provide additional options for epigenomics-oriented therapies. Using a Time-Resolved Fluorescence Resonance Energy Transfer (TR-FRET) functional demethylation assay, in combination with a high-content immunofluorescence imaging phenotypic screen, Matrix-Assisted Laser Desorption/Ionization- Fourier Transform Ion Cyclotron Resonance mass spectrometry (MALDI-FTICR MS) and Amplified Luminescent Proximity Homogeneous Assay (ALPHA), we identified geldanamycin, an inhibitor of heat shock protein 90 (Hsp90), as a novel inhibitor of JmjC-domain containing demethylases such as KDM4B. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151514/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA636180
+Series		Accession: GSE151514	ID: 200151514
+
+48. Knocking out C9ORF72 exacerbates axonal trafficking defects associated with hexanucleotide repeat expansion and reduces levels of heat shock proteins I
+(Submitter supplied) iPSCs with mutant C9ORF72 were edited using CRISPR/Cas9 (1) to knockout C9ORF72 or, alternatively, (2) to correct the ALS mutation, followed by differentiation into motor neurons.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 9 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE143nnn/GSE143743/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA601468
+Series		Accession: GSE143743	ID: 200143743
+
+49. The impact of knocking down METTL3 and METTL14 on the gene expression profile of EC109 esophageal squamous cell carcinoma cells.
+(Submitter supplied) METTL3 and METTL14 are considered to faithfully form the m6A writing complex in a 1:1 ratio, regulating the fate of mRNA by adding m6A modifications. However, recent studies have shown inconsistent expression and prognostic value of METTL3 and METTL14 in some tumors, suggesting that they may not be faithful in tumors. Pan-cancer analysis based on TCGA data reveals significant differences in expression, function, tumor burden correlation, and immune correlation between METTL3 and METTL14, especially in esophageal squamous cell carcinoma (ESCC). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 10 Samples
+FTP download: GEO (XLS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE254nnn/GSE254232/
+Series		Accession: GSE254232	ID: 200254232
+
+50. Increased Systemic HSP70B Levels in Spinal Muscular Atrophy Infants
+(Submitter supplied) RNA sequencing in whole blood from spinal muscular atrophy patients and healthy control infants
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 10 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174056/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA728070
+Series		Accession: GSE174056	ID: 200174056
+
+51. Transcriptomic profile of human embryonic renal corpuscles
+(Submitter supplied) In order to characterize and benchmark the podocytes-like cells generated through human ES cell differentiation, we generated transcriptional profiles of renal corpuscles from embryonic human kidneys using RNA-Seq.  To compare, we also performed RNA-Seq of human immortalized podocyte cell lines before and after thermoswitch.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 10 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE127nnn/GSE127344/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA524708
+Series		Accession: GSE127344	ID: 200127344
+
+52. TANGO2 binds crystallin alpha B and its loss causes desminopathy
+(Submitter supplied) Mutations in the TANGO2 gene cause an autosomal recessive disorder characterised by developmental delay, stress-induced episodic rhabdomyolysis, and cardiac arrhythmias along with severe metabolic crises. Although TANGO2 mutations result in a well characterised disease pathology, the function of TANGO2 is still unknown. To investigate the function of TANGO2, we knocked out the TANGO2 gene in human cells and mice. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276499/
+Series		Accession: GSE276499	ID: 200276499
+
+53. Metabolic and proteomic profiling identifies stress response and impaired neural stem cell functions associated with sleep restriction in women
+(Submitter supplied) Adequate sleep (AS) is essential for maintaining many behavioral and physiological functions; however, a third of adults in the United States sleep less than the recommended 7-9 h/night. The circadian rhythm controls tissue homeostasis, in part, through adult stem cell functions. However, little is known about the mechanistic interactions between insufficient sleep and stem cell functions. Using plasma collected from healthy women with adequate habitual sleep duration (7-9 h/night) who were randomized in a crossover design to a 6-week objectively monitored AS or mildly restricted sleep (RS; 1.5 h less than their AS), we identified metabolites and proteins differentially enriched after RS compared to AS. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE254nnn/GSE254828/
+Series		Accession: GSE254828	ID: 200254828
+
+54. Impact of CDK7 inhibition across a range of inhibitors in the context of heat shock
+(Submitter supplied) Here we evaluate the effect of CDK7 inhibition in the context of heat shock across three distinct inhibitors. Two inhibitors are Syros compounds SY-5609 and SY-5102. The final inhibitor is 3MBPP1 in a CDK7 analog sensitive cell line. We find that overall the same gene programs are impacted.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261649/
+Series		Accession: GSE261649	ID: 200261649
+
+55. Effect of HS-mediated telomere disruption on Nalm6 cells
+(Submitter supplied) Nalm6 tumour cells were engineered with focused ultrasound (FUS)-controllable CRISPR (heat-inducible CRISPR) with telomere-targeting gRNA or control non-targeting (NT) gRNA, and either treated with heat shock (HS) or no HS (control, CT). We observed that a relatively short duration of HS (10 min) significantly inhibited the proliferation of the cells engineered with telomere FUS-CRISPR, but not that of the cells with NT FUS-CRISPR, suggesting that telomere disruption rather than hyperthermia itself suppressed cell growth. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 12 Samples
+FTP download: GEO (MATRIX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279445/
+Series		Accession: GSE279445	ID: 200279445
+
+56. DNAJB1-PRKACA fusion drives fibrolamellar liver cancer through impaired SIK signaling and CRTC2/p300-mediated transcriptional reprogramming
+(Submitter supplied) Fibrolamellar carcinoma (FLC) is a liver cancer of adolescents and young adults defined by fusion of the DNAJB1 heat shock protein and protein kinase A (PKA) catalytic subunit (DNAJB1-PRKACA). The resulting chimeric protein has increased kinase activity and is essential for FLC xenograft growth. However, the critical oncogenic pathways controlled by DNAJB1-PRKACA have not been defined. Here, we explored this question by studying patient-derived FLC models and engineered systems and analyzing patient samples. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (XLS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266253/
+Series		Accession: GSE266253	ID: 200266253
+
+57. Heat Shock Transcription Factor 1 Facilitates Liver Cancer Progression by Driving Super-Enhancer-Mediated Transcription of MYCN
+(Submitter supplied) HSF1–MYCN axis, a transcription-dependent regulatory axis, could be a prognostic indicator and potential therapeutic target in liver cancer.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (BW, XLS, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE274nnn/GSE274408/
+Series		Accession: GSE274408	ID: 200274408
+
+58. Negative feedback of IFN-I signaling through IFN-competent RIG-I-like receptor-induced HSPA6
+(Submitter supplied) The RIG-I-like receptors (RLRs) form filaments to activate type-I interferon (IFN-I) and NF-KB signaling through their adaptor protein MAVS and downstream cascades. These filaments are recognized and regulated by cell-encoded machinery for correct activation. Here, we identified the stress-sensitive heat shock protein, HSPA6, was induced to express upon RLR-MAVS activation to act as a negative regulator of IFN-I signaling. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252140/
+Series		Accession: GSE252140	ID: 200252140
+
+59. Effect of  CLK2 expression in the regulation of intron retention during heat shock
+(Submitter supplied) We established the HeLa cells expressing the GFP (control) or CLK2 (WT) and subjected them to heat shock. These cells were subjected to RNA-seq for the alternative splicing analysis.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL29480 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247417/
+Series		Accession: GSE247417	ID: 200247417
+
+60. RPRD1B is required for proper heat shock response [RNA-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In this study, we demonstrate that the RNAPII interactor RPRD1B is required for proper transcription of heat shock induced genes and for survival to heat shock.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE197nnn/GSE197993/
+Series		Accession: GSE197993	ID: 200197993
+
+61. SPT6 functions in transcriptional pause-release via PAF1C recruitment [RNA-seq]
+(Submitter supplied) In vitro studies identified various factors including P-TEFb, SEC, SPT6, PAF1, DSIF, and NELF functioning at different stages of transcription elongation driven by RNA polymerase II (RNA Pol II). What remains unclear is how these factors cooperatively regulate pause/release and productive elongation in the context of living cells. Using an acute protein-depletion approach, we report that SPT6 depletion results in release of paused RNA Pol II. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202189/
+Series		Accession: GSE202189	ID: 200202189
+
+62. RNA-seq analysis of MDA-MB-231 and HCT-166 cells treated with 100 microM H2O2
+(Submitter supplied) We report a role of Heat shock protein 60 (Hsp60) in the oxidative stress-induced gene expression in cancer cells.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164742/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA691880
+Series		Accession: GSE164742	ID: 200164742
+
+63. Heat Shock induces premature transcript termination and reconfigures the human transcriptome
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In parallel, a large portion of the genome becomes repressed. HS associated global gene repression is still largely poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE189nnn/GSE189562/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA783613
+Series		Accession: GSE189562	ID: 200189562
+
+64. Heat shock-mediated global gene downregulation is achieved by premature transcription termination [TTchem-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In parallel, a large portion of the genome becomes repressed. HS associated global gene repression is still largely poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 12 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165364/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694162
+Series		Accession: GSE165364	ID: 200165364
+
+65. Heat Shock Factor 1 (HSF1) regulates ESR1 action in breast cancer
+(Submitter supplied) Heat shock factor 1 (HSF1) is a key regulator of transcriptional responses to proteotoxic stress. It has been recently linked to signaling of estrogen via ESR1. To study the cooperation of HSF1 and ESR1 in the transcriptional response to estrogen, we established estrogen receptor (ER)-positive breast cancer cell lines with reduced HSF1 levels using specific shRNA or CRISPR/Cas9 approach. HSF1 deficiency led to the inhibition of the mitogenic effect of estrogen in MCF7 and T47D cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18460 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186004/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA771684
+Series		Accession: GSE186004	ID: 200186004
+
+66. Proteasome Stress in Skeletal Muscle Mounts a Long-Range Protective Response that Delays Retinal and Brain Aging [Human]
+(Submitter supplied) The proteasome maintains protein quality during aging and disease. Challenges to proteasome function can be compensated by local proteasome stress responses. However, whereas proteasome stress is also sensed systemically is unknown. In Drosophila , we find that proteasome stress in skeletal muscle non-autonomously promotes the degradation of proteasome substrates in distant tissues during aging. Several muscle-secreted factors (myokines) are upregulated by proteasomal stress via C/EBP transcription factors, including the amylase Amyrel, which increases the circulating levels of the disaccharide maltose. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149797/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA630173
+Series		Accession: GSE149797	ID: 200149797
+
+67. MeRIP-seq for heat shock in B-cell lymphoma cells
+(Submitter supplied) We ran MeRIP-seq on RNA from heat shocked (43 C for 1 hr) and untreated cells to compare to previous reports as part of an evaluation of MeRIP-seq reproducibility.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL16791 12 Samples
+FTP download: GEO (NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE130nnn/GSE130892/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA541915
+Series		Accession: GSE130892	ID: 200130892
+
+68. Mitochondrial Proteostatic Stress Induces Aggrephagy to Triage Unimported Proteins
+(Submitter supplied) We report the results of overexpression of the wildtype and mutant ANT1 (SLC25A4) gene in human embryonic kidney 293T (HEK293T) cells from the cytomegalovirus (CMV) promoter. Libraries were prepared from three independent replicates per condition using stranded RNA sequencing and run at 2 x 75 read length at a targeted output of 60 million paired-end reads per sample. We found only a limited number of nuclear genes whose expression is altered by wildtype ANT1-overexpression. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE108622/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA427882
+Series		Accession: GSE108622	ID: 200108622
+
+69. 4sU-seq of HFF exposed to salt and heat stress
+(Submitter supplied) Primary human foreskin fibroblasts (HFF) were exposed to either salt stress (80mM KCl) or heat stress (44ºC). Newly transcribed RNA was labelled by adding 500µM 4-thiouridine (4sU) to the cell culture media for 1h. Total cellular RNA was isolated using Trizol. Newly transcribed RNA was purified following the protocol described in Raedle et al. JoVE 2013.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100469/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA391913
+Series		Accession: GSE100469	ID: 200100469
+
+70. Nascent RNA sequencing reveals a dynamic global transcriptional response at genes and enhancers to the natural medicinal compound celastrol 
+(Submitter supplied) Most studies of responses to transcriptional stimuli measure changes in cellular mRNA concentrations.  By sequencing nascent RNA instead, it is possible to detect changes in transcription in minutes rather than hours, and thereby distinguish primary from secondary responses to regulatory signals.  Here, we describe the use of PRO-seq to characterize the immediate transcriptional response in human cells to celastrol, a compound derived from traditional Chinese medicine that has potent anti-inflammatory, tumor-inhibitory and obesity-controlling effects. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL18573 12 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE96nnn/GSE96869/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA379960
+Series		Accession: GSE96869	ID: 200096869
+
+71. An in vitro pharmacogenomic approach reveals subtype-specific therapeutic vulnerabilities in atypical teratoid/rhabdoid tumors (AT/RT) [RNASeq]
+(Submitter supplied) Atypical teratoid/rhabdoid tumor (AT/RT) is a highly malignant embryonal brain tumor driven by genetic alterations inactivating the SMARCB1 or, less commonly, the SMARCA4 gene. Large-scale molecular profiling studies have identified distinct molecular subtypes termed AT/RT-TYR, -SHH and -MYC. Despite the increasing knowledge of AT/RT biology, curative treatment options are still lacking for certain risk groups and outcomes of these patients remain poor. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 13 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282972/
+Series		Accession: GSE282972	ID: 200282972
+
+72. IVT-seq reveals extreme bias in RNA-sequencing
+(Submitter supplied) Background: RNA-seq is a powerful technique for identifying and quantifying transcription and splicing events, both known and novel. However, given its recent development and the proliferation of library construction methods, understanding the bias it introduces is incomplete but critical to realizing its value.  Results: We present a method, in vitro transcription sequencing (IVT-seq), for identifying and assessing the technical biases in RNA-seq library generation and sequencing at scale. more...
+Organism:	Homo sapiens; Mus musculus; mixed libraries
+Type:		Expression profiling by high throughput sequencing
+5 related Platforms 13 Samples
+FTP download: GEO (BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50445/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA217498
+Series		Accession: GSE50445	ID: 200050445
+
+73. Functional characterization of a heat shock factor regulated enhancer at coronary artery disease associated locus that controls CALCRL expression in endothelial cells
+(Submitter supplied) We performed RNA-seq in TeloHAEC with samples where CALCRL was silenced using siRNA or enhancer-8 deleted using CRISPR-cas9 system to investigate the genes that are differentially expressed under CALCRL knockdown.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21697 14 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222118/
+Series		Accession: GSE222118	ID: 200222118
+
+74. Single-molecule nascent RNA sequencing reveals regulatory domain architecture ant promoters and enhancers
+(Submitter supplied) CoPRO adapts PRO-cap for paired end sequencing, and includes a total of three different libraries that were enriched for either capped nascent RNAs only, uncapped nascent RNAs only, or both.  With paired end sequencing, each read tells us where an RNA polymerase molecule initiated, and then where its active site is located.  Comparison of the libraries for different capping states allows us identify the precise location of pausing, and of where nascent RNAs become capped across the tens of thousands of initiation sites that we detect. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Other; Expression profiling by high throughput sequencing
+Platforms: GPL19057 GPL18573 14 Samples
+FTP download: GEO (BW, RDATA) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116472/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA478717
+Series		Accession: GSE116472	ID: 200116472
+
+75. Phosphorylation controls mRNA retention via nuclear speckle cohesion - cellular fractionation data
+(Submitter supplied) Nuclear speckles are membraneless organelles that associate with active transcription sites and participate in post-transcriptional mRNA processing. During mitosis, nuclear speckles dissolve following phosphorylation of their protein components. Here, we identify PP1 phosphatases as responsible for counteracting kinase-mediated dissolution. Their overexpression increases speckle cohesion and leads to retention of polyadenylated RNA within speckles and the nucleus. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 15 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240883/
+Series		Accession: GSE240883	ID: 200240883
+
+76. Eviction of repressor PRC1 via RNA-binding of PHC1 promotes stress-induced transcription
+(Submitter supplied) Proteins of the Polycomb group (PcG) maintain cellular states through epigenetic control of gene expression. It is still heavily debated how RNAs modulate the function of these chromatin factors. To identify PcG RNA-binding proteins, we screened a library of HEK293T expressing PcG proteins for their binding potential using CLIP and PARCLIP. We find that RNA-binding is not as pervasive as suggested, but rather focused on few mostly core PcG proteins. more...
+Organism:	Homo sapiens
+Type:		Other; Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platforms: GPL16791 GPL18573 15 Samples
+FTP download: GEO (BED, CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103233/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA400597
+Series		Accession: GSE103233	ID: 200103233
+
+77. Mechanical Confinement Promotes Heat Resistance of Hepatocellular Carcinoma via SP1/IL4I1/AHR Axis
+(Submitter supplied) Mechanical stress can modulate the fate of cells in both physiological and extreme conditions. Recurrence of tumors after thermal ablation, a radical therapy for many cancers, indicates that some tumor cells can endure temperatures far beyond physiological ones. This unusual heat resistance with unknown mechanisms remains a key obstacle to fully realizing the clinical potential of thermal ablation. By developing a 3D bioprinting-based thermal ablation system, we demonstrate that hepatocellular carcinoma (HCC) cells in this 3D model exhibit enhanced heat resistance as compared with cells on plates. Mechanistically, the activation of transcription factor SP1 under mechanical confinement enhances the transcription of Interleukin-4-Induced-1, which catalyzes tryptophan metabolites to activate the aryl hydrocarbon receptor (AHR), leading to heat resistance. Encouragingly, the AHR inhibitor prevents HCC recurrence after thermal ablation. These findings reveal a previously unknown role of mechanical confinement in heat resistance and provide a rationale for AHR inhibitors as neoadjuvant therapy.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30209 15 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE235nnn/GSE235351/
+Series		Accession: GSE235351	ID: 200235351
+
+78. Decrypting the role of HSP90α and β isoforms to overcome resistance in BCR-ABL1+ leukemia
+(Submitter supplied) BCR-ABL1+ leukemia entity still is associated with poor prognosis and new therapies are urgently needed. Heat shock proteins of 90 kDa (HSP90) have been widely studied due to their chaperone function, implicated in stabilizing various oncoproteins, including BCR-ABL1 kinase. However, HSP90 inhibitors (HSP90i) have not entered routinely in clinics, primarily due to the associated resistance via heat shock response (HSR) induction and dose limiting toxicity. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 15 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE208nnn/GSE208005/
+Series		Accession: GSE208005	ID: 200208005
+
+79. Widespread regulation of translation by elongation pausing in heat shock
+(Submitter supplied) RNA-seq and ribosome footprinting libraries of mouse 3T3 and human 293T cellsrelated to Shalgi et al.  2013
+Organism:	Mus musculus; Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL13112 GPL9115 GPL9250 15 Samples
+FTP download: GEO (BED, SAM) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32060/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA147613
+Series		Accession: GSE32060	ID: 200032060
+
+80. Dynamics of RNA localization to nuclear speckles are connected to splicing efficiency [RNA-Seq]
+(Submitter supplied) Nuclear speckles, a type of membraneless nuclear organelle in higher eukaryotic cells, play a vital role in gene expression regulation. Using the reverse transcription-based RBP binding sites sequencing (ARTR-seq) method, we study human transcripts associated with nuclear speckles. We identify three gene groups whose transcripts demonstrate different speckle localization properties and dynamics – stably enriched in nuclear speckle post-transcriptionally, transiently enriched in speckles at the pre-mRNA stage co-transcriptionally, and not enriched in speckles. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255207/
+Series		Accession: GSE255207	ID: 200255207
+
+81. SPT6 functions in transcriptional pause-release via PAF1C recruitment [PRO-seq]
+(Submitter supplied) In vitro studies identified various factors including P-TEFb, SEC, SPT6, PAF1, DSIF, and NELF functioning at different stages of transcription elongation driven by RNA polymerase II (RNA Pol II). What remains unclear is how these factors cooperatively regulate pause/release and productive elongation in the context of living cells. Using an acute protein-depletion approach, we report that SPT6 depletion results in release of paused RNA Pol II. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL18573 16 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202187/
+Series		Accession: GSE202187	ID: 200202187
+
+82. Heat-induced transcriptional memory profiled in human K562 erythroleukemia cells [PRO-seq]
+(Submitter supplied) Precision run-on sequencing (PRO-seq) of nascent RNA synthesis across the human genome. The PRO-seq data was generated from human K562 erythroleukemia cells that were either unconditioned (unCond) or preconditioned with a single heat shock exposure (preC). After two day recovery from the preconditioning, during which the cells underwent two mitotic divisions, the cells were additionally subjected to a single heat shock to measure nascent transcription in response to heat shock in unconditioned versus preconditioned cells.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL16791 16 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154746/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA647374
+Series		Accession: GSE154746	ID: 200154746
+
+83. Cellular proteostasis collapse in mammalian senescence
+(Submitter supplied) Proteostasis collapse, the diminished ability to maintain protein homeostasis, has been established as a hallmark of nematode aging. However, whether proteostasis collapse occurs in humans has remained unclear. Here, we demonstrate that proteostasis decline is intrinsic to human senescence. Using transcriptome-wide characterization of gene expression, splicing, and translation, we found a significant deterioration in the transcriptional activation of the heat shock response in stressed senescent cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124609/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA512837
+Series		Accession: GSE124609	ID: 200124609
+
+84. Heat-induced transcriptional memory profiled in human K562 erythroleukemia cells.
+(Submitter supplied) Precision run-on sequencing (PRO-seq) of nascent RNA synthesis across the human genome. The PRO-seq data was generated from human K562 erythroleukemia cells that were either unconditioned (unCond) or preconditioned with multiple heat shock exposures (preCond). After two day recovery from the preconditioning, during which the cells underwent two mitotic divisions, the cells were additionally subjected to a single heat shock to measure nascent transcription in response to heat shock in unconditioned versus preconditioned cells.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL18573 16 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE127nnn/GSE127844/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA525636
+Series		Accession: GSE127844	ID: 200127844
+
+85. An HSF1-JMJD6-HSP feedback circuit promotes cell adaptation to proteotoxic stress [RNA-Seq]
+(Submitter supplied) Heat Shock Factor 1 (HSF1) is best known as the master transcriptional regulator of the heat-shock response (HSR), a conserved adaptive mechanism critical for protein homeostasis (proteostasis). Combining a genome-wide RNAi library with an HSR reporter, we identified JMJD6 as an essential mediator of HSF1 activity. In follow-up studies, we found that JMJD6 is itself a non-canonical transcriptional target of HSF1 which acts as a critical regulator of proteostasis. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 17 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270672/
+Series		Accession: GSE270672	ID: 200270672
+
+86. DIFFERENTIAL TEMPERATURE-INDUCED RESPONSES IN ORAL AND SKIN KERATINOCYTES
+(Submitter supplied) The epidermis of skin and oral mucosa is constantly exposed to various environmental stimuli, including temperature changes. In particularly extreme conditions, such as excess heat or cold, significant injury may occur. Oral and skin keratinocytes exhibit tissue-specific differences in wound healing outcomes and the transcriptomic response to injury. This study investigated if skin and oral keratinocytes also have differential responses to heat and cold-induced injury. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 18 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289231/
+Series		Accession: GSE289231	ID: 200289231
+
+87. Effect of  CLK2 expression in the regulation of intron retention during heat shock [RNA-seq]
+(Submitter supplied) Intron retention (IR) constitutes a less explored form of alternative splicing, wherein introns are retained within mature mRNA transcripts. Our investigation demonstrates that the CDC-like kinase 2 (CLK2) undergoes liquid-liquid phase separation (LLPS) within nuclear speckles in response to heat shock (HS). The formation of CLK2 condensates depends on the intrinsically disordered region (IDR) located within the N-terminal amino acids 1-148. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL29480 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE271nnn/GSE271918/
+Series		Accession: GSE271918	ID: 200271918
+
+88. The essential chaperone DNAJC17 activates HSP70 to coordinate RNA splicing and G2-M progression
+(Submitter supplied) Molecular chaperones including the heat-shock protein 70-kilodalton (HSP70) family and the J-domain containing protein (JDP) co-chaperones maintain homeostatic balance in eukaryotic cells through regulation of the proteome.  The expansive JDP family helps direct specific HSP70 functions, and yet loss of single JDP-encoding genes is widely tolerated by mammalian cells, suggesting a high degree of redundancy. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE235nnn/GSE235379/
+Series		Accession: GSE235379	ID: 200235379
+
+89. Proteotoxic stress-induced apoptosis in cancer cells: understanding the susceptibility and enhancing the potency
+(Submitter supplied) Leiomyosarcoma (LMS) is an aggressive cancer with few therapeutic options. LMS cells are more sensitive to proteotoxic stress compared to normal smooth muscle cells. We used small compound 2c to induce proteotoxic stress and compare the transcriptomic adaptations of immortalized human uterine smooth muscle cells (HUtSMC) and LMS cells SK-UT-1. We found that the expression of the heat shock proteins (HSP) gene family is upregulated with higher efficiency in normal cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE205nnn/GSE205596/
+Series		Accession: GSE205596	ID: 200205596
+
+90. Mitochondrial protease Lonp1 localizes to the nucleus in response to heat shock
+(Submitter supplied) We analyzed the effects of Lonp1 silencing on the response to heat shock by analyzing the transriptomic profile of SW620 colon cancer cells undergoing heat shock. Briefly, Lonp1 has been silenced by using a specific siRNA, then cells have been kept at 42°C for 1 hour, and left at 37°C for one hour.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164834/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA692181
+Series		Accession: GSE164834	ID: 200164834
+
+91. Heat Shock Factor 1 (HSF1) supports the ESR1 action in breast cancer (RNA-seq)
+(Submitter supplied) Heat shock factor 1 (HSF1) is a key regulator of transcriptional responses to proteotoxic stress. It has been recently linked to signaling of estrogen via ESR1. To study the cooperation of HSF1 and ESR1 in the transcriptional response to estrogen, we established estrogen receptor (ER)-positive breast cancer cell lines with reduced HSF1 levels using specific shRNA or CRISPR/Cas9 approach. HSF1 deficiency led to the inhibition of the mitogenic effect of estrogen in MCF7 and T47D cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18460 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159802/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA670565
+Series		Accession: GSE159802	ID: 200159802
+
+92. RNA sequencing of stroma from good (survival) and bad (lethality) outcome gastric cancer patients is enough to separate patients based on outcome.
+(Submitter supplied) Gastric cancer is the 3rd most lethal cancer worldwide, and the genomic status of its cancer cells has not translated into effective prognostic or therapeutic strategies. We therefore hypothesize that outcomes may depend on the tumor microenvironment (TME), and in particular cancer-associated fibroblasts (CAFs). However, very little is known about the role of CAFs in gastric cancer. To address this, we map the transcriptional landscape of human gastric cancer stroma by microdissection and RNA sequencing of CAFs from gastric cancer patients. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165211/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA693557
+Series		Accession: GSE165211	ID: 200165211
+
+93. Histone lactylation drives liver cancer metastasis by facilitating NSF1 mediated ferroptosis resistance after microwave ablation
+(Submitter supplied) Insufficient microwave ablation (IMWA) is linked to aggressive hepatocellular carcinoma (HCC) progression. An increase in lactate level after sublethal heat stress (HS) has been confirmed in HCC. However, the role of lactate-related histone lactylation in the progression of HCC underwent sublethal HS remains unclear. Here, we found that the metastatic potential of HCC is enhanced in a lactate-dependent manner after IMWA. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279569/
+Series		Accession: GSE279569	ID: 200279569
+
+94. Chemical genetics in Caenorhabditis elegans identifies anticancer compound chaetocin and p300/CBP as modulators of metal response genes
+(Submitter supplied) We recently used a genome-wide screen to demonstrate that numr-1/2 is activated by disruption of RNA metabolism. To investigate numr-1/2 regulation and identify modulators of nucleic acid metabolism, we screened over 40,000 compounds and extracts from commercial and natural product libraries for numr-1/2p::GFP activation. Fungal toxin chaetocin was the most potent and least toxic numr-1/2 inducer.  RT-qPCR demonstrates that chaetocin induces numr-1/2 and another stress-responsive SR-like protein gene (W03G1.5) in C. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 20 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232639/
+Series		Accession: GSE232639	ID: 200232639
+
+95. Heat shock-mediated global gene downregulation is achieved by premature transcription termination [DRB_TTchem-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In parallel, a large portion of the genome becomes repressed. HS associated global gene repression is still largely poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 20 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165365/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694167
+Series		Accession: GSE165365	ID: 200165365
+
+96. A systematic analysis of nuclear heat-shock protein 90 identifies a metazoan-specific regulatory module
+(Submitter supplied) Molecular chaperones such as heat-shock proteins (HSPs) help in protein folding and complex assembly processes. Their role in cytosol has been very well elucidated. Chaperones are also present in the nucleus, a compartment where proteins enter after being fully folded in the cytosol, raising an important question about chaperones function in this compartment. We have performed a systematic analysis of nuclear heat- shock protein 90 to identify regulatory functions of this chaperone in the nucleus. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+4 related Platforms 20 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126151/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA521153
+Series		Accession: GSE126151	ID: 200126151
+
+97. Transcriptomic alterations upon HSP90 inhibition in human LN229 and T98 glioblastoma cells in vitro
+(Submitter supplied) Purpose: Characterization of transcriptomic alterations upon HPS90 inhibition in human LN229 and T98G glioblastoma cells in vitro. Methods: LN229 and T98G glioblastoma cells were treated with 10 nM of the HSP90 inhibitor NW457 or the vehicle control for 24 h, and total RNA was subjected to 3' RNA sequencing. Results: Distinct transcriptomic alterations were observed, dominated by a transcriptional upregulation of the heat shock response. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 22 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164717/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA691626
+Series		Accession: GSE164717	ID: 200164717
+
+98. Native molecule sequencing by nano-ID reveals synthesis and stability of RNA isoforms
+(Submitter supplied) Eukaryotic genes often generate a variety of RNA isoforms that can lead to functionally distinct protein variants. The synthesis and stability of RNA isoforms is however poorly characterized. The reason for this is that current methods to quantify RNA metabolism use short-read sequencing that cannot detect RNA isoforms. Here we present nanopore sequencing-based Isoform Dynamics (nano-ID), a method that detects newly synthesized RNA isoforms and monitors isoform metabolism. more...
+Organism:	synthetic construct; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL25738 GPL24106 GPL18573 22 Samples
+FTP download: GEO (BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE127nnn/GSE127890/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA525707
+Series		Accession: GSE127890	ID: 200127890
+
+99. Dynamics of RNA localization to nuclear speckles are connected to splicing efficiency [ARTR-seq]
+(Submitter supplied) Nuclear speckles, a type of membraneless nuclear organelle in higher eukaryotic cells, play a vital role in gene expression regulation. Using the reverse transcription-based RBP binding sites sequencing (ARTR-seq) method, we study human transcripts associated with nuclear speckles. We identify three gene groups whose transcripts demonstrate different speckle localization properties and dynamics – stably enriched in nuclear speckle post-transcriptionally, transiently enriched in speckles at the pre-mRNA stage co-transcriptionally, and not enriched in speckles. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255206/
+Series		Accession: GSE255206	ID: 200255206
+
+100. Heat shock-mediated global gene downregulation is achieved by premature transcription termination [FP_TTchem-seq]
+(Submitter supplied) The Heat Shock response (HSR) is a highly conserved transcriptional program induced by the exposure to a variety of environmental stressors. Following an insult, a small subset of genes, known as the Heat Shock genes, are rapidly induced by the Heat Shock Factors (HSFs) to maintain protein homeostasis and ensure cell survival. In parallel, a large portion of the genome becomes repressed. HS associated global gene repression is still largely poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 24 Samples
+FTP download: GEO (BIGWIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165366/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694165
+Series		Accession: GSE165366	ID: 200165366
+
+101. The pause-initiation limit restricts transcription activation in human cells
+(Submitter supplied) Eukaryotic gene transcription is often controlled at the level of RNA polymerase II (Pol II) pausing in the promoter-proximal region. Pausing Pol II limits the frequency of transcription initiation (‘pause-initiation limit’), predicting that the pause duration must be decreased for transcriptional activation. To test this prediction, we conducted a genome-wide kinetic analysis of the heat shock response in human cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 26 Samples
+FTP download: GEO (BW, GTF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123980/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA510428
+Series		Accession: GSE123980	ID: 200123980
+
+102. Dual RNAseq of human leprosy lesions identifies bacterial determinants linked to host immune response
+(Submitter supplied) To understand how the interaction between an intracellular bacterium and the host immune system contributes to outcome at the site of infection, we studied leprosy, a disease that forms a clinical spectrum, in which progressive infection by the intracellular bacterium Mycobacterium leprae is characterized by the production of type I IFNs and antibody production.  We performed dual RNAseq on patient lesions, identifying a continuum of distinct bacterial states that are linked to the host immune response. more...
+Organism:	Mycobacterium leprae; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL26134 26 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125943/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA518047
+Series		Accession: GSE125943	ID: 200125943
+
+103. TimeLapse-seq: adding a temporal dimension to RNA sequencing through nucleoside recoding
+(Submitter supplied) RNA sequencing (RNA-seq) offers a snapshot of cellular RNA populations, but not temporal information about the sequenced RNA. Here we report TimeLapse-seq, which uses oxidative-nucleophilic-aromatic substitution to convert 4-thiouridine into cytidine analogs, yielding apparent U-to-C mutations that mark new transcripts upon sequencing. TimeLapse-seq is a single-molecule approach that is adaptable to many applications and reveals RNA dynamics and induced differential expression concealed in traditional RNA-seq.
+Organism:	Mus musculus; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL17021 GPL16791 GPL20301 28 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95854/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA378606
+Series		Accession: GSE95854	ID: 200095854
+
+104. The TFIIH kinase CDK7 governs RNA polymerase II initiation, elongation, termination, and RNA processing
+(Submitter supplied) In this study we perform precision nuclear run-on sequencing (PRO-seq) to measure the altered transcriptional response upon CDK7 inhibition or RNA-seq to elucidate the response of CDK7 inhibition on steady-state RNA. We performed a heat shock time course in PRO-seq with and without the Syros CDK7 inhibitor SY5609. Matching this data we performed three deeply sequenced RNA-seq experiments with SY5609 that include no heat shock, heat shock with recovery and long heat shock with no recovery. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 30 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE228nnn/GSE228346/
+Series		Accession: GSE228346	ID: 200228346
+
+105. RNA-seq of human head and neck squamous cell carcinoma (HNSCC) to compare different tissue dissociation methods [bulkRNA]
+(Submitter supplied) Tissue dissociation, mechanical and/or enzymatic, is a method of disaggregating 3D connective tissue to release cells for downstream single cell analysis.  Without proper controls for tissue dissociation experiments, potential artifacts can be mistaken for baseline tissue data. We hypothesized that enzymatic (collagenase/hyaluronidase) compared to mechanical dissociation leads to dissociated related artifacts not found in endogenous tumor tissue. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 30 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243360/
+Series		Accession: GSE243360	ID: 200243360
+
+106. Probing the Roles of SUMOylation in Cancer Cell Biology Using a Selective SAE inhibitor
+(Submitter supplied) Small ubiquitin-like modifier (SUMO) family proteins regulate target protein functions by post-translational modification. However, a potent and selective inhibitor to target the SUMO pathway has been lacking.  Here we describe ML-792, the first mechanism-based SUMO-activating enzyme (SAE) inhibitor with nanomolar potency in cellular assays. ML-792 selectively blocks SAE enzyme activity and total SUMOylation, which leads to reduced cancer cell proliferation. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 30 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100408/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA391584
+Series		Accession: GSE100408	ID: 200100408
+
+107. An internally normalized approach to comparing RNA levels between samples using nucleoside recoding chemistry
+(Submitter supplied) RNA sequencing allows for transcriptome-wide comparative studies of RNA levels, including gene expression, localization in subcellular compartments, or content of ribonucleoprotein complexes. It is often challenging, however, to separate real biological variation from technical artifacts arising from variable sample preparation, uneven contamination and difficulties normalizing sequencing counts between samples. more...
+Organism:	Drosophila melanogaster; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL25244 32 Samples
+FTP download: GEO (TDF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE168nnn/GSE168716/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA713771
+Series		Accession: GSE168716	ID: 200168716
+
+108. Stress-induced nuclear condensation of NELF drives global transcriptional downregulation
+(Submitter supplied) In response to stress, human cells actively downregulate ongoing gene expression programs. Translational downregulation is accompanied by the assembly of stress granules which are cytosolic condensates containing ribosomes and mRNA. Transcriptional downregulation is caused by an increased recruitment of Negative Elongation Factors (NELF) to promoters, inhibiting RNA Pol II elongation. We report here that NELF forms nuclear condensates upon stress which can be recapitulated by liquid-liquid phase separation of recombinant NELF in vitro. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL18573 32 Samples
+FTP download: GEO (BW, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140053/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA588093
+Series		Accession: GSE140053	ID: 200140053
+
+109. Nucleoporin-mediated regulation of cell identity genes
+(Submitter supplied) The organization of the genome in the three-dimensional space of the nucleus is coupled with cell type-specific gene expression. However, how nuclear architecture influences transcription that governs cell identity remains unknown. Here, we show that Nuclear Pore Complex (NPC) components Nup93 and Nup153 bind super-enhancers (SE), regulatory structures that drive the expression of key genes that specify cell identity. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL16791 33 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87831/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA347821
+Series		Accession: GSE87831	ID: 200087831
+
+110. m6Am-seq reveals the dynamic m6Am methylation in the human transcriptome
+(Submitter supplied) We report m6Am-seq, based on selective in vitro demethylation and RNA immunoprecipitation. m6Am-seq directly distinguishes m6Am and 5’-UTR N6-methyladenosine (m6A).
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL20795 34 Samples
+FTP download: GEO (BW, CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180253/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA747271
+Series		Accession: GSE180253	ID: 200180253
+
+111. Gene-expression profiling of individuals resilient to Alzheimer's disease reveals higher expression of genes related to metallothionein and mitochondrial processes and no changes in the unfolded protein response
+(Submitter supplied) Some individuals show a discrepancy between cognition and the amount of neuropathological changes characteristic for Alzheimer’s disease (AD). This phenomenon has been referred to as ‘resilience’. The molecular and cellular underpinnings of resilience remain poorly understood. To obtain an unbiased understanding of the molecular changes underlying resilience, we investigated global changes in gene expression in the superior frontal gyrus of a cohort of cognitively and pathologically well-defined AD patients, resilient individuals and age-matched controls (n=11-12 per group). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 35 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261817/
+Series		Accession: GSE261817	ID: 200261817
+
+112. Transcriptomic Identification of Genes expressed in Invasive S. aureus Diabetes Foot Ulcer infection
+(Submitter supplied) Infection in diabetic foot ulcers (DFU) are one of the major complications associated with diabetic patients.  Staphylococcus aureus is the most common offending pathogen in patients with infected DFU. Previous studies have suggested application of species-specific antibodies against S. aureus for diagnosis and monitoring treatment response. Early and accurate identification of the main pathogen is critical for management of DFU infection. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 38 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE230nnn/GSE230426/
+Series		Accession: GSE230426	ID: 200230426
+
+113. Enhancing HIV-1 latency reversal through regulating the elongating RNA Pol II pause-release by a small-molecule disruptor of PAF1C
+(Submitter supplied) The polymerase-associated factor 1 complex (PAF1C) is a key, post-initiation transcriptional regulator of both promoter-proximal pausing and productive elongation catalyzed by RNA Pol II and is also involved in transcriptional repression of viral gene expression during human immunodeficiency virus–1 (HIV-1) latency. Using a molecular docking–based compound screen in silico and global sequencing–based candidate evaluation in vivo, we identified a first-in-class, small-molecule inhibitor of PAF1C (iPAF1C) that disrupts PAF1 chromatin occupancy and induces global release of promoter-proximal paused RNA Pol II into gene bodies. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other
+Platforms: GPL24676 GPL18573 39 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211651/
+Series		Accession: GSE211651	ID: 200211651
+
+114. Cohesin regulates alternative splicing alone or with BRD4
+(Submitter supplied) By targeted depletion of Cohesin (RAD21 subunit) or BRD4 alone or together, we have established that cohesin alone or with BRD4 regulates the alternative splicing of a large subset of genes under both physiological and heat shock conditions.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL20301 39 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182960/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA758423
+Series		Accession: GSE182960	ID: 200182960
+
+115. Origin of a novel CYP20A1 lncRNA through 23 Alu exaptations in the human lineage creates a potential multi-miRNA sponge
+(Submitter supplied) Alu repeats contribute to lineage specific novelties in conserved transcriptional regulatory networks. We report for the first time the origin of a multi-miRNA human specific sponge through exaptation of 23 Alu repeats that forms a novel principal isoform of CYP20A1 gene with a 9kb 3’UTR. This 3’UTR, confirmed by RACE, is an outlier in terms of its length with expression in multiple cell lines, including brain as evidenced from single nucleus RNA-seq data of 16000 human cortical neurons. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing
+Platform: GPL11154 42 Samples
+FTP download: GEO (DIFF, GFF3, GTF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132447/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA548108
+Series		Accession: GSE132447	ID: 200132447
+
+116. Impact of HSF1 and HSF2 on gene expression in normal growth conditions and upon proteotoxic stress.
+(Submitter supplied) RNA sequencing (RNA-seq) was used to study the impact of heat shock factors 1 and 2 (HSF1 and HSF2) on gene expression in normal growth conditions, upon Bortezomib-induced proteasome inhibition (25 nM, 6 h or 10 h), and upon heat shock (42∘C, 1 h).
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21290 48 Samples
+FTP download: GEO (TXT, XLS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115973/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA476608
+Series		Accession: GSE115973	ID: 200115973
+
+117. Effects of HSP90 inhibitors on airway goblet cell metaplasia
+(Submitter supplied) Goblet cell metaplasia and mucus hypersecretion are disabling hallmarks of chronic lung diseases for which no curative treatments are available. Therapies targeting specific upstream drivers of asthma have had variable results. We hypothesized that an a priori-knowledge independent approach would point to new therapies for airway goblet cell metaplasia. We analyzed the transcriptome of an organotypic model of human goblet cell metaplasia. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 48 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116927/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA480665
+Series		Accession: GSE116927	ID: 200116927
+
+118. Transcriptomic profiling of cardiac tissues from SARS-CoV-2 patients identifies DNA damage
+(Submitter supplied) In this study, we investigated the landscape of cardiac tissues collected at rapid autopsy from 7 SARS-CoV-2, 2 pH1N1, and 6 control patients using targeted spatial transcriptomics approaches. The main outcomes for the study were to profile rapid autopsy samples collected from the COVID-19, pH1N1 and normal, non-viral deaths to determine transcriptional changes between the different cohorts. Although SARS-CoV-2 was not detected in cardiac tissue, host transcriptomics showed upregulation of genes associated with DNA damage and repair, heat shock, and M1-like macrophage infiltration in the cardiac tissues of COVID-19 patients. more...
+Organism:	Homo sapiens; blank sample
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL29487 GPL24676 50 Samples
+FTP download: GEO (CSV, DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE212nnn/GSE212119/
+Series		Accession: GSE212119	ID: 200212119
+
+119. Proteasome inhibitor-induced modulation reveals the spliceosome as a specific therapeutic vulnerability in multiple myeloma
+(Submitter supplied) Resistance to proteasome inhibitors (PIs) is a ubiquitous clinical concern in multiple myeloma (MM).  We proposed that signaling-level responses after PI would reveal new means to enhance efficacy.  Unbiased phosphoproteomics after the PI carfilzomib surprisingly demonstrated the most prominent phosphorylation changes on spliceosome components.  Spliceosome modulation was invisible to RNA or protein abundance alone. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing
+Platforms: GPL20301 GPL11154 52 Samples
+FTP download: GEO (CSV, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124510/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA512268
+Series		Accession: GSE124510	ID: 200124510
+
+120. m1A marks translation initiation sites in human and mouse messenger RNA [Sequencing]
+(Submitter supplied) We developed a novel approach, m1A-seq, for high-resolution mapping of the transcriptome-wide m1A landscape, based on antibody-mediated capture followed by massively parallel sequencing
+Organism:	Mus musculus; Saccharomyces cerevisiae; Schizosaccharomyces pombe; Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+4 related Platforms 56 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70485/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA288805
+Series		Accession: GSE70485	ID: 200070485
+
+121. RNA damage compartmentalization by DHX9 granules
+(Submitter supplied) Cell division ensures that both genetic information and non-genetic contents are inherited by daughter cells. Whereas considerable detail has been learned about the processing of intact or damaged DNA during the cell cycle (Branzei & Foiani, 2008; Klaasen et al., 2022),(Bakhoum & Cantley, 2018),(Hustedt & Durocher, 2016), how daughter cells deal with other forms of inherited damage is unknown. Here we identified a special kind of cytoplasmic granules responsible for the compartmentalisation of parental RNA damage. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL21290 GPL24676 57 Samples
+FTP download: GEO (BED, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE218nnn/GSE218180/
+Series		Accession: GSE218180	ID: 200218180
+
+122. Absolute quantification of single-base m6A methylation in the mammalian transcriptome
+(Submitter supplied) To investigate the m6A methylation in the mammalian transcriptome, we developed a quantitative method, names GLORI, that could detect m6A stoichiometry at single-base resolution.  We then performed GLORI on cells with different treatment, such as stress, knockdown and inhibitor. We next analysis m6A methyloms of different  celllines and cells under different treatment to investigate the fuctional role of m6A.
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Methylation profiling by high throughput sequencing
+Platforms: GPL21273 GPL20795 GPL24676 58 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE210nnn/GSE210563/
+Series		Accession: GSE210563	ID: 200210563
+
+123. Transcriptional landscape of human keratinocyte models exposed to 60-GHz millimeter-waves
+(Submitter supplied) Purpose: The use of millimeter waves (MMW) will likely grow exponentially in the coming years due to their future utilization in high-speed telecommunications. The question of the possible biological effects of these frequencies has been raised, and in the present study, we aimed to explore, throw an innovating RNA sequencing approach known as Bulk RNA Barcoding sequencing (BRB-seq), the difference in gene expression under exposure. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 61 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234710/
+Series		Accession: GSE234710	ID: 200234710
+
+124. Phosphorylation controls mRNA retention via nuclear speckle cohesion - APEX2-seq
+(Submitter supplied) Nuclear speckles are membraneless organelles that associate with active transcription sites and participate in post-transcriptional mRNA processing. During mitosis, nuclear speckles dissolve following phosphorylation of their protein components. Here, we identify PP1 phosphatases as responsible for counteracting kinase-mediated dissolution. Their overexpression increases speckle cohesion and leads to retention of polyadenylated RNA within speckles and the nucleus. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 64 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240891/
+Series		Accession: GSE240891	ID: 200240891
+
+125. A multiplex platform for small RNA sequencing elucidates multifaceted tRNA stress response and translational regulation
+(Submitter supplied) Small RNAs include tRNA, snRNA, micro-RNA, tRNA fragments and others that constitute >90% of RNA copy numbers in a human cell and perform many essential functions. Popular small RNA-seq strategies limit the insights into coordinated small RNA response to cellular stress. Small RNA-seq also lacks multiplexing capabilities. Here, we report a multiplex small RNA-seq library preparation method (MSR-seq) to investigate cellular small RNA and mRNA response to heat shock, hydrogen peroxide, and arsenite stress. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing
+Platforms: GPL20301 GPL24676 64 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198441/
+Series		Accession: GSE198441	ID: 200198441
+
+126. Acetyl-methyllysine marks chromatin at active transcription start sites
+(Submitter supplied) Lysine residues in histones and other proteins can be modified by post-translational modifications (PTMs) that encode regulatory information. Acetylation and methylation of histone lysine residues are especially important for regulating chromatin and gene expression. Pathways involving these PTMs are targets for clinically approved therapeutics to treat human diseases. Lysine methylation and acetylation are generally assumed to be mutually exclusive at the same residue. more...
+Organism:	Drosophila melanogaster; Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL25244 68 Samples
+FTP download: GEO (BIGWIG, CSV, NARROWPEAK, TDF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182204/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA755299
+Series		Accession: GSE182204	ID: 200182204
+
+127. Transcriptomics Unveil Canonical and Non-Canonical Heat Shock-Induced Pathways in Human Cell Lines
+(Submitter supplied) The cellular stress response (CSR) is a conserved mechanism that protects cells from environmental and physiological stressors. The heat shock response (HSR), a critical component of the CSR, utilizes molecular chaperones to mitigate proteotoxic stress caused by elevated temperatures. We hypothesized that while the canonical HSR pathways are conserved across cell types, specific cell lines may exhibit unique transcriptional responses to heat shock. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 79 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285497/
+Series		Accession: GSE285497	ID: 200285497
+
+128. Short-term hypergravity effects on Jurkat T cells
+(Submitter supplied) Jurkat T cells have been exposed to 9g hypergravity in a custom-built pipette centrifuge for different times (GBF2021). Additionally, Jurkat T cells have been exposed to 300g for 5 minutes in a standard benchtop centrifuge, and waited for different times until adding lysis buffer. For comparison, Jurkat T cells have been exposed to 5 minutes of 42°C.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 80 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221579/
+Series		Accession: GSE221579	ID: 200221579
+
+129. Sequencing of metabolically labeled transcripts in single cells from RPE1-FUCCI cells and murine intestinal organoids.
+(Submitter supplied) Measurements of metabolically labeled transcripts in single cells for estimation of mRNA synthesis and degradation rates throughout the cell cycle and intestinal organoid differentiation.
+Organism:	Mus musculus; Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL19057 GPL18573 80 Samples
+FTP download: GEO (CSV, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE128nnn/GSE128365/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA527268
+Series		Accession: GSE128365	ID: 200128365
+
+130. Transcriptome-wide mapping reveals widespread dynamic regulated pseudouridylation of mRNA
+(Submitter supplied) Pseudouridine is the most abundant modification occurring on RNA, yet with the exception of a few well-studied RNA molecules little is known about the modified positions and their function(s). Here, we develop Ψ-seq, a method for transcriptome-wide quantitative mapping of pseudouridine. We validate Ψ-seq with synthetic spike-ins and de novo identification of the vast majority of previously reported pseudouridylated positions. more...
+Organism:	Mus musculus; Candida albicans; Homo sapiens; Saccharomyces cerevisiae
+Type:		Expression profiling by high throughput sequencing
+4 related Platforms 86 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE60nnn/GSE60047/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA257386
+Series		Accession: GSE60047	ID: 200060047
+
+131. TurboCas: A method for locus-specific labeling of genomic regions and isolating their associated protein interactome [RNAseq]
+(Submitter supplied) Regulation of gene expression during development and stress response requires the concerted action of transcription factors and chromatin-binding proteins. Because this process is cell-type specific and varies with cellular conditions, mapping of chromatin factors at individual regulatory loci is crucial for understanding cis-regulatory control. Previous methods only characterize static protein binding. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 111 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE259nnn/GSE259306/
+Series		Accession: GSE259306	ID: 200259306
+
+132. Targeting Processive Transcription Elongation via SEC Disruption for MYC-Induced Cancer Therapy
+(Submitter supplied) The super elongation complex (SEC) is required for robust and productive transcription through release of RNA polymerase II (Pol II) with its P-TEFb module and promoting transcriptional processivity with its ELL2 subunit. Malfunction of SEC contributes to multiple human diseases including cancer. Here, we identify peptidomimetic lead compounds, KL-1 and its structural homolog KL-2, which disrupt the interaction between the SEC scaffolding protein AFF4 and P-TEFb, resulting in impaired release of Pol II from promoter-proximal pause sites and a reduced average rate of processive transcription elongation. more...
+Organism:	Homo sapiens; Drosophila melanogaster
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other
+Platforms: GPL18573 GPL19132 111 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112608/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA448451
+Series		Accession: GSE112608	ID: 200112608
+
+133. Calibrated ribosome profiling assesses the dynamics of ribosomal flux on transcripts
+(Submitter supplied) Ribosome profiling, which is based on deep sequencing of ribosome footprints, has served as a powerful tool for elucidating the regulatory mechanism of protein synthesis. However, the current method has substantial issues: contamination by rRNAs and the lack of appropriate methods to measure ribosome numbers in transcripts. Here, we overcomeovercame these hurdles through the development of “Ribo-FilterOut”, which is based on the separation of footprints from ribosome subunits by ultrafiltration, and “Ribo-Calibration”, which relies on external spike-ins of stoichiometrically defined mRNA-ribosome complexes. more...
+Organism:	Homo sapiens; Escherichia coli; Arabidopsis thaliana; Mus musculus; Saccharomyces cerevisiae; Drosophila melanogaster
+Type:		Expression profiling by high throughput sequencing; Other
+9 related Platforms 114 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233555/
+Series		Accession: GSE233555	ID: 200233555
+
+134. An adaptive stress response that confers cellular resilience to decreased ubiquitination
+(Submitter supplied) Ubiquitination is a post-translational modification that regulates protein function and turnover. E2 ubiquitin-conjugating enzymes are key for ubiquitination but it remains uncharted what fraction of the proteome is E2-modulated. Here, we utilized deep-coverage TMT mass spectrometry to determine how protein abundance is modulated by E2s. Analysis of human cells with ~25% reduction in ubiquitination and with individual E2 knockdown indicates that 48% of the proteome is modulated by partial E2 loss, and that this rewires organelle and metabolic functions by reducing the turnover of E2-sensitive targets. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 116 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222110/
+Series		Accession: GSE222110	ID: 200222110
+
+135. Maternal Nutritional Status Modifies Heat-Associated Growth Restriction in Women with Chronic Malnutrition
+(Submitter supplied) Rising ambient temperatures represent an imminent risk to pregnant women and infants. Both maternal malnutrition and heat stress during pregnancy contribute to poor fetal growth, the leading cause of diminished child development in low-resource settings. However, studies explicitly examining interactions between these two important environmental factors are lacking. We leveraged maternal and neonatal anthropometry data from a randomized controlled trial focused on improving preconception maternal nutrition (Women First Preconception Nutrition trial) conducted in Thatta Pakistan, where both nutritional deficits and heat stress are prevalent. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 126 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE220nnn/GSE220877/
+Series		Accession: GSE220877	ID: 200220877
+
+136. Passive shaping of intra- and intercellular m6A dynamics via mRNA metabolism
+(Submitter supplied) m6A is the most widespread mRNA modification and is primarily implicated in controlling mRNA stability. Fundamental questions pertaining to m6A are the extent to which it is dynamically modulated within cells and across stimuli, and the forces underlying such modulation. Prior work has focused on investigating active mechanisms governing m6A levels, such as recruitment of m6A writers or erasers leading to either ‘global’ or ‘site-specific’ modulation. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL24247 GPL24676 GPL17021 128 Samples
+FTP download: GEO (RESULTS, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272629/
+Series		Accession: GSE272629	ID: 200272629
+
+137. Acute perturbation strategies in interrogating RNA Polymerase II elongation factor function in gene expression
+(Submitter supplied) The regulation of gene expression catalyzed by RNA Polymerase II (Pol II) requires a host of accessory factors to ensure cell growth, differentiation, and survival under environmental stress. Here, using the auxin-inducible degradation (AID) system to study transcriptional activities of the bromodomain and extra terminal domain (BET) and Super Elongation Complex (SEC) families, we found that the CDK9-containing BRD4 complex is required for the release of Pol II from promoter-proximal pausing for most genes, while the CDK9-containing SEC is required for activated transcription in the heat shock response. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL24676 135 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145525/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA607507
+Series		Accession: GSE145525	ID: 200145525
+
+138. HSF2 cooperates with HSF1 to drive a transcriptional program critical for the malignant state
+(Submitter supplied) Heat shock factor 1 (HSF1) is well known for its role in the heat shock response (HSR), where it drives a transcriptional program comprising heat shock protein (HSP) genes, and in tumorigenesis, where it drives a program comprising HSPs and many non-canonical target genes that support malignancy. Here, we find that HSF2, an HSF1 paralog with no significant role in the HSR, physically and functionally interacts with HSF1 across diverse types of cancer. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platforms: GPL18573 GPL24676 323 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE194nnn/GSE194098/
+Series		Accession: GSE194098	ID: 200194098

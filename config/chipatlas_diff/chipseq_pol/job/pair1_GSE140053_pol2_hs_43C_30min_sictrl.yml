@@ -1,0 +1,30 @@
+# pair1: GSE140053_pol2_hs_43C_30min_sictrl vs GSE140053_pol2_ctrl_sictrl
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair1/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair1_GSE140053_pol2_hs_43C_30min_sictrl.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair1_GSE140053_pol2_hs_43C_30min_sictrl.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair1_GSE140053_pol2_ctrl_sictrl.txt
+
+antigen_class: diffbind
+title: GSE140053_ChIPseq_Pol2_hs_43C_30min_sictrl
+result_basename: GSE140053_pol2_hs_43C_30min_sictrl
+
+desc_a: GSE140053_pol2_hs_43C_30min_sictrl
+desc_b: GSE140053_pol2_ctrl_sictrl
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

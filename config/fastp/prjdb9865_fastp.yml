@@ -1,0 +1,18 @@
+# https://www.ncbi.nlm.nih.gov/bioproject/PRJDB9865
+
+fastq_files:
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/CAGE/DRR228707_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/CAGE/DRR228708_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/CAGE/DRR228709_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/CAGE/DRR228710_1.fastq.gz

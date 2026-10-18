@@ -1,0 +1,19 @@
+Recent queries in sra
+Search,Query,Items found,Time
+#16,"Search (((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"")) AND ""homo sapiens""[Organism]) AND ""rna seq""[Strategy])) NOT ((""sra bioproject""[Filter]) OR ""sra gds""[Filter])",0,16:42:15
+#15,"Search (((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"")) AND ""homo sapiens""[Organism]) AND ""rna seq""[Strategy])) AND ((""sra bioproject""[Filter]) OR ""sra gds""[Filter])",790,16:42:02
+#14,"Search (""sra bioproject""[Filter]) OR ""sra gds""[Filter]",33790958,16:41:49
+#13,"Search (((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"")) AND ""homo sapiens""[Organism]) AND ""rna seq""[Strategy])) NOT ""sra bioproject""[Filter]",0,16:40:44
+#11,"Search (((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"")) AND ""homo sapiens""[Organism]) AND ""rna seq""[Strategy])) NOT ((""sra bioproject""[Filter]) AND ""sra gds""[Filter])",236,16:36:18
+#10,"Search (""sra bioproject""[Filter]) AND ""sra gds""[Filter]",4854225,16:33:09
+#9,"Search (((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"")) AND ""homo sapiens""[Organism]) AND ""rna seq""[Strategy]",790,16:32:59
+#8,"Search ((""heat stress"") OR ""heat shock"") OR ""high temperature stress""",30358,16:32:37
+#7,"Search ""high temperature stress""",751,16:32:27
+#6,"Search ""heat shock""",10706,16:32:09
+#5,"Search ""heat stress""",22004,16:31:59
+#4,"Search ""rna seq""[Strategy]",5547681,16:31:46
+#3,"Search ""homo sapiens""[Organism]",5817648,16:30:38
+#2,"Search ""sra bioproject""[Filter]",33790914,16:30:14
+#1,"Search ""sra gds""[Filter]",4854269,16:30:01
+
+

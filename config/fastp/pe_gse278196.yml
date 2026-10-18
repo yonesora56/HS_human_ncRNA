@@ -1,0 +1,134 @@
+# execute date: 2026-05-09
+# accession: GSE278196
+
+# defined_pairs_gse278916 = [
+#     ("SRR30897701", "SRR30897703"), # RNA-seq_HeLa_HS_rep1 vs. RNA-seq_HeLa_UN_rep1
+#     ("SRR30897700", "SRR30897702"), # RNA-seq_HeLa_HS_rep2 vs. RNA-seq_HeLa_UN_rep2
+#     ("SRR30897695", "SRR30897696"), # RNA-seq_HUVEC_HS_rep1 vs. RNA-seq_HUVEC_UN_rep1
+#     ("SRR30897694", "SRR30897699"), # RNA-seq_HUVEC_HS_rep2 vs. RNA-seq_HUVEC_UN_rep2
+#     ("SRR30897688", "SRR30897690"), # RNA-seq_THP-1_HS_rep1 vs. RNA-seq_THP-1_UN_rep1
+#     ("SRR30897691", "SRR30897689")  # RNA-seq_THP-1_HS_rep2 vs. RNA-seq_THP-1_UN_rep2
+# ]
+
+# heat-stress
+# SRR30897701
+# SRR30897700
+# SRR30897695
+# SRR30897694
+# SRR30897688
+# SRR30897691
+
+# control
+# SRR30897703
+# SRR30897702
+# SRR30897696
+# SRR30897699
+# SRR30897690
+# SRR30897689
+
+
+fastq1_files:
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897701_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897700_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897695_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897694_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897688_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897691_1.fastq.gz
+
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897703_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897702_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897696_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897699_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897690_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897689_1.fastq.gz
+
+
+
+fastq2_files:
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897701_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897700_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897695_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897694_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897688_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897691_2.fastq.gz
+
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897703_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897702_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897696_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897699_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897690_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/FASTQ/GSE278916/SRR30897689_2.fastq.gz
+
+
+
+  

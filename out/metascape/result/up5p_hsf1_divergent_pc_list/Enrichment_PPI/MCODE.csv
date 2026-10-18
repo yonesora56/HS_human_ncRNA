@@ -1,0 +1,7 @@
+Cluster,Score,Type,Gene,Symbol,Network
+1,2.5,Clustered,3308,HSPA4,MyList_SUB1
+1,2.5,Clustered,10963,STIP1,MyList_SUB1
+1,2.5,Clustered,3337,DNAJB1,MyList_SUB1
+1,2.5,Clustered,3304,HSPA1B,MyList_SUB1
+1,2.5,Clustered,3326,HSP90AB1,MyList_SUB1
+1,2.5,Seed,10808,HSPH1,MyList_SUB1

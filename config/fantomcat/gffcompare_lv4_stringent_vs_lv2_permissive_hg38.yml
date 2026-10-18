@@ -1,0 +1,27 @@
+# FANTOM-CAT lv4 stringent (hg38, this lift) vs lv2 permissive (hg38, Wallace)
+# Reference is the larger lv2 set; query is the lifted lv4 GTF.
+#
+# Run:
+#   cwltool --outdir ./out/fantomcat/gffcompare \
+#     ./Tools/fantomcat/gffcompare.cwl \
+#     ./config/fantomcat/gffcompare_lv4_stringent_vs_lv2_permissive_hg38.yml
+#
+# Output (gffcompare.cwl currently passes -T, so no .tmap/.refmap):
+#   lv4_stringent_vs_lv2_permissive_hg38.stats
+#   lv4_stringent_vs_lv2_permissive_hg38.tracking
+#   lv4_stringent_vs_lv2_permissive_hg38.combined.gtf
+#   lv4_stringent_vs_lv2_permissive_hg38.loci
+#   lv4_stringent_vs_lv2_permissive_hg38.annotated.gtf
+
+reference_gtf_file:
+  class: File
+  format: edam:format_2305
+  location: ../../Data/Database/FANTOM/FANTOM-CAT_hg38_wallace/lv2_permissive.hg38.gtf
+
+compare_gtf_file:
+  class: File
+  format: edam:format_2305
+  location: ../../Data/Database/FANTOM/FANTOM-CAT/FANTOM_CAT.lv4_stringent.hg38.gtf
+
+output_prefix: "lv4_stringent_vs_lv2_permissive_hg38"
+prefix: "lv4_stringent_vs_lv2_permissive_hg38"

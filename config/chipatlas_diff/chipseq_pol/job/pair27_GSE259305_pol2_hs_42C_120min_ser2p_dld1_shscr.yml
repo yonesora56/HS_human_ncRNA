@@ -1,0 +1,30 @@
+# pair27: GSE259305_pol2_hs_42C_120min_ser2p_dld1_shscr vs GSE259305_pol2_ctrl_dld1_shscr
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair27/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair27_GSE259305_pol2_hs_42C_120min_ser2p_dld1_shscr.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair27_GSE259305_pol2_hs_42C_120min_ser2p_dld1_shscr.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair27_GSE259305_pol2_ctrl_dld1_shscr.txt
+
+antigen_class: diffbind
+title: GSE259305_ChIPseq_Pol2_hs_42C_120min_ser2p_dld1_shscr
+result_basename: GSE259305_pol2_hs_42C_120min_ser2p_dld1_shscr
+
+desc_a: GSE259305_pol2_hs_42C_120min_ser2p_dld1_shscr
+desc_b: GSE259305_pol2_ctrl_dld1_shscr
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

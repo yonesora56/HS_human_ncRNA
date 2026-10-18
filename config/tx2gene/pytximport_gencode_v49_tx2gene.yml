@@ -1,0 +1,9 @@
+annotation_gtf_file:
+  class: File
+  format: edam:format_2305
+  location: ../../Data/Database/GENCODE_v49/gencode.v49.chr_patch_hapl_scaff.annotation.gtf
+
+
+tx2gene_file_name: "gencode_v49_tx2gene_chr_patch_hapl_scaff_v260909.tsv"
+source_field: "transcript_id"
+target_field: "gene_id"

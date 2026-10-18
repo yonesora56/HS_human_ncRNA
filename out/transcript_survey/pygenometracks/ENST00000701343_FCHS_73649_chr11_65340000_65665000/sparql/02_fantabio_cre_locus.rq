@@ -1,0 +1,36 @@
+# TogoMCP: get_MIE_file("fantabio") then run_sparql(database="fantabio")
+# Endpoint: https://rdfportal.org/primary/sparql
+# Graph pin is required. rdfs:label is a plain literal (do not add ^^xsd:string).
+# FALDO positions are 1-based. fb:PLA = promoter-level activity, fb:ELA = enhancer-level.
+# Directionality is (forward - reverse) / (forward + reverse), in [-1, 1].
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX faldo: <http://biohackathon.org/resource/faldo#>
+PREFIX fb: <http://fanta.bio/ontology/>
+
+SELECT ?id ?label ?activity ?begin ?end ?directionality
+WHERE {
+  GRAPH <http://rdfportal.org/dataset/fantabio> {
+    VALUES ?cre {
+      <http://fanta.bio/cre/FCHS_73649>
+      <http://fanta.bio/cre/FCHS_73490>
+      <http://fanta.bio/cre/FCHS_73510>
+      <http://fanta.bio/cre/FCHS_73518>
+      <http://fanta.bio/cre/FCHS_73545>
+      <http://fanta.bio/cre/FCHS_73694>
+      <http://fanta.bio/cre/FCHS_470991>
+      <http://fanta.bio/cre/FCHS_73767>
+      <http://fanta.bio/cre/FCHS_73856>
+    }
+    ?cre dct:identifier ?id ; rdfs:label ?label ; a ?activity ;
+         faldo:location ?loc ; sio:SIO_000216 ?dir .
+    FILTER(?activity IN (fb:PLA, fb:ELA))
+    ?dir a fb:Directionality ; sio:SIO_000300 ?directionality .
+    ?loc faldo:begin ?b ; faldo:end ?e .
+    ?b faldo:position ?begin .
+    ?e faldo:position ?end .
+  }
+}
+ORDER BY ?begin

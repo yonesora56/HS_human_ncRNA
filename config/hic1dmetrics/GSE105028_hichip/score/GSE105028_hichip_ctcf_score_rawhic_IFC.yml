@@ -1,0 +1,76 @@
+# GSE105028 HiChIP CTCF (merged) — two-sample score from raw .hic, HS vs Ctrl
+# Scatter over chromosomes that have a non-empty juicer KR dump in BOTH
+# samples. Resolution 5000 bp, juicer_tools 2.20.00 (HIC v9).
+#
+# Copy this file per metric. Change only:
+#   metric      ISC | CIC | SSC | deltaDLR | CD | IESC | IASC | DRF | IFC
+#   parameter   300000              ISC, CIC, SSC, IASC, IESC (window bp)
+#               3000000             deltaDLR (local distance bp)
+#               pearson             CD (correlation method)
+#               200000,5000000      DRF (start,end distance bp)
+#               0.05                IFC (FDR in h1d docs; unused by the wrapper)
+#   --outdir    match the metric name, e.g. .../score_rawhic/IFC/
+#
+# Skip chromosomes whose sparse observed KR dump is empty at 5000 bp
+# (union of HS and Ctrl one-sample IF skips). See out/h1d/README.md.
+#   HS:   chr7, chr16, chrX
+#   Ctrl: chr1, chr5, chr7, chr11, chr12, chr17, chr19, chrX
+#
+# Output:
+#   $(treat_hic.nameroot).$(chromosome).$(metric).bedGraph
+#   e.g. CTCF_HS_merged.chr6.IFC.bedGraph
+#
+# Run:
+#   cwltool --outdir ./out/h1d/GSE105028_hichip/score_rawhic/IFC/ \
+#     ./Workflow/hic1dmetrics_score_rawhic_scatter.cwl \
+#     ./config/hic1dmetrics/GSE105028_hichip/score/GSE105028_hichip_ctcf_score_rawhic.yml
+
+metric: IFC
+parameter: "0.05"
+resolution: 5000
+
+score_script:
+  class: File
+  location: ../../../../scripts/hic1dmetrics_score_rawhic.py
+
+treat_hic:
+  class: File
+  location: ../../../../out/hic/GSE105028_hichip_convert_hic/CTCF_HS_merged_juicer_pre_output/CTCF_HS_merged.hic
+
+control_hic:
+  class: File
+  location: ../../../../out/hic/GSE105028_hichip_convert_hic/CTCF_Ctrl_merged_juicer_pre_output/CTCF_Ctrl_merged.hic
+
+genome_table:
+  class: File
+  format: iana:text/tab-separated-values
+  location: ../../../../out/h1d/hg38_genome_table.txt
+
+juicer_tools:
+  class: File
+  location: ../../../../out/h1d/juicer_tools.2.20.00.jar
+
+chromosomes:
+  # - chr1   # skipped: Ctrl dump observed KR is empty at 5000 bp
+  - chr2
+  - chr3
+  - chr4
+  # - chr5   # skipped: Ctrl dump observed KR is empty at 5000 bp
+  - chr6
+  # - chr7   # skipped: HS and Ctrl dump observed KR is empty at 5000 bp
+  - chr8
+  - chr9
+  - chr10
+  # - chr11  # skipped: Ctrl dump observed KR is empty at 5000 bp
+  # - chr12  # skipped: Ctrl dump observed KR is empty at 5000 bp
+  - chr13
+  - chr14
+  - chr15
+  # - chr16  # skipped: HS dump observed KR is empty at 5000 bp
+  # - chr17  # skipped: Ctrl dump observed KR is empty at 5000 bp
+  - chr18
+  # - chr19  # skipped: Ctrl dump observed KR is empty at 5000 bp
+  - chr20
+  - chr21
+  - chr22
+  # - chrX   # skipped: HS and Ctrl dump observed KR is empty at 5000 bp

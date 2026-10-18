@@ -1,0 +1,26 @@
+# execute date: 2026-02-20
+
+fastq_files:
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989378_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989382_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989394_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989395_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989398_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../Data/sequencing/PRO-seq/GSE228346_DMSO/SRR23989399_1.fastq.gz

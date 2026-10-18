@@ -1,0 +1,30 @@
+# pair10: GSE173536 ATAC-seq D21 42°C 1h vs ctrl
+# See notebooks/00_metadata/12_8_metadata_atacseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ATACseq/job/pair10/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/atacseq/job/pair10_GSE173536_atac_d21.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair10_GSE173536_atacseq_hs_42C_1h_d21.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair10_GSE173536_atacseq_ctrl_d21.txt
+
+antigen_class: diffbind
+title: GSE173536_ATACseq_D21_42C_1h
+result_basename: GSE173536_atac_d21
+
+desc_a: GSE173536_atacseq_hs_42C_1h_d21
+desc_b: GSE173536_atacseq_ctrl_d21
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

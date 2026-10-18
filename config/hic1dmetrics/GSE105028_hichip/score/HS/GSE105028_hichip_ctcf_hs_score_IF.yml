@@ -1,0 +1,60 @@
+# GSE105028 HiChIP CTCF (merged) — one-sample score, HS, IF
+# Scatter over autosomes that have a non-empty juicer KR dump. IF reads the
+# raw .hic (not dumped matrices).
+# Resolution 5000 bp, juicer_tools 2.20.00 (HIC v9), Fit-Hi-C FDR 0.01.
+#
+# Skip chr7, chr16, and chrX: juicer dump observed KR at 5000 bp returns an
+# empty file (exit 0). The .hic chromosome names use a chr prefix, so "7"
+# is invalid and "chr7" succeeds with 0 bytes. NONE/VC/SCALE dumps have
+# contacts; KR vectors are missing for these chromosomes (sparse HiChIP).
+# See out/h1d/README.md.
+#
+# Run:
+#   cwltool --outdir ./out/h1d/GSE105028_hichip/score_single/HS/IF/ \
+#     ./Workflow/hic1dmetrics_score_single_sample_if_scatter.cwl \
+#     ./config/hic1dmetrics/GSE105028_hichip/score/HS/GSE105028_hichip_ctcf_hs_score_IF.yml
+
+hic_file:
+  class: File
+  location: ../../../../../out/hic/GSE105028_hichip_convert_hic/CTCF_HS_merged_juicer_pre_output/CTCF_HS_merged.hic
+
+genome_table:
+  class: File
+  format: iana:text/tab-separated-values
+  location: ../../../../../out/h1d/hg38_genome_table.txt
+
+juicer_tools:
+  class: File
+  location: ../../../../../out/h1d/juicer_tools.2.20.00.jar
+
+score_script:
+  class: File
+  location: ../../../../../scripts/hic1dmetrics_score_single_sample_if.py
+
+resolution: 5000
+fdr_threshold: 0.01
+
+chromosomes:
+  - chr1
+  - chr2
+  - chr3
+  - chr4
+  - chr5
+  - chr6
+  # - chr7   # skipped: dump observed KR is empty at 5000 bp (IF requires KR)
+  - chr8
+  - chr9
+  - chr10
+  - chr11
+  - chr12
+  - chr13
+  - chr14
+  - chr15
+  # - chr16  # skipped: dump observed KR is empty at 5000 bp (IF requires KR)
+  - chr17
+  - chr18
+  - chr19
+  - chr20
+  - chr21
+  - chr22
+  # - chrX   # skipped: dump observed KR is empty at 5000 bp (IF requires KR)

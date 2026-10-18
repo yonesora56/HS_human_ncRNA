@@ -1,0 +1,4 @@
+Network,Annotation
+MyList,R-HSA-3371556|Cellular response to heat stress|-12.1;R-HSA-2262752|Cellular responses to stress|-11.5;R-HSA-3371568|Attenuation phase|-10.7
+MyList_MCODE_ALL,R-HSA-3371556|Cellular response to heat stress|-12.0;GO:0006457|protein folding|-10.0;R-HSA-3371497|HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand|-9.8
+MyList_SUB1_MCODE_1,R-HSA-3371556|Cellular response to heat stress|-12.0;GO:0006457|protein folding|-10.0;R-HSA-3371497|HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand|-9.8

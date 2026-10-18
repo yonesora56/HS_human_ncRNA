@@ -1,0 +1,30 @@
+# pair3: GSE154744 ATAC-seq s_uc12p5 vs ctrl
+# See notebooks/00_metadata/12_8_metadata_atacseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ATACseq/job/pair3/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/atacseq/job/pair3_GSE154744_atac_s_uc12p5.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair3_GSE154744_atacseq_hs_42C_uc12p5.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair3_GSE154744_atacseq_ctrl_s_uc0.txt
+
+antigen_class: diffbind
+title: GSE154744_ATACseq_s_uc12p5
+result_basename: GSE154744_atac_s_uc12p5
+
+desc_a: GSE154744_atacseq_hs_42C_uc12p5
+desc_b: GSE154744_atacseq_ctrl_s_uc0
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

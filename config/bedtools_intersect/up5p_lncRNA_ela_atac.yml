@@ -1,0 +1,118 @@
+query_bed_file:
+  class: File
+  location: ../../out/fantabio/BED/fantabio_up5p_lncRNA_ela_v260705.bed
+
+peaks_bed_files:
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705939.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705941.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705946.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705947.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705950.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX10705951.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX16651805.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX16651808.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX24613860.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX24613861.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3025783.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3025784.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3025785.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3025786.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3316069.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3316070.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3316072.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX3316074.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772730.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772731.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772732.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772733.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772736.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772737.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772738.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772739.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772742.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772743.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772746.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772747.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772748.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772749.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772750.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772751.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772754.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772755.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772756.hg38.10.bed
+
+  - class: File
+    location: ../../out/ChIP-Atlas_BED/HS_related_ATACseq/SRX8772757.hg38.10.bed

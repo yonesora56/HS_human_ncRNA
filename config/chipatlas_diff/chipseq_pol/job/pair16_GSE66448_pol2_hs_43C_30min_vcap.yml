@@ -1,0 +1,30 @@
+# pair16: GSE66448_pol2_hs_43C_30min_vcap vs GSE66448_pol2_ctrl_vcap
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair16/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair16_GSE66448_pol2_hs_43C_30min_vcap.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair16_GSE66448_pol2_hs_43C_30min_vcap.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair16_GSE66448_pol2_ctrl_vcap.txt
+
+antigen_class: diffbind
+title: GSE66448_ChIPseq_Pol2_hs_43C_30min_vcap
+result_basename: GSE66448_pol2_hs_43C_30min_vcap
+
+desc_a: GSE66448_pol2_hs_43C_30min_vcap
+desc_b: GSE66448_pol2_ctrl_vcap
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

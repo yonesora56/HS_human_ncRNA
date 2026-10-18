@@ -1,0 +1,66 @@
+Name,Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value)
+MyList,Reactome Gene Sets,6,R-HSA-3371556,Cellular response to heat stress,,-12,1.6e+02,31,30653,89,13,6,46,14,2288|3304|3308|3326|3337|10808,FKBP4|HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-8.1
+MyList,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-12,27,15,30653,781,13,9,69,13,2288|3304|3308|3326|3337|6647|7316|10808|10963,FKBP4|HSPA1B|HSPA4|HSP90AB1|DNAJB1|SOD1|UBC|HSPH1|STIP1,-7.8
+MyList,Reactome Gene Sets,6,R-HSA-3371568,Attenuation phase,,-11,6.7e+02,52,30653,14,13,4,31,13,2288|3304|3326|3337,FKBP4|HSPA1B|HSP90AB1|DNAJB1,-7.1
+MyList,Reactome Gene Sets,6,R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,,-11,2.1e+02,32,30653,57,13,5,38,13,2288|3304|3326|3337|10963,FKBP4|HSPA1B|HSP90AB1|DNAJB1|STIP1,-7.1
+MyList,Reactome Gene Sets,6,R-HSA-3371571,HSF1-dependent transactivation,,-9.7,3.9e+02,40,30653,24,13,4,31,13,2288|3304|3326|3337,FKBP4|HSPA1B|HSP90AB1|DNAJB1,-6.4
+MyList,GO Biological Processes,19,GO:0006457,protein folding,19_GO:0009987 cellular process,-9.7,64,19,30653,221,13,6,46,14,2288|3304|3308|3326|3337|10808,FKBP4|HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-6.4
+MyList,Reactome Gene Sets,6,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,,-7.8,1.4e+02,23,30653,69,13,4,31,13,3304|3308|3337|10808,HSPA1B|HSPA4|DNAJB1|HSPH1,-4.9
+MyList,GO Biological Processes,19,GO:0009408,response to heat,19_GO:0050896 response to stimulus,-7.6,1.2e+02,22,30653,78,13,4,31,13,3304|3326|3337|6647,HSPA1B|HSP90AB1|DNAJB1|SOD1,-4.7
+MyList,GO Biological Processes,19,GO:0051604,protein maturation,19_GO:0009987 cellular process,-7.3,25,12,30653,557,13,6,46,14,2288|3304|3308|3326|3337|10808,FKBP4|HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-4.4
+MyList,GO Biological Processes,19,GO:0006986,response to unfolded protein,19_GO:0050896 response to stimulus,-7.1,91,19,30653,104,13,4,31,13,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-4.3
+MyList,GO Biological Processes,19,GO:0035966,response to topologically incorrect protein,19_GO:0050896 response to stimulus,-6.8,79,18,30653,120,13,4,31,13,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-4
+MyList,GO Biological Processes,19,GO:0009266,response to temperature stimulus,19_GO:0050896 response to stimulus,-6.7,75,17,30653,126,13,4,31,13,3304|3326|3337|6647,HSPA1B|HSP90AB1|DNAJB1|SOD1,-4
+MyList,KEGG Pathway,24,hsa04141,Protein processing in endoplasmic reticulum,,-6.2,54,14,30653,175,13,4,31,13,3304|3326|3337|10808,HSPA1B|HSP90AB1|DNAJB1|HSPH1,-3.4
+MyList,GO Biological Processes,19,GO:0034605,cellular response to heat,19_GO:0050896 response to stimulus,-6,1.5e+02,21,30653,48,13,3,23,12,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-3.3
+MyList,KEGG Pathway,24,hsa04612,Antigen processing and presentation,,-5.3,86,16,30653,82,13,3,23,12,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-2.6
+MyList,KEGG Pathway,24,hsa04915,Estrogen signaling pathway,,-4.6,51,12,30653,139,13,3,23,12,2288|3304|3326,FKBP4|HSPA1B|HSP90AB1,-2
+MyList,GO Biological Processes,19,GO:0034599,cellular response to oxidative stress,19_GO:0050896 response to stimulus,-4.1,34,9.8,30653,211,13,3,23,12,3304|6647|140885,HSPA1B|SOD1|SIRPA,-1.4
+MyList,KEGG Pathway,24,hsa05417,Lipid and atherosclerosis,,-4,33,9.6,30653,216,13,3,23,12,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-1.4
+MyList,GO Biological Processes,19,GO:0062197,cellular response to chemical stress,19_GO:0050896 response to stimulus,-3.8,26,8.6,30653,267,13,3,23,12,3304|6647|140885,HSPA1B|SOD1|SIRPA,-1.1
+MyList,GO Biological Processes,19,GO:0051129,negative regulation of cellular component organization,19_GO:0048519 negative regulation of biological process,-3.7,13,6.7,30653,727,13,4,31,13,2288|3304|3337|140885,FKBP4|HSPA1B|DNAJB1|SIRPA,-1.1
+MyList,KEGG Pathway,24,hsa05020,Prion disease,,-3.7,26,8.5,30653,275,13,3,23,12,3304|6647|10963,HSPA1B|SOD1|STIP1,-1.1
+MyList,GO Biological Processes,19,GO:0050863,regulation of T cell activation,19_GO:0002376 immune system process,-3.4,20,7.5,30653,346,13,3,23,12,6647|10808|140885,SOD1|HSPH1|SIRPA,-0.84
+MyList,GO Biological Processes,19,GO:0006979,response to oxidative stress,19_GO:0050896 response to stimulus,-3.4,19,7.3,30653,367,13,3,23,12,3304|6647|140885,HSPA1B|SOD1|SIRPA,-0.77
+MyList,Reactome Gene Sets,6,R-HSA-9839923,Dengue Virus Infection,,-3.2,18,6.9,30653,402,13,3,23,12,3304|3326|7316,HSPA1B|HSP90AB1|UBC,-0.66
+MyList,Reactome Gene Sets,6,R-HSA-9679506,SARS-CoV Infections,,-3.2,17,6.8,30653,415,13,3,23,12,2288|3326|7316,FKBP4|HSP90AB1|UBC,-0.63
+MyList,GO Biological Processes,19,GO:0051249,regulation of lymphocyte activation,19_GO:0002376 immune system process,-3.1,16,6.5,30653,453,13,3,23,12,6647|10808|140885,SOD1|HSPH1|SIRPA,-0.53
+MyList,Reactome Gene Sets,6,R-HSA-6798695,Neutrophil degranulation,,-3,15,6.3,30653,475,13,3,23,12,3304|3326|140885,HSPA1B|HSP90AB1|SIRPA,-0.47
+MyList,GO Biological Processes,19,GO:0002694,regulation of leukocyte activation,19_GO:0002376 immune system process,-2.9,14,6,30653,521,13,3,23,12,6647|10808|140885,SOD1|HSPH1|SIRPA,-0.37
+MyList,GO Biological Processes,19,GO:0050865,regulation of cell activation,19_GO:0032501 multicellular organismal process,-2.8,12,5.6,30653,579,13,3,23,12,6647|10808|140885,SOD1|HSPH1|SIRPA,-0.24
+MyList,GO Biological Processes,19,GO:0031399,regulation of protein modification process,19_GO:0050789 regulation of biological process,-2.7,12,5.5,30653,607,13,3,23,12,3304|3326|6879,HSPA1B|HSP90AB1|TAF7,-0.19
+MyList,GO Biological Processes,19,GO:0051248,negative regulation of protein metabolic process,19_GO:0048519 negative regulation of biological process,-2.7,11,5.4,30653,621,13,3,23,12,3304|3326|6879,HSPA1B|HSP90AB1|TAF7,-0.17
+MyList,Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-2.4,9.2,4.8,30653,765,13,3,23,12,3304|6647|7316,HSPA1B|SOD1|UBC,0
+MyList,GO Biological Processes,19,GO:0045597,positive regulation of cell differentiation,19_GO:0032502 developmental process,-2.4,9.1,4.7,30653,781,13,3,23,12,3304|3326|55603,HSPA1B|HSP90AB1|TENT5A,0
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3371556,Cellular response to heat stress,,-12,2.9e+02,38,30653,89,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-8.1
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0006457,protein folding,19_GO:0009987 cellular process,-10,1.2e+02,24,30653,221,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-6.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,,-9.8,3.6e+02,38,30653,57,6,4,67,19,3304|3326|3337|10963,HSPA1B|HSP90AB1|DNAJB1|STIP1,-6.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-9.6,39,15,30653,781,6,6,1e+02,15,3304|3308|3326|3337|10808|10963,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1|STIP1,-6.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,,-9.5,3e+02,34,30653,69,6,4,67,19,3304|3308|3337|10808,HSPA1B|HSPA4|DNAJB1|HSPH1,-6.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3371568,Attenuation phase,,-8.8,1.1e+03,57,30653,14,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-5.8
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0006986,response to unfolded protein,19_GO:0050896 response to stimulus,-8.7,2e+02,28,30653,104,6,4,67,19,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-5.7
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0035966,response to topologically incorrect protein,19_GO:0050896 response to stimulus,-8.5,1.7e+02,26,30653,120,6,4,67,19,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-5.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3371571,HSF1-dependent transactivation,,-8.1,6.4e+02,44,30653,24,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-5.1
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0051604,protein maturation,19_GO:0009987 cellular process,-7.9,46,15,30653,557,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-5
+MyList_MCODE_ALL,KEGG Pathway,24,hsa04141,Protein processing in endoplasmic reticulum,,-7.8,1.2e+02,21,30653,175,6,4,67,19,3304|3326|3337|10808,HSPA1B|HSP90AB1|DNAJB1|HSPH1,-4.9
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0034605,cellular response to heat,19_GO:0050896 response to stimulus,-7.1,3.2e+02,31,30653,48,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-4.3
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0009408,response to heat,19_GO:0050896 response to stimulus,-6.5,2e+02,24,30653,78,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-3.8
+MyList_MCODE_ALL,KEGG Pathway,24,hsa04612,Antigen processing and presentation,,-6.4,1.9e+02,24,30653,82,6,3,50,20,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-3.7
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0009266,response to temperature stimulus,19_GO:0050896 response to stimulus,-5.9,1.2e+02,19,30653,126,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-3.2
+MyList_MCODE_ALL,KEGG Pathway,24,hsa05417,Lipid and atherosclerosis,,-5.2,71,14,30653,216,6,3,50,20,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-2.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3371556,Cellular response to heat stress,,-12,2.9e+02,38,30653,89,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-8.1
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0006457,protein folding,19_GO:0009987 cellular process,-10,1.2e+02,24,30653,221,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-6.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,,-9.8,3.6e+02,38,30653,57,6,4,67,19,3304|3326|3337|10963,HSPA1B|HSP90AB1|DNAJB1|STIP1,-6.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-9.6,39,15,30653,781,6,6,1e+02,15,3304|3308|3326|3337|10808|10963,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1|STIP1,-6.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,,-9.5,3e+02,34,30653,69,6,4,67,19,3304|3308|3337|10808,HSPA1B|HSPA4|DNAJB1|HSPH1,-6.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3371568,Attenuation phase,,-8.8,1.1e+03,57,30653,14,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-5.8
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0006986,response to unfolded protein,19_GO:0050896 response to stimulus,-8.7,2e+02,28,30653,104,6,4,67,19,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-5.7
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0035966,response to topologically incorrect protein,19_GO:0050896 response to stimulus,-8.5,1.7e+02,26,30653,120,6,4,67,19,3308|3326|3337|10808,HSPA4|HSP90AB1|DNAJB1|HSPH1,-5.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3371571,HSF1-dependent transactivation,,-8.1,6.4e+02,44,30653,24,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-5.1
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0051604,protein maturation,19_GO:0009987 cellular process,-7.9,46,15,30653,557,6,5,83,15,3304|3308|3326|3337|10808,HSPA1B|HSPA4|HSP90AB1|DNAJB1|HSPH1,-5
+MyList_SUB1_MCODE_1,KEGG Pathway,24,hsa04141,Protein processing in endoplasmic reticulum,,-7.8,1.2e+02,21,30653,175,6,4,67,19,3304|3326|3337|10808,HSPA1B|HSP90AB1|DNAJB1|HSPH1,-4.9
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0034605,cellular response to heat,19_GO:0050896 response to stimulus,-7.1,3.2e+02,31,30653,48,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-4.3
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0009408,response to heat,19_GO:0050896 response to stimulus,-6.5,2e+02,24,30653,78,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-3.8
+MyList_SUB1_MCODE_1,KEGG Pathway,24,hsa04612,Antigen processing and presentation,,-6.4,1.9e+02,24,30653,82,6,3,50,20,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-3.7
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0009266,response to temperature stimulus,19_GO:0050896 response to stimulus,-5.9,1.2e+02,19,30653,126,6,3,50,20,3304|3326|3337,HSPA1B|HSP90AB1|DNAJB1,-3.2
+MyList_SUB1_MCODE_1,KEGG Pathway,24,hsa05417,Lipid and atherosclerosis,,-5.2,71,14,30653,216,6,3,50,20,3304|3308|3326,HSPA1B|HSPA4|HSP90AB1,-2.5

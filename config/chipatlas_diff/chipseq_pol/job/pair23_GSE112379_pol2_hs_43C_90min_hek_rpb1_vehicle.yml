@@ -1,0 +1,30 @@
+# pair23: GSE112379_pol2_hs_43C_90min_hek_rpb1_vehicle vs GSE112379_pol2_ctrl_hek_rpb1_vehicle
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair23/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair23_GSE112379_pol2_hs_43C_90min_hek_rpb1_vehicle.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair23_GSE112379_pol2_hs_43C_90min_hek_rpb1_vehicle.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair23_GSE112379_pol2_ctrl_hek_rpb1_vehicle.txt
+
+antigen_class: diffbind
+title: GSE112379_ChIPseq_Pol2_hs_43C_90min_hek_rpb1_vehicle
+result_basename: GSE112379_pol2_hs_43C_90min_hek_rpb1_vehicle
+
+desc_a: GSE112379_pol2_hs_43C_90min_hek_rpb1_vehicle
+desc_b: GSE112379_pol2_ctrl_hek_rpb1_vehicle
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

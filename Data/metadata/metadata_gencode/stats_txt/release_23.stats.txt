@@ -1,0 +1,70 @@
+General stats
+Total No of Genes	60498
+Protein-coding genes	19797
+Long non-coding RNA genes	15931
+Small non-coding RNA genes	9882
+Pseudogenes	14477
+-processed pseudogenes	10727
+-unprocessed pseudogenes	3271
+-unitary pseudogenes	172
+-polymorphic pseudogenes	59
+-pseudogenes	21
+Immunoglobulin/T-cell receptor gene segments	
+-protein coding segments	411
+-pseudogenes	227
+Total No of Transcripts	198619
+Protein-coding transcripts	79795
+-full length protein-coding	54775
+-partial length protein-coding	25020
+Nonsense mediated decay transcripts	13307
+Long non-coding RNA loci transcripts	27817
+Total No of distinct translations	59546
+Genes that have more than one distinct translations	13536
+
+Further details on this version's gene and transcript types
+biotypes	genes	transcripts
+3prime_overlapping_ncrna	29	33
+antisense	5565	11203
+IG_C_gene	14	31
+IG_C_pseudogene	9	9
+IG_D_gene	37	37
+IG_J_gene	18	18
+IG_J_pseudogene	3	3
+IG_V_gene	147	160
+IG_V_pseudogene	181	181
+lincRNA	7678	13301
+macro_lncRNA	1	1
+miRNA	4093	4093
+misc_RNA	2298	2312
+Mt_rRNA	2	2
+Mt_tRNA	22	22
+non_stop_decay	0	77
+nonsense_mediated_decay	0	13307
+polymorphic_pseudogene	59	73
+processed_pseudogene	10285	10287
+processed_transcript	497	26945
+protein_coding	19797	79795
+pseudogene	21	44
+retained_intron	0	26616
+ribozyme	8	8
+rRNA	544	544
+scaRNA	49	49
+sense_intronic	917	976
+sense_overlapping	194	344
+snoRNA	949	961
+snRNA	1896	1896
+sRNA	20	20
+TEC	1050	1137
+TR_C_gene	6	23
+TR_D_gene	4	4
+TR_J_gene	79	79
+TR_J_pseudogene	4	4
+TR_V_gene	106	108
+TR_V_pseudogene	30	30
+transcribed_processed_pseudogene	442	442
+transcribed_unitary_pseudogene	2	2
+transcribed_unprocessed_pseudogene	668	667
+translated_unprocessed_pseudogene	1	1
+unitary_pseudogene	170	170
+unprocessed_pseudogene	2602	2603
+vaultRNA	1	1

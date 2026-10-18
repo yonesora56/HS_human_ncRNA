@@ -1,0 +1,38 @@
+# ChIP-Atlas Diff HSF1 ChIP-seq BED files vs. fantabio CRE peaks (bedtools intersect -wo)
+# For Workflow/bedtools_intersect_v2_scatter.cwl
+# pair4 and pair5 are omitted: ChIP-Atlas preflight failed (missing SRX assets).
+#
+# Run:
+#   cwltool --outdir ./out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile_intersect_v2/ \
+#     ./Workflow/bedtools_intersect_v2_scatter.cwl \
+#     ./config/bedtools_intersect/chipatlas_diff_chipseq_hsf1_v2.yml
+
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fanta_bio/human-CREv1.2.1.hg38.cre-peaks.bed
+
+query_bed_files:
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair1_GSE38901_hsf1_mcf10a_hs_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair2_GSE43579_hsf1_k562_hs_42C_30min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair3_GSE43579_hsf1_k562_mitotic_hs_42C_30min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair6_GSE209667_hsf1_polyclonal_ab_hs_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair7_GSE270671_hsf1_pc3m_sijmjd6_hs_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_hsf1/bedfile/pair8_GSE270671_hsf1_pc3m_sint_hs_42C_60min.bed

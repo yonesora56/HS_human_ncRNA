@@ -1,0 +1,53 @@
+# ChIP-Atlas Diff ATAC-seq BED files vs. fantabio CRE peaks (bedtools intersect -wo)
+# For Workflow/bedtools_intersect_v2_scatter.cwl
+#
+# Run:
+#   cwltool --outdir ./out/ChIP-Atlas_diff/ATACseq/bedfile_intersect_v2/ \
+#     ./Workflow/bedtools_intersect_v2_scatter.cwl \
+#     ./config/bedtools_intersect/chipatlas_diff_atacseq_v2.yml
+
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fanta_bio/human-CREv1.2.1.hg38.cre-peaks.bed
+
+query_bed_files:
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE101731_atac_hff_44C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE101731_atac_hff_44C_120min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE154744_atac_k562_42C_30min_hss.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE154744_atac_k562_42C_60min_hss.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE154744_atac_k562_42C_12p5min_s.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE154744_atac_k562_42C_25min_s.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE154744_atac_k562_42C_40min_s.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE173536_atac_d21_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE173536_atac_t21_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ATACseq/bedfile/GSE209675_mcf7_42C_60min.bed

@@ -1,0 +1,42 @@
+# execute date: 2026-05-08
+# fastp version: 0.23.4
+# accession: GSE105028
+
+
+fastq1_files:
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177926_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177927_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177928_1.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177929_1.fastq.gz
+
+fastq2_files:
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177926_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177927_2.fastq.gz
+    
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177928_2.fastq.gz
+
+  - class: File
+    format: edam:format_1930
+    location: ../../out/Hi-C/GSE105028_hic/SRR6177929_2.fastq.gz
+
+
+
+  

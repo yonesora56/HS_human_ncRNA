@@ -1,0 +1,14 @@
+Recent queries in bioproject
+Search,Query,Items found,Time
+#29,"Search ((((((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"") OR ""hyperthermia"") OR ""heat stroke"")) AND ""homo sapiens""[Organism]) AND ""bioproject sra""[Filter]) AND ""other""[Project Data Type])) NOT ""bioproject gds""[Filter]",11,02:16:52
+#28,"Search ((((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"") OR ""hyperthermia"") OR ""heat stroke"")) AND ""homo sapiens""[Organism]) AND ""bioproject sra""[Filter]) AND ""other""[Project Data Type]",52,02:16:41
+#27,"Search ""other""[Project Data Type]",93904,02:16:25
+#26,"Search ((((((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"") OR ""hyperthermia"") OR ""heat stroke"")) AND ""homo sapiens""[Organism]) AND ""bioproject sra""[Filter]) AND ""epigenomics""[Project Data Type])) NOT ""bioproject gds""[Filter]",1,02:16:00
+#25,"Search ((((((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"") OR ""hyperthermia"") OR ""heat stroke"")) AND ""homo sapiens""[Organism]) AND ""bioproject sra""[Filter]) AND ""epigenomics""[Project Data Type]",41,02:15:44
+#24,"Search ""epigenomics""[Project Data Type]",32583,02:15:37
+#23,"Search ""bioproject gds""[Filter]",260184,02:15:20
+#22,"Search ""bioproject sra""[Filter]",665651,02:14:49
+#21,"Search ""homo sapiens""[Organism]",145874,02:14:20
+#20,"Search ((((""heat stress"") OR ""heat shock"") OR ""high temperature stress"") OR ""hyperthermia"") OR ""heat stroke""",3341,02:13:59
+
+

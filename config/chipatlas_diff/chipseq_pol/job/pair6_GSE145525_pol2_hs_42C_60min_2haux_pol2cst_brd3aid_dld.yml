@@ -1,0 +1,30 @@
+# pair6: GSE145525_pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld vs GSE145525_pol2_ctrl_2haux_brd3aid_dld
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair6/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair6_GSE145525_pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair6_GSE145525_pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair6_GSE145525_pol2_ctrl_2haux_brd3aid_dld.txt
+
+antigen_class: diffbind
+title: GSE145525_ChIPseq_Pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld
+result_basename: GSE145525_pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld
+
+desc_a: GSE145525_pol2_hs_42C_60min_2haux_pol2cst_brd3aid_dld
+desc_b: GSE145525_pol2_ctrl_2haux_brd3aid_dld
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

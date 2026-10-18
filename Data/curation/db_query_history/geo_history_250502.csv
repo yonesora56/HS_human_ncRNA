@@ -1,0 +1,15 @@
+Recent queries in gds
+Search,Query,Items found,Time
+#12,"Search (((""homo sapiens""[Organism]) AND ""expression profiling by high throughput sequencing""[Filter]) AND ""gds sra""[Filter]) AND (((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description] OR ""heat stroke""[Description])",146,01:46:36
+#12,"Search (((""homo sapiens""[Organism]) AND ""expression profiling by high throughput sequencing""[Filter]) AND ""gds sra""[Filter]) AND (((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description])",146,01:46:36
+#11,"Search ((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]",18308,01:46:12
+#10,"Search ""hyperthermia""[Description]",628,01:45:56
+#9,"Search ""high temperature stress""[Description]",92,01:45:37
+#8,"Search ""heat stress""[Description]",6496,01:45:21
+#7,"Search ""heat shock""[Description]",11424,01:45:11
+#6,"Search ""heat shock response""[MeSH Terms]",11905,01:44:43
+#5,"Search ""gds sra""[Filter]",4950704,01:44:24
+#4,"Search ""expression profiling by high throughput sequencing""[Filter]",115410,01:44:01
+#3,"Search ""homo sapiens""[Organism]",4237012,01:43:39
+
+

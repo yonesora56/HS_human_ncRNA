@@ -1,0 +1,33 @@
+# TogoMCP: get_MIE_file("ensembl") then run_sparql(database="ensembl")
+# Endpoint: https://rdfportal.org/ebi/sparql
+# Graph pin is required. expressionatlas and ensembl_grch37 re-declare the same gene IRIs.
+# Coordinates are 1-based FALDO on GRCh38. Strand is the position rdf:type, not a literal.
+# Biotype IRIs (resolved in the ensembl-glossary graph, not here):
+#   ENSGLOSSARY_0000026 = protein_coding
+#   ENSGLOSSARY_0000028 = lncRNA
+
+PREFIX terms: <http://rdf.ebi.ac.uk/terms/ensembl/>
+PREFIX faldo: <http://biohackathon.org/resource/faldo#>
+PREFIX so: <http://purl.obolibrary.org/obo/so#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT DISTINCT ?label ?gene_id ?chr ?start ?end ?strand ?biotype
+WHERE {
+  GRAPH <http://rdfportal.org/dataset/ensembl> {
+    VALUES ?label { "MALAT1" "NEAT1" "TALAM1" "ENEMAL" "TIGD3" "SLC25A45" "FRMD8" "LTBP3" "SIPA1" }
+    ?gene a terms:EnsemblGene ;
+          rdfs:label ?label ;
+          dcterms:identifier ?gene_id ;
+          terms:has_biotype ?biotype ;
+          so:part_of ?chr ;
+          <http://purl.obolibrary.org/obo/RO_0002162> <http://ensembl.org/Homo_sapiens> ;
+          faldo:location ?loc .
+    ?loc faldo:begin ?b . ?b faldo:position ?start ; rdf:type ?strand_type .
+    ?loc faldo:end ?e . ?e faldo:position ?end .
+    FILTER(?strand_type IN (faldo:ForwardStrandPosition, faldo:ReverseStrandPosition))
+    BIND(IF(?strand_type = faldo:ForwardStrandPosition, "+", "-") AS ?strand)
+    FILTER(CONTAINS(STR(?chr), "/GRCh38/"))
+  }
+}
+ORDER BY ?start

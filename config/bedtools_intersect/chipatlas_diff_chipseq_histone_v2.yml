@@ -1,0 +1,21 @@
+# ChIP-Atlas Diff histone BED files vs. fantabio CRE peaks (bedtools intersect -wo)
+# For Workflow/bedtools_intersect_v2_scatter.cwl
+#
+# Run:
+#   cwltool --outdir ./out/ChIP-Atlas_diff/ChIPseq_histone/bedtools_intersect/ \
+#     ./Workflow/bedtools_intersect_v2_scatter.cwl \
+#     ./config/bedtools_intersect/chipatlas_diff_chipseq_histone_v2.yml
+
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fanta_bio/human-CREv1.2.1.hg38.cre-peaks.bed
+
+query_bed_files:
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_histone/bedfile/GSE105028_chip_h3k27ac_hs_42C_60min.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ChIP-Atlas_diff/ChIPseq_histone/bedfile/GSE209667_chip_h3k4me3_hs_42C_60min.bed

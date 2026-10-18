@@ -1,0 +1,30 @@
+# pair25: GSE209667_pol2_hs_42C_60min_mcf7 vs GSE209667_pol2_ctrl_mcf7
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair25/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair25_GSE209667_pol2_hs_42C_60min_mcf7.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair25_GSE209667_pol2_hs_42C_60min_mcf7.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair25_GSE209667_pol2_ctrl_mcf7.txt
+
+antigen_class: diffbind
+title: GSE209667_ChIPseq_Pol2_hs_42C_60min_mcf7
+result_basename: GSE209667_pol2_hs_42C_60min_mcf7
+
+desc_a: GSE209667_pol2_hs_42C_60min_mcf7
+desc_b: GSE209667_pol2_ctrl_mcf7
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

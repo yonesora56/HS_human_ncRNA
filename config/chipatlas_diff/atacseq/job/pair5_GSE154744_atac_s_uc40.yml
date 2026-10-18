@@ -1,0 +1,32 @@
+# pair5: GSE154744 ATAC-seq s_uc40 vs ctrl
+# See notebooks/00_metadata/12_8_metadata_atacseq.ipynb
+#
+# Preflight note (hg38): SRX8772745 peak BED may be missing on ChIP-Atlas.
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ATACseq/job/pair5/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/atacseq/job/pair5_GSE154744_atac_s_uc40.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair5_GSE154744_atacseq_hs_42C_s_uc40.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair5_GSE154744_atacseq_ctrl_s_uc0.txt
+
+antigen_class: diffbind
+title: GSE154744_ATACseq_s_uc40
+result_basename: GSE154744_atac_s_uc40
+
+desc_a: GSE154744_atacseq_hs_42C_s_uc40
+desc_b: GSE154744_atacseq_ctrl_s_uc0
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

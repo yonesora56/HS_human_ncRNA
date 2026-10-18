@@ -1,0 +1,115 @@
+README FILE FOR THE EXPLANATION OF THE STATISTICS IN THE gencodegenes.org WEBSITE.
+
+The statistics are calculated using the gtf file that includes only the reference chromosomes 
+(i.e. chr1-22, X, Y, MT for human; chr1-19, X, Y, MT for mouse).
+
+
+In the general stats we have clustered some biotypes to offer an overall view of the data.
+
+In detail:
+
+
+1) GENES:
+
+Total No of Genes  -> counts the total number of genes
+
+Protein-coding genes -> counts genes of "protein_coding" gene biotype
+ (starting from releases 41 and M30, protein-coding readthrough genes are counted separately)
+
+Long non-coding RNA genes -> counts genes of broad long non-coding RNA gene biotype (which includes these gene biotypes: 
+"lncRNA", "TEC", "processed_transcript", "lincRNA", "3prime_overlapping_ncrna", "antisense",
+"non_coding", "sense_intronic", "sense_overlapping", "known_ncrna", "macro_lncRNA", 
+"bidirectional_promoter_lncrna")
+
+
+Small non-coding RNA genes -> counts genes of broad small RNA gene biotype (which includes these gene biotypes: 
+"snRNA", "snoRNA", "rRNA", "rRNA_pseudogene", "Mt_tRNA", "Mt_rRNA", "misc_RNA", "miRNA", "ribozyme", "sRNA", 
+"scaRNA", "scRNA", "vault_RNA", "known_ncrna")
+
+
+Pseudogenes -> counts genes of pseudogene broad gene biotype and IG and TR pseudogenes:
+
+   - processed pseudogenes -> "processed_pseudogene", "transcribed_processed_pseudogene" and "translated_processed_pseudogene" gene biotypes
+
+   - unprocessed pseudogenes  -> "unprocessed_pseudogene", "transcribed_unprocessed_pseudogene" and "translated_unprocessed_pseudogene" gene biotypes
+     
+   - unitary pseudogenes -> "unitary_pseudogene" and "transcribed_unitary_pseudogene" gene biotypes
+
+   - polymorphic pseudogenes-> "polymorphic pseudogene" gene biotype
+
+   - pseudogenes  -> "pseudogene" gene biotype
+
+
+Immunoglobulin/T-cell receptor gene segments:
+
+   - protein coding segments -> counts IG and TR genes ("IG_C_gene", "IG_D_gene", "IG_J_gene", "IG_LV_gene", "IG_V_gene", "TR_C_gene", "TR_D_gene", "TR_J_gene" and "TR_V_gene" gene biotypes)
+
+   - pseudogenes -> counts IG and TR pseudogenes ("IG_C_pseudogene", "IG_D_pseudogene", "IG_J_pseudogene", "IG_V_pseudogene", "IG_pseudogene", "TR_J_pseudogene" and "TR_V_pseudogene")
+
+ ********************************
+
+
+2) TRANSCRIPTS:
+
+Total No of Transcripts -> counts total number of all transcripts
+
+Protein-coding transcripts  -> counts "protein_coding" transcript biotype
+
+  - full length protein-coding -> counts the protein-coding transcripts that have neither 
+    "cds_start_NF" nor "cds_end_NF" tag
+
+  - partial length protein-coding: -> counts all the rest (they have either a "cds_start_NF" or 
+    "cds_end_NF" tag or both)
+
+Nonsense mediated decay transcripts -> counts the "nonsense_mediated_decay" transcript biotype
+
+Long non-coding RNA transcripts -> this number is from lncRNA broad biotype loci - total number of 
+transcripts
+
+ ********************************
+
+
+3) TRANSLATIONS:
+
+Total No of distinct translations -> obtained by adding the numbers of distinct translation 
+  sequences per gene. Only transcripts with a "protein_coding" biotype are taken into account.
+  Translations of partial length transcripts, i.e. those with "cds_start_NF" and/or "cds_end_NF"
+  tags, are excluded when their CDS sequence matches the 3' end or the 5' end, respectively, of 
+  a full length transcript sequence in the same gene.
+
+Genes that have more than one distinct translations -> genes that have more than one distinct 
+  translations (of "protein_coding" transcript biotypes), excluding the partial length transcripts 
+  that have a sub-sequence of a full length sequence already counted as distinct translation.
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+NOTE:
+
+Until releases 19 and M3 the pseudogene gene stats were calculated as shown below.
+
+   - processed pseudogenes   -> counts number of genes that have at least one "processed_pseudogene" 
+                                or "transcribed_processed_pseudogene" or "retrotransposed" transcript
+
+   - unprocessed pseudogenes -> counts number of genes that have at least one "unprocessed_pseudogene" 
+                                or "transcribed_unprocessed_pseudogene" transcript
+     
+   - unitary pseudogenes     -> counts number of genes that have at least one "unitary_pseudogene" 
+                                transcript
+
+   - polymorphic pseudogenes -> counts "polymorphic pseudogene" gene biotype
+
+   - pseudogenes             -> counts unclassified "pseudogene" gene biotypes
+
+     
+(NOTE: this is because these HAVANA gene biotypes: "processed_pseudogene", 
+"transcribed_processed_pseudogene", "retrotransposed", "unprocessed_pseudogene" , 
+"transcribed_unprocessed_pseudogene" and "unitary_pseudogene" were grouped under a generic 
+"pseudogene" biotype during the Ensembl-Havana annotation merge process. However, we decide to show 
+the original Havana gene biotype in the statistics, which was obtained according to their 
+transcript biotype as described above. The table with the analytical stats under the general stats 
+corresponds to the real database data, ie. only "pseudogene" biotype at the gene level.)
+

@@ -1,0 +1,112 @@
+#!/usr/bin/env cwl-runner
+cwlVersion: v1.2
+class: CommandLineTool
+label: "run STAR for CAGE-Seq analysis (single-end)"
+doc: |
+  "Mapping the reads to the genome using STAR (STAR version 2.7.11b) for single-end CAGE-seq data
+  help: docker run --rm quay.io/biocontainers/star:2.7.11b--h5ca1c30_8 STAR --help
+  base file: https://github.com/RyoNozu/CWL4IncorporateTSSintoGXF/blob/main/Tools/05_star4cageseq_analysis_se.cwl
+  "
+
+requirements:
+  ShellCommandRequirement: {}
+
+inputs:
+  - id: star_index_dir
+    type: Directory
+    label: "STAR index directory"
+    doc: "STAR index directory"
+
+  - id: cage_seq_read
+    type: File
+    label: "CAGE-Seq read"
+    doc: "CAGE-Seq read FASTQ file (already trimmed, single-end)"
+    format: edam:format_1930
+
+  - id: star_threads
+    type: int
+    label: "threads for star"
+    doc: "threads for star"
+    default: 16
+
+stdout: "$(inputs.cage_seq_read.nameroot)_run_star.log"
+stderr: "$(inputs.cage_seq_read.nameroot)_run_star.log"
+
+ # Changed from zless command to zcat command for fastq.gz file
+arguments:
+  - shellQuote: false
+    valueFrom: |
+      echo "run STAR for CAGE-seq reads analysis" `date '+%Y/%m/%d %H:%M:%S'`
+      STAR --version
+      STAR --genomeDir $(inputs.star_index_dir.path)/ \
+      --readFilesCommand zcat \
+      --readFilesIn $(inputs.cage_seq_read.path) \
+      --runThreadN $(inputs.star_threads) \
+      --alignEndsType Extend5pOfRead1 \
+      --outSAMtype BAM SortedByCoordinate \
+      --outFileNamePrefix $(inputs.cage_seq_read.nameroot)_
+
+outputs:
+  - id: aligned_bam
+    type: File
+    label: "STAR aligned BAM file"
+    doc: "STAR aligned BAM file"
+    format: edam:format_2572  # BAM format
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_Aligned.sortedByCoord.out.bam"
+  
+  - id: final_log
+    type: File
+    label: "STAR final log file"
+    doc: "STAR final log file"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_Log.final.out"
+      
+  - id: main_log
+    type: File
+    label: "STAR main log file"
+    doc: "STAR main log file"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_Log.out"
+      
+  - id: progress_log
+    type: File
+    label: "STAR progress log file"
+    doc: "STAR progress log file"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_Log.progress.out"
+      
+  - id: sj_tab
+    type: File
+    label: "STAR splice junctions file"
+    doc: "STAR splice junctions file"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_SJ.out.tab"
+
+  - id: log_stdout
+    type: File
+    label: "STAR stdout"
+    doc: "STAR stdout"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_run_star.log"
+
+  - id: log_stderr
+    type: File
+    label: "STAR stderr"
+    doc: "STAR stderr"
+    format: edam:format_3671
+    outputBinding:
+      glob: "$(inputs.cage_seq_read.nameroot)_run_star.log"
+
+hints:
+  - class: DockerRequirement
+    dockerPull: quay.io/biocontainers/star:2.7.11b--h5ca1c30_8
+
+$namespaces:
+  s: https://schema.org/
+  edam: https://edamontology.org/

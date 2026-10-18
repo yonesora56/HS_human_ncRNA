@@ -1,0 +1,11 @@
+# RefSeq curated promoters vs. fantabio CRE peaks (bedtools intersect)
+# Dowload from: https://github.com/EngreitzLab/ENCODE_rE2G/blob/main/reference/RefSeqCurated.170308.bed.CollapsedGeneBounds.hg38.TSS500bp.bed
+query_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../out/ENCODE_rE2G/RefSeqCurated.170308.bed.CollapsedGeneBounds.hg38.TSS500bp.bed
+
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fanta_bio/human-CREv1.2.1.hg38.cre-peaks.bed

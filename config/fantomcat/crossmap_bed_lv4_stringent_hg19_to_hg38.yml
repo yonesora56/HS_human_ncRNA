@@ -1,0 +1,26 @@
+# FANTOM-CAT lv4 stringent BED12: hg19 -> hg38 (CrossMap bed)
+# Chain: hg19ToHg38.over.chain.gz
+#   https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz
+#
+# Run:
+#   cwltool --outdir ./out/fantomcat/crossmap \
+#     ./Tools/fantomcat/crossmap_bed.cwl \
+#     ./config/fantomcat/crossmap_bed_lv4_stringent_hg19_to_hg38.yml
+#
+# Output:
+#   FANTOM_CAT.lv4_stringent.hg38.bed
+#   FANTOM_CAT.lv4_stringent.hg38.unmap.bed
+
+chain_file:
+  class: File
+  location: ../../Data/Database/UCSC/hg19ToHg38.over.chain.gz
+
+input_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/FANTOM/FANTOM-CAT/FANTOM_CAT.lv4_stringent.bed
+
+chromosome_id: a
+
+output_bed_file_name: "FANTOM_CAT.lv4_stringent.hg38.bed"
+unmap_bed_file_name: "FANTOM_CAT.lv4_stringent.hg38.unmap.bed"

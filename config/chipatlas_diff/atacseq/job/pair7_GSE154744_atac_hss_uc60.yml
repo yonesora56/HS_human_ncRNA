@@ -1,0 +1,32 @@
+# pair7: GSE154744 ATAC-seq hss_uc60 vs ctrl
+# See notebooks/00_metadata/12_8_metadata_atacseq.ipynb
+#
+# Preflight note (hg38): SRX8772739 bigWig may be missing on ChIP-Atlas.
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ATACseq/job/pair7/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/atacseq/job/pair7_GSE154744_atac_hss_uc60.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair7_GSE154744_atacseq_hs_42C_hss_uc60.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair7_GSE154744_atacseq_ctrl_hss_uc0.txt
+
+antigen_class: diffbind
+title: GSE154744_ATACseq_hss_uc60
+result_basename: GSE154744_atac_hss_uc60
+
+desc_a: GSE154744_atacseq_hs_42C_hss_uc60
+desc_b: GSE154744_atacseq_ctrl_hss_uc0
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

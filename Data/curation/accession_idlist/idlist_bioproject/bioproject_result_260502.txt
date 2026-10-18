@@ -1,0 +1,45 @@
+
+1. Molecular Choreography of Acute Heat Stress in the High Temperature Simulated Environment
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJNA1000718
+ID: 1000718
+
+2. Searching for stress inducible architectural noncoding RNAs
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB12381
+ID: 993870
+
+3. Searching for stress inducible architectural noncoding RNAs
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB12380
+ID: 907209
+
+4. Gene expression profile of Hikeshi knockout hTERT-RPE1 cell during and after heast shock stress
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB13489
+ID: 836792
+
+5. Gene expression profile of Hikeshi knockdown HeLa cell during and after heat shock stress
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB3761
+ID: 836790
+
+6. Gene expression data of YAP1-knockdowned U2OS cells under heat shock stress
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB9865
+ID: 634037
+
+7. Transcriptome analysis of human Sat III knockdown cells
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB7415
+ID: 577849
+
+8. Identification of heat shock-induced noncoding RNAs
+Organism: Homo sapiens (Taxonomy ID 9606)
+BioProject Accession: PRJDB3999
+ID: 540129
+
+9. heat shock SUMO-2 RNA-seq
+BioProject Accession: PRJEB5979
+ID: 290048
+

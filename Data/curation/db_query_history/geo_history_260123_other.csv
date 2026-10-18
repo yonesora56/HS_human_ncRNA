@@ -1,0 +1,16 @@
+Recent queries in gds
+Search,Query,Items found,Time
+#12,"Search ((((""homo sapiens""[Organism]) AND ""other""[DataSet Type]) AND ""gds sra""[Filter])) AND ((((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]) OR ""heat stroke""[Description])",45,02:52:10
+#11,"Search (((((""heat shock response""[MeSH Terms]) OR ""heat shock""[Description]) OR ""heat stress""[Description]) OR ""high temperature stress""[Description]) OR ""hyperthermia""[Description]) OR ""heat stroke""[Description]",19606,02:51:50
+#10,"Search ""heat stroke""[Description]",26,02:51:31
+#9,"Search ""hyperthermia""[Description]",642,02:51:16
+#8,"Search ""high temperature stress""[Description]",93,02:50:54
+#7,"Search ""heat stress""[Description]",7004,02:50:33
+#6,"Search ""heat shock""[Description]",12222,02:50:16
+#5,"Search ""heat shock response""[MeSH Terms]",12707,02:50:01
+#4,"Search ((""homo sapiens""[Organism]) AND ""other""[DataSet Type]) AND ""gds sra""[Filter]",7009,02:49:45
+#3,"Search ""gds sra""[Filter]",5322239,02:49:36
+#2,"Search ""other""[DataSet Type]",20841,02:49:22
+#1,"Search ""homo sapiens""[Organism]",4474559,02:48:00
+
+

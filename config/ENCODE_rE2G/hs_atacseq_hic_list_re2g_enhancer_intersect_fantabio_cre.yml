@@ -1,0 +1,77 @@
+# ENCODE-rE2G enhancer BEDs (hs_atacseq_hic_list) vs. fantabio CRE peaks
+# Unique File.basename values avoid --outdir collisions when nameroots repeat.
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fantabio/human-CREv1.2.1.hg38.cre-peaks.bed
+
+query_bed_files:
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE101731_HFF_44C_60min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE101731_HFF_44C_60min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE101731_HFF_44C_120min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE101731_HFF_44C_120min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE105028_hESC_42C_60min_atacseq_hic_chromap_chipseq/atac_h3k27ac_intact_hic/encode_e2g_predictions_threshold0.259_only_enhancer.bed
+    basename: GSE105028_hESC_42C_60min_encode_e2g_predictions_threshold0.259_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_12_5min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE154744_K562_42C_12_5min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_25min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE154744_K562_42C_25min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_30min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE154744_K562_42C_30min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_30min_atacseq_GSE130758_K562_42C_30min_hic/atac_intact_hic/encode_e2g_predictions_threshold0.232_only_enhancer.bed
+    basename: GSE154744_K562_42C_30min_intact_hic_encode_e2g_predictions_threshold0.232_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_40min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE154744_K562_42C_40min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE154744_K562_42C_60min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE154744_K562_42C_60min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE173536_lymphblastoid_d21_42C_60min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE173536_lymphblastoid_d21_42C_60min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE173536_lymphblastoid_t21_42C_60min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE173536_lymphblastoid_t21_42C_60min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE209675_MCF7_42C_60min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE209675_MCF7_42C_60min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE267931_HUVEC_39C_120min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE267931_HUVEC_39C_120min_encode_e2g_predictions_threshold0.179_only_enhancer.bed
+
+  - class: File
+    format: edam:format_3003
+    location: ../../out/ENCODE_rE2G/hs_atacseq_hic_list/GSE280307_THP1_42C_120min_atacseq/atac_megamap/encode_e2g_predictions_threshold0.179_only_enhancer.bed
+    basename: GSE280307_THP1_42C_120min_encode_e2g_predictions_threshold0.179_only_enhancer.bed

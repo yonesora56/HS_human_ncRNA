@@ -1,0 +1,30 @@
+# pair20: GSE112379_pol2_hs_43C_90min_hek_rpb1_scramble vs GSE112379_pol2_ctrl_hek_rpb1_scramble
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_pol/job/pair20/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_pol/job/pair20_GSE112379_pol2_hs_43C_90min_hek_rpb1_scramble.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/pair20_GSE112379_pol2_hs_43C_90min_hek_rpb1_scramble.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/pair20_GSE112379_pol2_ctrl_hek_rpb1_scramble.txt
+
+antigen_class: diffbind
+title: GSE112379_ChIPseq_Pol2_hs_43C_90min_hek_rpb1_scramble
+result_basename: GSE112379_pol2_hs_43C_90min_hek_rpb1_scramble
+
+desc_a: GSE112379_pol2_hs_43C_90min_hek_rpb1_scramble
+desc_b: GSE112379_pol2_ctrl_hek_rpb1_scramble
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

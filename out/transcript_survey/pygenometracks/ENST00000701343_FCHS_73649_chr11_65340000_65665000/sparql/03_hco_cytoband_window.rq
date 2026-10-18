@@ -1,0 +1,22 @@
+# TogoMCP: get_MIE_file("hco") then run_sparql(database="hco")
+# Endpoint: https://rdfportal.org/primary/sparql
+# Graph pin is required. An unpinned faldo:Region pattern reads every dataset on this endpoint.
+# Band coordinates live on the per-build instance, not on the cytoband class.
+# hco:build hco:GRCh38 keeps GRCh37 rows out. REGEX needs the empty-string flags argument.
+
+PREFIX hco: <http://identifiers.org/hco/>
+PREFIX faldo: <http://biohackathon.org/resource/faldo#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?bandLabel ?begin ?end ?stain
+FROM <http://rdfportal.org/dataset/hco>
+WHERE {
+  ?inst a ?band ; hco:build hco:GRCh38 ; hco:bandtype ?bt ; faldo:location ?loc .
+  ?band rdfs:subClassOf hco:Cytoband ; rdfs:label ?bandLabel .
+  ?bt rdfs:label ?stain .
+  FILTER(REGEX(?bandLabel, "^11[pq]", ""))
+  ?loc faldo:begin/faldo:position ?begin ; faldo:end/faldo:position ?end .
+  # Window used for the pyGenomeTracks figure (1-based, inclusive).
+  FILTER(?begin <= 65665000 && ?end >= 65340000)
+}
+ORDER BY ?begin

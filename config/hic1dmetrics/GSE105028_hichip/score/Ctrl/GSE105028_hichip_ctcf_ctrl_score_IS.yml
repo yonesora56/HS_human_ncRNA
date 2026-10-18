@@ -1,0 +1,99 @@
+# GSE105028 HiChIP CTCF (merged) — one-sample score, Ctrl, IS
+# Scatter over chr1-22 and chrX. matrices and chromosomes must stay in the same order.
+# Resolution 5000 bp, KR dumps from:
+#   out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/
+#
+# Copy this file per metric. Change only:
+#   metric      IS | CI | DI | SS | DLR | PC1 | IES | IAS
+#   parameter   300000              IS, CI, SS, IAS, IES (window bp)
+#               1000000             DI (bin length bp)
+#               3000000             DLR (local distance bp)
+#               <gene-density path> PC1 (sign is arbitrary if omitted)
+#   --outdir    match the metric name, e.g. .../score_single/Ctrl/CI/
+#
+# Run:
+#   cwltool --outdir ./out/h1d/GSE105028_hichip/score_single/Ctrl/IS/ \
+#     ./Workflow/hic1dmetrics_score_single_sample_scatter.cwl \
+#     ./config/hic1dmetrics/GSE105028_hichip/score/Ctrl/GSE105028_hichip_ctcf_ctrl_score_IS.yml
+
+metric: IS
+parameter: "300000"
+resolution: 5000
+
+score_script:
+  class: File
+  location: ../../../../../scripts/hic1dmetrics_score_single_sample.py
+
+chromosomes:
+  - chr1
+  - chr2
+  - chr3
+  - chr4
+  - chr5
+  - chr6
+  - chr7
+  - chr8
+  - chr9
+  - chr10
+  - chr11
+  - chr12
+  - chr13
+  - chr14
+  - chr15
+  - chr16
+  - chr17
+  - chr18
+  - chr19
+  - chr20
+  - chr21
+  - chr22
+  - chrX
+
+# One dumped CTCF Ctrl matrix per chromosome (same order as chromosomes).
+matrices:
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr1.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr2.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr3.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr4.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr5.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr6.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr7.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr8.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr9.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr10.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr11.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr12.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr13.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr14.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr15.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr16.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr17.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr18.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr19.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr20.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr21.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chr22.5000.matrix.gz
+  - class: File
+    location: ../../../../../out/h1d/GSE105028_hichip/CTCF_Ctrl_dump/CTCF_Ctrl_merged.KR.chrX.5000.matrix.gz

@@ -1,0 +1,30 @@
+# pair2: GSE209667 ChIP-seq H3K4me3 42°C 60min vs ctrl
+# See notebooks/00_metadata/12_8_metadata_chipseq.ipynb
+#
+# Run:
+#   cwltool --cachedir ./tmp/ --outdir ./out/ChIP-Atlas_diff/ChIPseq_histone/result/ \
+#     Workflow/chip_atlas_diff_job.cwl \
+#     config/chipatlas_diff/chipseq_histone/job/pair2_GSE209667_chip_h3k4me3_hs_42C_60min.yml
+
+data_a:
+  class: File
+  location: ../dataset_A/GSE209667_chip_h3k4me3_hs_42C_60min.txt
+
+data_b:
+  class: File
+  location: ../dataset_B/GSE209667_chip_h3k4me3_ctrl.txt
+
+antigen_class: diffbind
+title: GSE209667_ChIPseq_H3K4me3_42C_60min
+result_basename: GSE209667_chip_h3k4me3_hs_42C_60min
+
+desc_a: GSE209667_chip_h3k4me3_hs_42C_60min
+desc_b: GSE209667_chip_h3k4me3_ctrl
+
+genome: hg38
+sbatch_options: "-p epyc -t 360"
+poll_interval: 60
+out_dir: results
+
+skip_preflight: false
+url_input: false

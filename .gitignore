@@ -1,0 +1,47 @@
+.env
+/Archive
+/index
+/command
+/tmp
+
+pyrightconfig.json
+
+.cursor
+
+# Reference data and raw inputs (tens of GB; GitHub file limit is 100 MB)
+/Data/proteomics/
+/Data/Database/
+/Data/HNscore/
+/Data/quantification/
+/Data/metadata/metadata_geofetch/
+/Data/metadata/metadata_atacseq/
+
+# Pipeline outputs (hundreds of GB)
+/out/salmon_gencode_result/
+/out/ENCODE_rE2G/
+/out/fantabio/
+/out/transcript_classification/
+/out/proseq_test/
+/out/HiC/
+/out/ChIP-Atlas_diff/
+/out/fastp_result/
+/out/ChIP-Atlas_enrichment/
+
+# OS and caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Sequencing and alignment files, if they appear outside the directories above
+*.bam
+*.bai
+*.cram
+*.bw
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.bt2

@@ -1,0 +1,10 @@
+# GSE105028 HS ENCODE-rE2G enhancers vs. fantabio CRE peaks (bedtools intersect)
+query_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../out/ENCODE_rE2G/GSE105028_HS/GSE105028_HS/atac_h3k27ac_intact_hic/encode_e2g_predictions_threshold0.259_only_enhancer.bed
+
+peaks_bed_file:
+  class: File
+  format: edam:format_3003
+  location: ../../Data/Database/fanta_bio/human-CREv1.2.1.hg38.cre-peaks.bed

@@ -1,0 +1,45 @@
+original_rna_library	normalized_label	item_type	n_rows	audit_ids	note
+TruSeq Stranded Total RNA Library Prep Kit	TruSeq Stranded Total RNA Library Prep Kit	library_preparation	2	P01	表記だけを正規化。実際の修正値は文献監査を優先。
+unknown	unknown	missing	4	P02; P40	表記だけを正規化。実際の修正値は文献監査を優先。
+Illumina kit (TruSeq RNA)	TruSeq RNA (product/version unspecified)	library_preparation	4	P03	表記だけを正規化。実際の修正値は文献監査を優先。
+Illumina TruSeq Stranded mRNA Sample Preparation Guide	TruSeq Stranded mRNA Library Prep Kit	library_preparation	36	P04	表記だけを正規化。実際の修正値は文献監査を優先。
+Truseq RNA prep kit	TruSeq RNA (product/version unspecified)	library_preparation	3	P05	表記だけを正規化。実際の修正値は文献監査を優先。
+NEBNext Ultra II Directional RNA Library Prep Kit	NEBNext Ultra II Directional RNA Library Prep Kit for Illumina	library_preparation	13	P06; P12; P27	表記だけを正規化。実際の修正値は文献監査を優先。
+Bioyi Biotechnology Co., Ltd.	Bioyi Biotechnology Co., Ltd.	service_provider	73	P07; P08	会社名。P07では委託先列へ。P08では委託先としても支持されず履歴のみ保存。
+Direct-Zol RNA MiniPrep Kit	Direct-zol RNA MiniPrep Kit	extraction_or_cleanup	6	P09	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+TrueSeq RNA Sample Preparation Kit	TruSeq RNA Sample Preparation Kit (version unspecified)	library_preparation	5	P10	表記だけを正規化。実際の修正値は文献監査を優先。
+miRNeasy Kit	miRNeasy Kit	extraction_or_cleanup	2	P11	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+TruSeq RNA Sample Preparation Kit	TruSeq RNA Sample Preparation Kit (version unspecified)	library_preparation	3	P13	表記だけを正規化。実際の修正値は文献監査を優先。
+VAHTS mRNA-seq v2 Library Prep Kit for Illumina	VAHTS mRNA-seq v2 Library Prep Kit for Illumina	library_preparation	3	P14	表記だけを正規化。実際の修正値は文献監査を優先。
+KAPA mRNA HyperPrep Kit	KAPA mRNA HyperPrep Kit	library_preparation	12	P15	表記だけを正規化。実際の修正値は文献監査を優先。
+SMARTer Stranded Total RNA-Seq Kit v2	SMARTer Stranded Total RNA-Seq Kit v2	library_preparation	4	P16	表記だけを正規化。実際の修正値は文献監査を優先。
+Lexogen QuantSeq FWD kit	QuantSeq 3′ mRNA-Seq Library Prep Kit FWD for Illumina	library_preparation	3	P17	表記だけを正規化。実際の修正値は文献監査を優先。
+KAPA mRNA HyperPrep kit	KAPA mRNA HyperPrep Kit	library_preparation	6	P18	表記だけを正規化。実際の修正値は文献監査を優先。
+Direct-ZolTM RNA MiniPrep Kit	Direct-zol RNA MiniPrep Kit	extraction_or_cleanup	1	P19	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+TruSeq mRNA Library Prep Kit	TruSeq mRNA Library Prep Kit	library_preparation	1	P20	Strandedが書かれていないので名称統一だけでは補わない。対象文献の確認結果で判断。
+TruSeq stranded total RNA protocol	TruSeq Stranded Total RNA Library Prep Kit	library_preparation	9	P21	表記だけを正規化。実際の修正値は文献監査を優先。
+RNA Clean and Concentrator-25 kit 	RNA Clean & Concentrator-25 Kit	extraction_or_cleanup	6	P22	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+VAHTS Universal V6 RNA-seq Library Prep Kit	VAHTS Universal V6 RNA-seq Library Prep Kit	library_preparation	5	P23	表記だけを正規化。実際の修正値は文献監査を優先。
+Qiagen RNeasy series kit	Qiagen RNeasy series kit	extraction_or_cleanup	52	P24	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+RNA microprep kit	RNA microprep kit	extraction_or_cleanup	6	P25	抽出・精製用。rna_libraryの作製キット名から除外し、確認できた抽出試薬名を別列へ。
+TruSeq Stranded mRNA LT Sample Prep Kit	TruSeq Stranded mRNA LT Sample Prep Kit	library_preparation	3	P26	表記だけを正規化。実際の修正値は文献監査を優先。
+E7765L NEBNext Ultra II Directional RNA Library Prep with Beads	NEBNext Ultra II Directional RNA Library Prep with Sample Purification Beads (E7765L)	library_preparation	4	P28	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq Stranded mRNA Library Prep Kit	TruSeq Stranded mRNA Library Prep Kit	library_preparation	6	P29	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq Stranded mRNA Library	TruSeq Stranded mRNA Library Prep Kit	library_preparation	12	P30	表記だけを正規化。実際の修正値は文献監査を優先。
+	unknown	missing	18	P31; P47	表記だけを正規化。実際の修正値は文献監査を優先。
+KAPA Stranded mRNA-Seq Kit	KAPA Stranded mRNA-Seq Kit	library_preparation	3	P32	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq stranded mRNA library preparation kit	TruSeq Stranded mRNA Library Prep Kit	library_preparation	6	P33	表記だけを正規化。実際の修正値は文献監査を優先。
+Ovation Universal RNA-Seq System	Ovation Universal RNA-Seq System	library_preparation	4	P34	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq Total RNA kit	TruSeq Total RNA kit	library_preparation	1	P35	Strandedが書かれていないので名称統一だけでは補わない。対象文献の確認結果で判断。
+TruSeq Stranded mRNA Library Kit	TruSeq Stranded mRNA Library Prep Kit	library_preparation	6	P36	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq stranded mRNA library prep kit	TruSeq Stranded mRNA Library Prep Kit	library_preparation	6	P37	表記だけを正規化。実際の修正値は文献監査を優先。
+Hyper Prep RNA sequencing kit	Hyper Prep RNA sequencing kit (product unspecified)	library_preparation	3	P38	名称統一だけではKAPAと断定不可。P38は文献確認後にKAPA RNA HyperPrepと確定。
+Lexogen QuantSeq FWD Kit	QuantSeq 3′ mRNA-Seq Library Prep Kit FWD for Illumina	library_preparation	6	P39	表記だけを正規化。実際の修正値は文献監査を優先。
+NEBNext Ultra II Directional RNA library preparation kit	NEBNext Ultra II Directional RNA Library Prep Kit for Illumina	library_preparation	16	P41	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq Stranded mRNA Library Prep Kit (without poly(A) selection)	TruSeq Stranded mRNA Library Prep Kit (without poly(A) selection)	library_preparation	4	P42	表記だけを正規化。実際の修正値は文献監査を優先。
+SureSelect Strand-Specific RNA Library Preparation Kits	SureSelect Strand-Specific RNA Library Preparation Kit	library_preparation	23	P43	表記だけを正規化。実際の修正値は文献監査を優先。
+Illumina protocol	Illumina protocol (specific kit unspecified)	library_preparation	3	P44	表記だけを正規化。実際の修正値は文献監査を優先。
+TruSeq Stranded mRNA assay	TruSeq Stranded mRNA Library Prep Kit	library_preparation	4	P45	表記だけを正規化。実際の修正値は文献監査を優先。
+NEBNext Ultra II RNA Library Prep Kit for Illumina	NEBNext Ultra II RNA Library Prep Kit for Illumina	library_preparation	2	P46	表記だけを正規化。実際の修正値は文献監査を優先。
+AHTS universal V8 RNA-seq library prep kit for Illumina (Vazyme, cat. no. NR605) & KAPA HyperPrep kit (Roche, cat. no. KR0961)	VAHTS Universal V8 RNA-seq Library Prep Kit for Illumina (Vazyme, cat. no. NR605) & KAPA HyperPrep kit (Roche, cat. no. KR0961)	mixed_components	2	P48	VAHTSは脱字訂正案。V8/NR605とKAPAが対象RNA-seqでどう組み合わされたかは未確認。
+NEBNext® UltraTM Directional RNA Library Prep Kit	NEBNext Ultra Directional RNA Library Prep Kit for Illumina	library_preparation	14	P49	表記だけを正規化。実際の修正値は文献監査を優先。
