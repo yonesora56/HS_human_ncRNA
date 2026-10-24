@@ -1,0 +1,37 @@
+NS	cluster	id	name	enrichment
+BP	1	GO:0000122	negative regulation of transcription by RNA polymerase II	e
+BP	1	GO:0000963	mitochondrial RNA processing	e
+BP	1	GO:0006048	UDP-N-acetylglucosamine biosynthetic process	e
+BP	1	GO:0035825	homologous recombination	e
+BP	1	GO:0036297	interstrand cross-link repair	e
+BP	1	GO:0043504	mitochondrial DNA repair	e
+BP	1	GO:0044528	regulation of mitochondrial mRNA stability	e
+BP	1	GO:1990918	double-strand break repair involved in meiotic recombination	e
+BP	1	GO:2000042	negative regulation of double-strand break repair via homologous recombination	e
+BP	2	GO:0007140	male meiotic nuclear division	e
+BP	2	GO:0034214	protein hexamerization	e
+BP	2	GO:0051013	microtubule severing	e
+BP	2	GO:1990986	DNA recombinase disassembly	e
+BP	3	GO:0008340	determination of adult lifespan	e
+BP	4	GO:0015786	UDP-glucose transmembrane transport	e
+BP	5	GO:0033687	osteoblast proliferation	e
+CC	1	GO:0000228	nuclear chromosome	e
+CC	1	GO:0000785	chromatin	e
+CC	1	GO:0005634	nucleus	e
+CC	1	GO:0005654	nucleoplasm	e
+CC	1	GO:0005730	nucleolus	e
+CC	1	GO:0005739	mitochondrion	e
+CC	1	GO:0031298	replication fork protection complex	e
+CC	1	GO:0043527	tRNA methyltransferase complex	e
+CC	1	GO:1990391	DNA repair complex	e
+MF	1	GO:0000014	single-stranded DNA endonuclease activity	e
+MF	1	GO:0008568	microtubule severing ATPase activity	e
+MF	1	GO:0030701	NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity	e
+MF	1	GO:0034597	phosphatidylinositol-4,5-bisphosphate 4-phosphatase activity	e
+MF	1	GO:0106430	dihydroorotate dehydrogenase (quinone) activity	e
+MF	1	GO:0160117	tRNA (guanine(6)-N2)-methyltransferase activity	e
+MF	2	GO:0000287	magnesium ion binding	e
+MF	3	GO:0000403	Y-form DNA binding	e
+MF	3	GO:0000976	transcription cis-regulatory region binding	e
+MF	3	GO:0003697	single-stranded DNA binding	e
+MF	4	GO:0010997	anaphase-promoting complex binding	e

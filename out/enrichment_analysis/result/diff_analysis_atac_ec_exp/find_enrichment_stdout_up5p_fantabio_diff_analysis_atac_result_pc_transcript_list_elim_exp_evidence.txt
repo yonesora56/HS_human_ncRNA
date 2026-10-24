@@ -1,0 +1,58 @@
+/tmp/m_hm2z_2/stg05680f95-f2fe-4d6b-be76-41392e8fbcfb/go_release_20260805.obo: fmt(1.2) rel(2026-07-26) 51,986 Terms; optional_attrs(consider replaced_by)
+HMS:0:00:01.101255 849,088 annotations READ: /tmp/m_hm2z_2/stg5f6aaac3-eb3d-4141-ab48-0c3f34862d66/transcript_go_association_exp_evidence.txt 
+Study: 1667 vs. Population 215385
+
+
+Load BP Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 27% 57,788 of 215,385 population items found in association
+
+Load CC Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 42% 89,434 of 215,385 population items found in association
+
+Load MF Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 37% 80,481 of 215,385 population items found in association
+
+Runing BP Ontology Analysis: current study set of 1667 IDs.
+ 31%    513 of  1,667 study items found in association
+100%  1,667 of  1,667 study items found in population(215385)
+Calculating 10,365 uncorrected p-values using fisher_scipy_stats
+  10,365 terms are associated with 57,788 of 215,385 population items
+   2,635 terms are associated with    513 of  1,667 study items
+[10/24/26 01:37:44] WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh   go_enrichment.py:562
+                             on top of them is likely over-conservative.                                                                                                                                                        
+  METHOD fdr_bh:
+     116 GO terms found significant (< 0.01=alpha) (116 enriched +   0 purified): statsmodels fdr_bh
+     280 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing CC Ontology Analysis: current study set of 1667 IDs.
+ 46%    774 of  1,667 study items found in association
+100%  1,667 of  1,667 study items found in population(215385)
+Calculating 1,623 uncorrected p-values using fisher_scipy_stats
+   1,623 terms are associated with 89,434 of 215,385 population items
+     398 terms are associated with    774 of  1,667 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh   go_enrichment.py:562
+                             on top of them is likely over-conservative.                                                                                                                                                        
+  METHOD fdr_bh:
+      36 GO terms found significant (< 0.01=alpha) ( 36 enriched +   0 purified): statsmodels fdr_bh
+     571 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing MF Ontology Analysis: current study set of 1667 IDs.
+ 42%    701 of  1,667 study items found in association
+100%  1,667 of  1,667 study items found in population(215385)
+Calculating 4,557 uncorrected p-values using fisher_scipy_stats
+   4,557 terms are associated with 80,481 of 215,385 population items
+     727 terms are associated with    701 of  1,667 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh   go_enrichment.py:562
+                             on top of them is likely over-conservative.                                                                                                                                                        
+  METHOD fdr_bh:
+      57 GO terms found significant (< 0.01=alpha) ( 57 enriched +   0 purified): statsmodels fdr_bh
+     383 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+    415 of 16,545 results have uncorrected P-values <= 0.01=pval
+
+    415 items WROTE: enrichment_analysis_up5p_fantabio_diff_analysis_atac_result_pc_transcript_list_elim_exp_evidence.tsv

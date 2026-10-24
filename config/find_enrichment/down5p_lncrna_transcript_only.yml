@@ -1,0 +1,28 @@
+target_genelist:
+  class: File
+  location: ../../out/enrichment_analysis/query/down5p_lncRNA_transcript_list.txt
+
+background_genelist:
+  class: File
+  location: ../../out/enrichment_analysis/background/background_quantified_lncRNA_transcript_list.txt
+
+annotation_file:
+  class: File
+  location: ../../out/enrichment_analysis/transcript_go_association/transcript_go_association.txt
+
+alpha: 0.01
+pvalue: 0.01
+method: "fdr_bh"
+algorithm: "elim"
+elim_cutoff: 0.01
+pval_field: "uncorrected"
+
+
+obo_file: 
+  class: File
+  location: ../../Data/Database/GO/go_release_20260805.obo
+
+obsolete_go: "replace"
+
+output_file_name: "enrichment_analysis_down5p_lncRNA_transcript_list_elim.tsv"
+stdout_file_name: "find_enrichment_stdout_down5p_lncRNA_transcript_list_elim.txt"

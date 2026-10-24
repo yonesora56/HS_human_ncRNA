@@ -45,3 +45,16 @@ __pycache__/
 *.fq.gz
 *.sra
 *.bt2
+
+
+# other
+
+/notebooks/10_figshare/qrcode_generate.ipynb
+/out/figshare/
+/out/main_figure/
+
+# Untracked files larger than 10 MB
+/out/enrichment_analysis/transcript_go_association/all_transcript_go_relation_quickgo.tsv.gz
+/out/enrichment_analysis/transcript_go_association/all_transcript_go_relation_quickgo_only_exp_evidence.tsv.gz
+/out/enrichment_analysis/transcript_go_association/transcript_go_association.txt
+/out/enrichment_analysis/transcript_go_association/transcript_go_association_exp_evidence.txt

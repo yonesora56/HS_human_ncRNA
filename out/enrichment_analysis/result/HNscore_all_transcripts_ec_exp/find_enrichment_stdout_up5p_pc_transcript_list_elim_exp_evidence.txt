@@ -1,0 +1,55 @@
+/tmp/3bb6h1dj/stg29bfcbb7-eb19-4af7-9da1-a28cfd16eca9/go_release_20260805.obo: fmt(1.2) rel(2026-07-26) 51,986 Terms; optional_attrs(consider replaced_by)
+HMS:0:00:01.091284 849,088 annotations READ: /tmp/3bb6h1dj/stg8f62d45b-8c37-417d-8dbe-020309e6f2dc/transcript_go_association_exp_evidence.txt 
+Study: 12340 vs. Population 215385
+
+
+Load BP Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 27% 57,788 of 215,385 population items found in association
+
+Load CC Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 42% 89,434 of 215,385 population items found in association
+
+Load MF Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 37% 80,481 of 215,385 population items found in association
+
+Runing BP Ontology Analysis: current study set of 12340 IDs.
+ 27%  3,383 of 12,340 study items found in association
+100% 12,340 of 12,340 study items found in population(215385)
+Calculating 10,365 uncorrected p-values using fisher_scipy_stats
+  10,365 terms are associated with 57,788 of 215,385 population items
+   6,267 terms are associated with  3,383 of 12,340 study items
+[10/24/26 00:30:56] WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely over-conservative.                                 go_enrichment.py:562
+  METHOD fdr_bh:
+     159 GO terms found significant (< 0.01=alpha) (159 enriched +   0 purified): statsmodels fdr_bh
+   1,335 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing CC Ontology Analysis: current study set of 12340 IDs.
+ 45%  5,511 of 12,340 study items found in association
+100% 12,340 of 12,340 study items found in population(215385)
+Calculating 1,623 uncorrected p-values using fisher_scipy_stats
+   1,623 terms are associated with 89,434 of 215,385 population items
+   1,029 terms are associated with  5,511 of 12,340 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely over-conservative.                                 go_enrichment.py:562
+  METHOD fdr_bh:
+      41 GO terms found significant (< 0.01=alpha) ( 41 enriched +   0 purified): statsmodels fdr_bh
+   4,004 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing MF Ontology Analysis: current study set of 12340 IDs.
+ 37%  4,535 of 12,340 study items found in association
+100% 12,340 of 12,340 study items found in population(215385)
+Calculating 4,557 uncorrected p-values using fisher_scipy_stats
+   4,557 terms are associated with 80,481 of 215,385 population items
+   2,131 terms are associated with  4,535 of 12,340 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely over-conservative.                                 go_enrichment.py:562
+  METHOD fdr_bh:
+      50 GO terms found significant (< 0.01=alpha) ( 50 enriched +   0 purified): statsmodels fdr_bh
+   1,378 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+    692 of 16,545 results have uncorrected P-values <= 0.01=pval
+
+    692 items WROTE: enrichment_analysis_up5p_pc_transcript_list_elim_exp_evidence.tsv

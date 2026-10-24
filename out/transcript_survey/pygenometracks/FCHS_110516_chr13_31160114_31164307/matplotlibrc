@@ -1,0 +1,3 @@
+mathtext.fontset : custom
+mathtext.rm : DejaVu Sans:italic
+mathtext.it : DejaVu Sans:italic

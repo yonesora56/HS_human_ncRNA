@@ -1,0 +1,11 @@
+NS	cluster	n_go	go_id	name
+BP	1	9	GO:0000122; GO:0000963; GO:0006048; GO:0035825; GO:0036297; GO:0043504; GO:0044528; GO:1990918; GO:2000042	negative regulation of transcription by RNA polymerase II; mitochondrial RNA processing; UDP-N-acetylglucosamine biosynthetic process; homologous recombination; interstrand cross-link repair; mitochondrial DNA repair; regulation of mitochondrial mRNA stability; double-strand break repair involved in meiotic recombination; negative regulation of double-strand break repair via homologous recombination
+BP	2	4	GO:0007140; GO:0034214; GO:0051013; GO:1990986	male meiotic nuclear division; protein hexamerization; microtubule severing; DNA recombinase disassembly
+BP	3	1	GO:0008340	determination of adult lifespan
+BP	4	1	GO:0015786	UDP-glucose transmembrane transport
+BP	5	1	GO:0033687	osteoblast proliferation
+CC	1	9	GO:0000228; GO:0000785; GO:0005634; GO:0005654; GO:0005730; GO:0005739; GO:0031298; GO:0043527; GO:1990391	nuclear chromosome; chromatin; nucleus; nucleoplasm; nucleolus; mitochondrion; replication fork protection complex; tRNA methyltransferase complex; DNA repair complex
+MF	1	6	GO:0000014; GO:0008568; GO:0030701; GO:0034597; GO:0106430; GO:0160117	single-stranded DNA endonuclease activity; microtubule severing ATPase activity; NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity; phosphatidylinositol-4,5-bisphosphate 4-phosphatase activity; dihydroorotate dehydrogenase (quinone) activity; tRNA (guanine(6)-N2)-methyltransferase activity
+MF	2	1	GO:0000287	magnesium ion binding
+MF	3	3	GO:0000403; GO:0000976; GO:0003697	Y-form DNA binding; transcription cis-regulatory region binding; single-stranded DNA binding
+MF	4	1	GO:0010997	anaphase-promoting complex binding

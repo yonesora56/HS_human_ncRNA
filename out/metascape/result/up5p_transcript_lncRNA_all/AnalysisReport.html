@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body ng-app="app">
+<div class="container">
+        <h2>Metascape Gene List Analysis Report</h2><p/>  <a href="http://metascape.org">metascape.org</a><sup>1</sup><p/>
+
+      <h3>Gene Lists</h3>
+      User-provided gene identifiers are first converted into their corresponding H. sapiens Entrez gene IDs using the latest version of the database (last updated on 2026-07-01).  If multiple identifiers correspond to the same Entrez gene ID, they will be considered as a single Entrez gene ID in downstream analyses.   The gene lists are summarized in Table 1.<p/>
+          <div class="panel panel-info">
+            <div class="panel-heading">Table 1. Statistics of input gene lists.</div>
+            <div class="panel-body"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">Name</TH>
+      <TH class="info">Total</TH>
+      <TH class="info">Unique</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>MyList</TD>
+      <TD>4716</TD>
+      <TD>850</TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+          </div>
+
+
+              <h3>Gene Annotation</h3>
+              The following are the list of annotations retrieved from the latest version of the database (last updated on 2026-07-01) (Table 2).<p/>
+              <div class="panel panel-info">
+                <div class="panel-heading">Table 2. Gene annotations extracted</div>
+                <div class="panel-body"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">Name</TH>
+      <TH class="info">Type</TH>
+      <TH class="info">Description</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>Gene Symbol</TD>
+      <TD>Description</TD>
+      <TD>Primary HUGO gene symbol.</TD>
+    </TR>
+    <TR>
+      <TD>Description</TD>
+      <TD>Description</TD>
+      <TD>Short description.</TD>
+    </TR>
+    <TR>
+      <TD>Biological Process (GO)</TD>
+      <TD>Function/Location</TD>
+      <TD>Descriptions summarized based on gene ontology database, where up to three most informative GO terms are kept.</TD>
+    </TR>
+    <TR>
+      <TD>Kinase Class (UniProt)</TD>
+      <TD>Function/Location</TD>
+      <TD>Detailed kinase classes.</TD>
+    </TR>
+    <TR>
+      <TD>Protein Function (Protein Atlas)</TD>
+      <TD>Function/Location</TD>
+      <TD>Protein Function (Protein Atlas)</TD>
+    </TR>
+    <TR>
+      <TD>Subcellular Location (Protein Atlas)</TD>
+      <TD>Function/Location</TD>
+      <TD>Subcellular Location (Protein Atlas)</TD>
+    </TR>
+    <TR>
+      <TD>Drug (DrugBank)</TD>
+      <TD>Genotype/Phenotype/Disease</TD>
+      <TD>Drug information for the given gene as target.</TD>
+    </TR>
+    <TR>
+      <TD>Protein Functions (ChatGPT)</TD>
+      <TD>Description</TD>
+      <TD>Uncurated gene functions described by ChatGPT.</TD>
+    </TR>
+    <TR>
+      <TD>Disease & Drugs (ChatGPT)</TD>
+      <TD>Genotype/Phenotype/Disease</TD>
+      <TD>Uncurated disease and drug associations described by ChatGPT.</TD>
+    </TR>
+    <TR>
+      <TD>Canonical Pathways
+</TD>
+      <TD>Ontology</TD>
+      <TD>Canonical Pathways
+</TD>
+    </TR>
+    <TR>
+      <TD>Hallmark Gene Sets
+</TD>
+      <TD>Ontology</TD>
+      <TD>Hallmark Gene Sets
+</TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+              </div><p/>
+
+
+<h3>Protein-protein Interaction Enrichment Analysis</h3>
+For each given gene list, protein-protein interaction enrichment analysis has been carried out with the following databases: STRING<sup>2</sup>, BioGrid<sup>3</sup>, OmniPath<sup>4</sup>, InWeb_IM<sup>5</sup>.Only physical interactions in STRING (physical score &gt 0.132) and BioGrid are used (<a href="http://metascape.org/blog/?p=219">details</a>).  The resultant network contains the subset of proteins that form physical interactions with at least one other member in the list.  If the network contains between 3 and 500 proteins, the Molecular Complex Detection (MCODE) algorithm<sup>6</sup> has been applied to identify densely connected network components.  
+
+<h3>Quality Control and Association Analysis</h3>
+
+<p>Gene list enrichments are identified in the following ontology categories: Cell_Type_Signatures, DisGeNET, Transcription_Factor_Targets. All genes in the genome have been used as the enrichment background. Terms with a p-value &lt; 0.01, a minimum count of 3, and an enrichment factor &gt; 1.5 (the enrichment factor is the ratio between the observed counts and the counts expected by chance) are collected and grouped into clusters based on their membership similarities.  The top few enriched clusters (one term per cluster) are shown in the Figure 1-3.  The algorithm used here is the same as that is used for pathway and process enrichment analysis.<p/>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 1. Summary of enrichment analysis in Cell Type Signatures<sup>7</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_Cell_Type_Signatures.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_Cell_Type_Signatures.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40142" target="_TERM">M40142</a></TD>
+      <TD>DESCARTES MAIN FETAL THYMIC EPITHELIAL CELLS</TD>
+      <TD>15</TD>
+      <TD>2.70</TD>
+      <TD>-3.70</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40121" target="_TERM">M40121</a></TD>
+      <TD>DESCARTES MAIN FETAL HEMATOPOIETIC STEM CELLS</TD>
+      <TD>7</TD>
+      <TD>1.20</TD>
+      <TD>-3.40</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40095" target="_TERM">M40095</a></TD>
+      <TD>DESCARTES MAIN FETAL LENS FIBRE CELLS</TD>
+      <TD>14</TD>
+      <TD>2.50</TD>
+      <TD>-3.20</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40078" target="_TERM">M40078</a></TD>
+      <TD>DESCARTES MAIN FETAL SLC26A4 PAEP POSITIVE CELLS</TD>
+      <TD>14</TD>
+      <TD>2.50</TD>
+      <TD>-2.30</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40110" target="_TERM">M40110</a></TD>
+      <TD>DESCARTES MAIN FETAL CLC IL5RA POSITIVE CELLS</TD>
+      <TD>11</TD>
+      <TD>2.00</TD>
+      <TD>-2.30</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40068" target="_TERM">M40068</a></TD>
+      <TD>DESCARTES MAIN FETAL CSH1 CSH2 POSITIVE CELLS</TD>
+      <TD>8</TD>
+      <TD>1.40</TD>
+      <TD>-2.00</TD>
+      <TD>0</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 2. Summary of enrichment analysis in DisGeNET<sup>8</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_DisGeNET.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_DisGeNET.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/1/2/C0152109/" target="_TERM">C0152109</a></TD>
+      <TD>Juvenile Spinal Muscular Atrophy</TD>
+      <TD>3</TD>
+      <TD>0.53</TD>
+      <TD>-2.70</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/1/2/C1096202/" target="_TERM">C1096202</a></TD>
+      <TD>Lipoprotein (a) measurement</TD>
+      <TD>3</TD>
+      <TD>0.53</TD>
+      <TD>-2.10</TD>
+      <TD>0</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 3. Summary of enrichment analysis in Transcription Factor Targets.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_Transcription_Factor_Targets.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_Transcription_Factor_Targets.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40794" target="_TERM">M40794</a></TD>
+      <TD>MED25 TARGET GENES</TD>
+      <TD>10</TD>
+      <TD>1.80</TD>
+      <TD>-4.40</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M30371" target="_TERM">M30371</a></TD>
+      <TD>ZNF660 TARGET GENES</TD>
+      <TD>30</TD>
+      <TD>5.30</TD>
+      <TD>-3.80</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M30131" target="_TERM">M30131</a></TD>
+      <TD>PSMB5 TARGET GENES</TD>
+      <TD>15</TD>
+      <TD>2.70</TD>
+      <TD>-3.20</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40697" target="_TERM">M40697</a></TD>
+      <TD>TBX1 TARGET GENES</TD>
+      <TD>10</TD>
+      <TD>1.80</TD>
+      <TD>-2.60</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M30133" target="_TERM">M30133</a></TD>
+      <TD>PTTG1 TARGET GENES</TD>
+      <TD>6</TD>
+      <TD>1.10</TD>
+      <TD>-2.40</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M30300" target="_TERM">M30300</a></TD>
+      <TD>ZNF329 TARGET GENES</TD>
+      <TD>20</TD>
+      <TD>3.60</TD>
+      <TD>-2.20</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M29910" target="_TERM">M29910</a></TD>
+      <TD>CAVIN1 TARGET GENES</TD>
+      <TD>6</TD>
+      <TD>1.10</TD>
+      <TD>-2.20</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M30250" target="_TERM">M30250</a></TD>
+      <TD>ZFP82 TARGET GENES</TD>
+      <TD>4</TD>
+      <TD>0.71</TD>
+      <TD>-2.10</TD>
+      <TD>0</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?systematicName=M40792" target="_TERM">M40792</a></TD>
+      <TD>TSHZ1 TARGET GENES</TD>
+      <TD>9</TD>
+      <TD>1.60</TD>
+      <TD>-2.00</TD>
+      <TD>0</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+    <h3>Reference</h3></p>
+    <ol style="list-style: decimal inside;">
+      <li>Zhou et al., Metascape provides a biologist-oriented resource for the analysis of systems-level datasets. Nature Communications (2019) 10(1):1523.</li>
+      <li>Szklarczyk D. et al. STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. Nucleic Acids Res. (2019) 47:D607-613.</li>
+      <li>Stark C. et al. BioGRID: a general repository for interaction datasets. Nucleic Acids Res. (2006) 34:D535-539.</li>
+      <li>Turei D. et al. A scored human protein-protein interaction network to catalyze genomic interpretation. Nat. Methods. (2016) 13:966-967.</li>
+      <li>Li T. et al. A scored human protein-protein interaction network to catalyze genomic interpretation. Nat. Methods. (2017) 14:61-64.</li>
+      <li>Bader, G.D. et al. An automated method for finding molecular complexes in large protein interaction networks. BMC bioinformatics (2003) 4:2.</li>
+      <li>Subramanian A, et al. Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proc Natl Acad Sci U S A 102, 15545-15550 (2005).</li>
+      <li>Pinero J, et al. DisGeNET: a comprehensive platform integrating information on human disease-associated genes and variants. Nucleic acids research 45, D833-D839 (2017).</li>
+</ol>
+</div>
+
+</body></html>

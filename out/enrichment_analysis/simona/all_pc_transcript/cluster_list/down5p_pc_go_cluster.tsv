@@ -1,0 +1,244 @@
+NS	cluster	id	name	enrichment
+BP	1	GO:0000070	mitotic sister chromatid segregation	e
+BP	1	GO:0000077	DNA damage checkpoint signaling	e
+BP	1	GO:0000278	mitotic cell cycle	e
+BP	1	GO:0000280	nuclear division	e
+BP	1	GO:0000281	mitotic cytokinesis	e
+BP	1	GO:0001578	microtubule bundle formation	e
+BP	1	GO:0007019	microtubule depolymerization	e
+BP	1	GO:0007051	spindle organization	e
+BP	1	GO:0007052	mitotic spindle organization	e
+BP	1	GO:0007057	spindle assembly involved in female meiosis I	e
+BP	1	GO:0007059	chromosome segregation	e
+BP	1	GO:0007064	mitotic sister chromatid cohesion	e
+BP	1	GO:0007076	mitotic chromosome condensation	e
+BP	1	GO:0007079	mitotic chromosome movement towards spindle pole	e
+BP	1	GO:0007080	mitotic metaphase chromosome alignment	e
+BP	1	GO:0007094	mitotic spindle assembly checkpoint signaling	e
+BP	1	GO:0007098	centrosome cycle	e
+BP	1	GO:0007099	centriole replication	e
+BP	1	GO:0008315	G2/MI transition of meiotic cell cycle	e
+BP	1	GO:0008608	attachment of spindle microtubules to kinetochore	e
+BP	1	GO:0010457	centriole-centriole cohesion	e
+BP	1	GO:0032465	regulation of cytokinesis	e
+BP	1	GO:0032466	negative regulation of cytokinesis	e
+BP	1	GO:0034080	CENP-A containing chromatin assembly	e
+BP	1	GO:0035735	intraciliary transport involved in cilium assembly	e
+BP	1	GO:0044375	regulation of peroxisome size	e
+BP	1	GO:0044843	cell cycle G1/S phase transition	e
+BP	1	GO:0045931	positive regulation of mitotic cell cycle	e
+BP	1	GO:0051177	meiotic sister chromatid cohesion	e
+BP	1	GO:0051228	mitotic spindle disassembly	e
+BP	1	GO:0051256	mitotic spindle midzone assembly	e
+BP	1	GO:0051299	centrosome separation	e
+BP	1	GO:0051315	attachment of mitotic spindle microtubules to kinetochore	e
+BP	1	GO:0051382	kinetochore assembly	e
+BP	1	GO:0051988	regulation of attachment of spindle microtubules to kinetochore	e
+BP	1	GO:0060236	regulation of mitotic spindle organization	e
+BP	1	GO:0071962	mitotic sister chromatid cohesion, centromeric	e
+BP	1	GO:0090267	positive regulation of mitotic cell cycle spindle assembly checkpoint	e
+BP	1	GO:0090307	mitotic spindle assembly	e
+BP	1	GO:0140273	repair of mitotic kinetochore microtubule attachment defect	e
+BP	1	GO:0180026	mitochondrial small ribosomal subunit assembly	e
+BP	1	GO:1901970	positive regulation of mitotic sister chromatid separation	e
+BP	1	GO:1902425	positive regulation of attachment of mitotic spindle microtubules to kinetochore	e
+BP	1	GO:1902775	mitochondrial large ribosomal subunit assembly	e
+BP	1	GO:1903490	positive regulation of mitotic cytokinesis	e
+BP	1	GO:1903724	positive regulation of centriole elongation	e
+BP	1	GO:1905116	positive regulation of lateral attachment of mitotic spindle microtubules to kinetochore	e
+BP	2	GO:0000079	regulation of cyclin-dependent protein serine/threonine kinase activity	e
+BP	2	GO:0000209	protein polyubiquitination	e
+BP	2	GO:0000387	spliceosomal snRNP assembly	e
+BP	2	GO:0000712	resolution of meiotic recombination intermediates	e
+BP	2	GO:0000724	double-strand break repair via homologous recombination	e
+BP	2	GO:0000727	double-strand break repair via break-induced replication	e
+BP	2	GO:0000729	DNA double-strand break processing	e
+BP	2	GO:0000963	mitochondrial RNA processing	e
+BP	2	GO:0006260	DNA replication	e
+BP	2	GO:0006261	DNA-templated DNA replication	e
+BP	2	GO:0006271	DNA strand elongation involved in DNA replication	e
+BP	2	GO:0006281	DNA repair	e
+BP	2	GO:0006282	regulation of DNA repair	e
+BP	2	GO:0006357	regulation of transcription by RNA polymerase II	e
+BP	2	GO:0006364	rRNA processing	e
+BP	2	GO:0006384	transcription initiation at RNA polymerase III promoter	e
+BP	2	GO:0006397	mRNA processing	e
+BP	2	GO:0006552	L-leucine catabolic process	e
+BP	2	GO:0007131	reciprocal meiotic recombination	e
+BP	2	GO:0016925	protein sumoylation	e
+BP	2	GO:0017185	peptidyl-lysine hydroxylation	e
+BP	2	GO:0018023	peptidyl-lysine trimethylation	e
+BP	2	GO:0030047	actin modification	e
+BP	2	GO:0030488	tRNA methylation	e
+BP	2	GO:0030490	maturation of SSU-rRNA	e
+BP	2	GO:0031119	tRNA pseudouridine synthesis	e
+BP	2	GO:0031124	mRNA 3'-end processing	e
+BP	2	GO:0031146	SCF-dependent proteasomal ubiquitin-dependent protein catabolic process	e
+BP	2	GO:0031167	rRNA methylation	e
+BP	2	GO:0031297	replication fork processing	e
+BP	2	GO:0032201	telomere maintenance via semi-conservative replication	e
+BP	2	GO:0032968	positive regulation of transcription elongation by RNA polymerase II	e
+BP	2	GO:0036297	interstrand cross-link repair	e
+BP	2	GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	e
+BP	2	GO:0043504	mitochondrial DNA repair	e
+BP	2	GO:0044528	regulation of mitochondrial mRNA stability	e
+BP	2	GO:0044727	epigenetic programing of male pronucleus	e
+BP	2	GO:0045893	positive regulation of DNA-templated transcription	e
+BP	2	GO:0051123	RNA polymerase II preinitiation complex assembly	e
+BP	2	GO:0060261	positive regulation of transcription initiation by RNA polymerase II	e
+BP	2	GO:0061820	telomeric D-loop disassembly	e
+BP	2	GO:0070900	mitochondrial tRNA modification	e
+BP	2	GO:0071035	nuclear polyadenylation-dependent rRNA catabolic process	e
+BP	2	GO:0071038	TRAMP-dependent tRNA surveillance pathway	e
+BP	2	GO:0071139	resolution of DNA recombination intermediates	e
+BP	2	GO:0106217	tRNA C3-cytosine methylation	e
+BP	2	GO:1990481	mRNA pseudouridine synthesis	e
+BP	2	GO:2000232	regulation of rRNA processing	e
+BP	2	GO:2001033	negative regulation of double-strand break repair via nonhomologous end joining	e
+BP	3	GO:0006606	protein import into nucleus	e
+BP	3	GO:0034501	protein localization to kinetochore	e
+BP	3	GO:0071168	protein localization to chromatin	e
+BP	3	GO:1904491	protein localization to ciliary transition zone	e
+BP	4	GO:0008630	intrinsic apoptotic signaling pathway in response to DNA damage	e
+BP	4	GO:0009411	response to UV	e
+BP	4	GO:0036465	synaptic vesicle recycling	e
+BP	4	GO:0072711	cellular response to hydroxyurea	e
+BP	4	GO:0072719	cellular response to cisplatin	e
+BP	4	GO:0140374	antiviral innate immune response	e
+BP	4	GO:1902036	regulation of hematopoietic stem cell differentiation	e
+BP	4	GO:2000773	negative regulation of cellular senescence	e
+BP	5	GO:0021861	forebrain radial glial cell differentiation	e
+BP	5	GO:1904693	midbrain morphogenesis	e
+CC	1	GO:0000151	ubiquitin ligase complex	e
+CC	1	GO:0000172	ribonuclease MRP complex	e
+CC	1	GO:0019005	SCF ubiquitin ligase complex	e
+CC	1	GO:0030008	TRAPP complex	e
+CC	1	GO:0030688	preribosome, small subunit precursor	e
+CC	1	GO:0031464	Cul4A-RING E3 ubiquitin ligase complex	e
+CC	1	GO:0031515	tRNA (m1A) methyltransferase complex	e
+CC	1	GO:0048476	Holliday junction resolvase complex	e
+CC	1	GO:0097550	transcription preinitiation complex	e
+CC	1	GO:1990234	transferase complex	e
+CC	2	GO:0000228	nuclear chromosome	e
+CC	2	GO:0000444	MIS12/MIND type complex	e
+CC	2	GO:0000775	chromosome, centromeric region	e
+CC	2	GO:0000776	kinetochore	e
+CC	2	GO:0000779	condensed chromosome, centromeric region	e
+CC	2	GO:0000781	chromosome, telomeric region	e
+CC	2	GO:0000785	chromatin	e
+CC	2	GO:0000796	condensin complex	e
+CC	2	GO:0000811	GINS complex	e
+CC	2	GO:0000812	Swr1 complex	e
+CC	2	GO:0000922	spindle pole	e
+CC	2	GO:0000939	inner kinetochore	e
+CC	2	GO:0000940	outer kinetochore	e
+CC	2	GO:0001939	female pronucleus	e
+CC	2	GO:0001940	male pronucleus	e
+CC	2	GO:0005634	nucleus	e
+CC	2	GO:0005635	nuclear envelope	e
+CC	2	GO:0005654	nucleoplasm	e
+CC	2	GO:0005657	replication fork	e
+CC	2	GO:0005658	alpha DNA polymerase:primase complex	e
+CC	2	GO:0005694	chromosome	e
+CC	2	GO:0005721	pericentric heterochromatin	e
+CC	2	GO:0005730	nucleolus	e
+CC	2	GO:0005739	mitochondrion	e
+CC	2	GO:0005759	mitochondrial matrix	e
+CC	2	GO:0005777	peroxisome	e
+CC	2	GO:0005778	peroxisomal membrane	e
+CC	2	GO:0005813	centrosome	e
+CC	2	GO:0005814	centriole	e
+CC	2	GO:0005819	spindle	e
+CC	2	GO:0005848	mRNA cleavage stimulating factor complex	e
+CC	2	GO:0005876	spindle microtubule	e
+CC	2	GO:0016592	mediator complex	e
+CC	2	GO:0016593	Cdc73/Paf1 complex	e
+CC	2	GO:0016604	nuclear body	e
+CC	2	GO:0016607	nuclear speck	e
+CC	2	GO:0031262	Ndc80 complex	e
+CC	2	GO:0031390	Ctf18 RFC-like complex	e
+CC	2	GO:0031422	RecQ family helicase-topoisomerase III complex	e
+CC	2	GO:0032133	chromosome passenger complex	e
+CC	2	GO:0034451	centriolar satellite	e
+CC	2	GO:0035861	site of double-strand break	e
+CC	2	GO:0035869	ciliary transition zone	e
+CC	2	GO:0036064	ciliary basal body	e
+CC	2	GO:0043240	Fanconi anaemia nuclear complex	e
+CC	2	GO:0043596	nuclear replication fork	e
+CC	2	GO:0061638	CENP-A containing chromatin	e
+CC	2	GO:0070176	DRM complex	e
+CC	2	GO:0070822	Sin3-type complex	e
+CC	2	GO:0070847	core mediator complex	e
+CC	2	GO:0071162	CMG complex	e
+CC	2	GO:0072686	mitotic spindle	e
+CC	2	GO:0072687	meiotic spindle	e
+CC	2	GO:0090734	site of DNA damage	e
+CC	2	GO:0097431	mitotic spindle pole	e
+CC	2	GO:0097504	Gemini of Cajal bodies	e
+CC	2	GO:0101019	nucleolar exosome (RNase complex)	e
+CC	2	GO:1990023	mitotic spindle midzone	e
+CC	2	GO:1990423	RZZ complex	e
+CC	3	GO:0005737	cytoplasm	e
+CC	3	GO:0005829	cytosol	e
+CC	3	GO:0030496	midbody	e
+CC	3	GO:0032797	SMN complex	e
+CC	3	GO:0034719	SMN-Sm protein complex	e
+CC	3	GO:0070938	contractile ring	e
+MF	1	GO:0000287	magnesium ion binding	e
+MF	1	GO:0000976	transcription cis-regulatory region binding	e
+MF	1	GO:0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding	e
+MF	1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	e
+MF	1	GO:0003676	nucleic acid binding	e
+MF	1	GO:0003682	chromatin binding	e
+MF	1	GO:0003684	damaged DNA binding	e
+MF	1	GO:0003688	DNA replication origin binding	e
+MF	1	GO:0003690	double-stranded DNA binding	e
+MF	1	GO:0003696	satellite DNA binding	e
+MF	1	GO:0003697	single-stranded DNA binding	e
+MF	1	GO:0003723	RNA binding	e
+MF	1	GO:0005515	protein binding	e
+MF	1	GO:0005524	ATP binding	e
+MF	1	GO:0008017	microtubule binding	e
+MF	1	GO:0010997	anaphase-promoting complex binding	e
+MF	1	GO:0019237	centromeric DNA binding	e
+MF	1	GO:0019843	rRNA binding	e
+MF	1	GO:0032135	DNA insertion or deletion binding	e
+MF	1	GO:0032266	phosphatidylinositol-3-phosphate binding	e
+MF	1	GO:0032405	MutLalpha complex binding	e
+MF	1	GO:0042393	histone binding	e
+MF	1	GO:0043515	kinetochore binding	e
+MF	1	GO:0050733	RS domain binding	e
+MF	2	GO:0000995	RNA polymerase III general transcription initiation factor activity	e
+MF	3	GO:0001632	leukotriene B4 receptor activity	e
+MF	3	GO:0042813	Wnt receptor activity	e
+MF	3	GO:0140625	opioid growth factor receptor activity	e
+MF	4	GO:0003713	transcription coactivator activity	e
+MF	5	GO:0003777	microtubule motor activity	e
+MF	5	GO:0004077	biotin--[biotin carboxyl-carrier protein] ligase activity	e
+MF	5	GO:0004526	ribonuclease P activity	e
+MF	5	GO:0004706	JUN kinase kinase kinase activity	e
+MF	5	GO:0004797	thymidine kinase activity	e
+MF	5	GO:0004842	ubiquitin-protein transferase activity	e
+MF	5	GO:0005096	GTPase activator activity	e
+MF	5	GO:0008173	RNA methyltransferase activity	e
+MF	5	GO:0008263	pyrimidine-specific mismatch base pair DNA N-glycosylase activity	e
+MF	5	GO:0008420	RNA polymerase II CTD heptapeptide repeat phosphatase activity	e
+MF	5	GO:0015616	DNA translocase activity	e
+MF	5	GO:0016279	protein-lysine N-methyltransferase activity	e
+MF	5	GO:0016538	cyclin-dependent protein serine/threonine kinase regulator activity	e
+MF	5	GO:0016887	ATP hydrolysis activity	e
+MF	5	GO:0017108	5'-flap endonuclease activity	e
+MF	5	GO:0017116	single-stranded DNA helicase activity	e
+MF	5	GO:0035642	histone H3R17 methyltransferase activity	e
+MF	5	GO:0043139	5'-3' DNA helicase activity	e
+MF	5	GO:0061630	ubiquitin protein ligase activity	e
+MF	5	GO:0106029	tRNA pseudouridine synthase activity	e
+MF	5	GO:0106310	protein serine kinase activity	e
+MF	5	GO:0140197	histone H1-4S27 kinase activity	e
+MF	5	GO:0140658	ATP-dependent chromatin remodeler activity	e
+MF	5	GO:0160225	G-quadruplex unwinding activity	e
+MF	6	GO:0008320	transmembrane protein transporter activity	e
+MF	7	GO:0017056	structural constituent of nuclear pore	e
+MF	8	GO:0140008	histone H4 reader activity	e
+MF	8	GO:1990756	ubiquitin-like ligase-substrate adaptor activity	e
+MF	9	GO:0140612	DNA damage sensor activity	e

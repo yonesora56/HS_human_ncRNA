@@ -1,0 +1,58 @@
+/tmp/hd_l7yhx/stgeee82c88-6934-4c96-8940-4923a9ea0723/go_release_20260805.obo: fmt(1.2) rel(2026-07-26) 51,986 Terms; optional_attrs(consider replaced_by)
+HMS:0:00:01.097518 849,088 annotations READ: /tmp/hd_l7yhx/stgdc09f830-5d58-4d87-9fde-517f9687ab17/transcript_go_association_exp_evidence.txt 
+Study: 4716 vs. Population 192396
+
+
+Load BP Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+  0%      6 of 192,396 population items found in association
+
+Load CC Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+  0%      3 of 192,396 population items found in association
+
+Load MF Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+  0%      5 of 192,396 population items found in association
+
+Runing BP Ontology Analysis: current study set of 4716 IDs.
+  0%      0 of  4,716 study items found in association
+100%  4,716 of  4,716 study items found in population(192396)
+Calculating 107 uncorrected p-values using fisher_scipy_stats
+     107 terms are associated with      6 of 192,396 population items
+       0 terms are associated with      0 of  4,716 study items
+[10/24/26 00:44:29] WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
+                             them is likely over-conservative.                                                                                                                                                                             
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing CC Ontology Analysis: current study set of 4716 IDs.
+  0%      0 of  4,716 study items found in association
+100%  4,716 of  4,716 study items found in population(192396)
+Calculating 30 uncorrected p-values using fisher_scipy_stats
+      30 terms are associated with      3 of 192,396 population items
+       0 terms are associated with      0 of  4,716 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
+                             them is likely over-conservative.                                                                                                                                                                             
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing MF Ontology Analysis: current study set of 4716 IDs.
+  0%      0 of  4,716 study items found in association
+100%  4,716 of  4,716 study items found in population(192396)
+Calculating 34 uncorrected p-values using fisher_scipy_stats
+      34 terms are associated with      5 of 192,396 population items
+       0 terms are associated with      0 of  4,716 study items
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
+                             them is likely over-conservative.                                                                                                                                                                             
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+      0 of 171 results have uncorrected P-values <= 0.01=pval
+
+**WARNING: NOT WRITING enrichment_analysis_up5p_lncRNA_transcript_list_elim_exp_evidence.tsv; NO ENRICHMENT RESULTS

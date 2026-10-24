@@ -1,0 +1,348 @@
+NS	cluster	id	name	enrichment
+BP	1	GO:0000082	G1/S transition of mitotic cell cycle	e
+BP	1	GO:0002270	plasmacytoid dendritic cell activation	e
+BP	1	GO:0002434	immune complex clearance	e
+BP	1	GO:0022615	protein to membrane docking	e
+BP	1	GO:0035711	T-helper 1 cell activation	e
+BP	1	GO:0042100	B cell proliferation	e
+BP	1	GO:0043335	protein unfolding	e
+BP	1	GO:0043353	enucleate erythrocyte differentiation	e
+BP	1	GO:0045063	T-helper 1 cell differentiation	e
+BP	1	GO:0045444	fat cell differentiation	e
+BP	1	GO:0090399	replicative senescence	e
+BP	2	GO:0000122	negative regulation of transcription by RNA polymerase II	e
+BP	2	GO:0000289	nuclear-transcribed mRNA poly(A) tail shortening	e
+BP	2	GO:0000381	regulation of alternative mRNA splicing, via spliceosome	e
+BP	2	GO:0001836	release of cytochrome c from mitochondria	e
+BP	2	GO:0001971	negative regulation of activation of membrane attack complex	e
+BP	2	GO:0002635	negative regulation of germinal center formation	e
+BP	2	GO:0002755	MyD88-dependent toll-like receptor signaling pathway	e
+BP	2	GO:0002840	regulation of T cell mediated immune response to tumor cell	e
+BP	2	GO:0002842	positive regulation of T cell mediated immune response to tumor cell	e
+BP	2	GO:0003129	heart induction	e
+BP	2	GO:0007175	negative regulation of epidermal growth factor-activated receptor activity	e
+BP	2	GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	e
+BP	2	GO:0017055	negative regulation of RNA polymerase II transcription preinitiation complex assembly	e
+BP	2	GO:0030308	negative regulation of cell growth	e
+BP	2	GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	e
+BP	2	GO:0030968	endoplasmic reticulum unfolded protein response	e
+BP	2	GO:0031396	regulation of protein ubiquitination	e
+BP	2	GO:0031397	negative regulation of protein ubiquitination	e
+BP	2	GO:0031571	mitotic G1 DNA damage checkpoint signaling	e
+BP	2	GO:0031953	negative regulation of protein autophosphorylation	e
+BP	2	GO:0032212	positive regulation of telomere maintenance via telomerase	e
+BP	2	GO:0032425	positive regulation of mismatch repair	e
+BP	2	GO:0032436	positive regulation of proteasomal ubiquitin-dependent protein catabolic process	e
+BP	2	GO:0032481	positive regulation of type I interferon production	e
+BP	2	GO:0032689	negative regulation of type II interferon production	e
+BP	2	GO:0032720	negative regulation of tumor necrosis factor production	e
+BP	2	GO:0032727	positive regulation of interferon-alpha production	e
+BP	2	GO:0032729	positive regulation of type II interferon production	e
+BP	2	GO:0032733	positive regulation of interleukin-10 production	e
+BP	2	GO:0032735	positive regulation of interleukin-12 production	e
+BP	2	GO:0032755	positive regulation of interleukin-6 production	e
+BP	2	GO:0032757	positive regulation of interleukin-8 production	e
+BP	2	GO:0033088	negative regulation of immature T cell proliferation in thymus	e
+BP	2	GO:0035667	TRIF-dependent toll-like receptor 4 signaling pathway	e
+BP	2	GO:0038066	p38MAPK cascade	e
+BP	2	GO:0043032	positive regulation of macrophage activation	e
+BP	2	GO:0043371	negative regulation of CD4-positive, alpha-beta T cell differentiation	e
+BP	2	GO:0043484	regulation of RNA splicing	e
+BP	2	GO:0043536	positive regulation of blood vessel endothelial cell migration	e
+BP	2	GO:0045429	positive regulation of nitric oxide biosynthetic process	e
+BP	2	GO:0045604	regulation of epidermal cell differentiation	e
+BP	2	GO:0045629	negative regulation of T-helper 2 cell differentiation	e
+BP	2	GO:0045648	positive regulation of erythrocyte differentiation	e
+BP	2	GO:0045662	negative regulation of myoblast differentiation	e
+BP	2	GO:0045843	negative regulation of striated muscle tissue development	e
+BP	2	GO:0045893	positive regulation of DNA-templated transcription	e
+BP	2	GO:0045944	positive regulation of transcription by RNA polymerase II	e
+BP	2	GO:0046598	positive regulation of viral entry into host cell	e
+BP	2	GO:0046826	negative regulation of protein export from nucleus	e
+BP	2	GO:0048255	mRNA stabilization	e
+BP	2	GO:0051135	positive regulation of NK T cell activation	e
+BP	2	GO:0055020	positive regulation of cardiac muscle fiber development	e
+BP	2	GO:0060213	positive regulation of nuclear-transcribed mRNA poly(A) tail shortening	e
+BP	2	GO:0060395	SMAD protein signal transduction	e
+BP	2	GO:0061047	positive regulation of branching involved in lung morphogenesis	e
+BP	2	GO:0061188	negative regulation of rDNA heterochromatin formation	e
+BP	2	GO:0061469	regulation of type B pancreatic cell proliferation	e
+BP	2	GO:0070244	negative regulation of thymocyte apoptotic process	e
+BP	2	GO:0070434	positive regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway	e
+BP	2	GO:0072125	negative regulation of glomerular mesangial cell proliferation	e
+BP	2	GO:0072200	negative regulation of mesenchymal cell proliferation involved in ureter development	e
+BP	2	GO:0090026	positive regulation of monocyte chemotaxis	e
+BP	2	GO:0090027	negative regulation of monocyte chemotaxis	e
+BP	2	GO:0090084	negative regulation of inclusion body assembly	e
+BP	2	GO:0090191	negative regulation of branching involved in ureteric bud morphogenesis	e
+BP	2	GO:0090194	negative regulation of glomerulus development	e
+BP	2	GO:0140467	integrated stress response signaling	e
+BP	2	GO:1900034	regulation of cellular response to heat	e
+BP	2	GO:1900118	negative regulation of execution phase of apoptosis	e
+BP	2	GO:1900119	positive regulation of execution phase of apoptosis	e
+BP	2	GO:1900153	positive regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	e
+BP	2	GO:1900221	regulation of amyloid-beta clearance	e
+BP	2	GO:1900745	positive regulation of p38MAPK cascade	e
+BP	2	GO:1901029	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	e
+BP	2	GO:1901224	positive regulation of non-canonical NF-kappaB signal transduction	e
+BP	2	GO:1901331	positive regulation of odontoblast differentiation	e
+BP	2	GO:1901673	regulation of mitotic spindle assembly	e
+BP	2	GO:1902004	positive regulation of amyloid-beta formation	e
+BP	2	GO:1902230	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage	e
+BP	2	GO:1902236	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	e
+BP	2	GO:1902430	negative regulation of amyloid-beta formation	e
+BP	2	GO:1902527	positive regulation of protein monoubiquitination	e
+BP	2	GO:1902847	regulation of neuronal signal transduction	e
+BP	2	GO:1902894	negative regulation of miRNA transcription	e
+BP	2	GO:1902998	positive regulation of neurofibrillary tangle assembly	e
+BP	2	GO:1903265	positive regulation of tumor necrosis factor-mediated signaling pathway	e
+BP	2	GO:1903660	negative regulation of complement-dependent cytotoxicity	e
+BP	2	GO:1903748	negative regulation of protein localization to mitochondrion	e
+BP	2	GO:1903984	positive regulation of TRAIL-activated apoptotic signaling pathway	e
+BP	2	GO:1904293	negative regulation of ERAD pathway	e
+BP	2	GO:1904706	negative regulation of vascular associated smooth muscle cell proliferation	e
+BP	2	GO:1904871	positive regulation of protein localization to Cajal body	e
+BP	2	GO:1904874	positive regulation of telomerase RNA localization to Cajal body	e
+BP	2	GO:1905168	positive regulation of double-strand break repair via homologous recombination	e
+BP	2	GO:1905179	negative regulation of cardiac muscle tissue regeneration	e
+BP	2	GO:1905259	negative regulation of nitrosative stress-induced intrinsic apoptotic signaling pathway	e
+BP	2	GO:1905312	positive regulation of cardiac neural crest cell migration involved in outflow tract morphogenesis	e
+BP	2	GO:1905907	negative regulation of amyloid fibril formation	e
+BP	2	GO:1905908	positive regulation of amyloid fibril formation	e
+BP	2	GO:1990442	intrinsic apoptotic signaling pathway in response to nitrosative stress	e
+BP	2	GO:2000005	negative regulation of metanephric S-shaped body morphogenesis	e
+BP	2	GO:2000007	negative regulation of metanephric comma-shaped body morphogenesis	e
+BP	2	GO:2000010	positive regulation of protein localization to cell surface	e
+BP	2	GO:2000279	negative regulation of DNA biosynthetic process	e
+BP	2	GO:2000320	negative regulation of T-helper 17 cell differentiation	e
+BP	2	GO:2000426	negative regulation of apoptotic cell clearance	e
+BP	2	GO:2000636	positive regulation of primary miRNA processing	e
+BP	2	GO:2001200	positive regulation of dendritic cell differentiation	e
+BP	2	GO:2001238	positive regulation of extrinsic apoptotic signaling pathway	e
+BP	3	GO:0000398	mRNA splicing, via spliceosome	e
+BP	3	GO:0006397	mRNA processing	e
+BP	3	GO:0006412	translation	e
+BP	3	GO:0006457	protein folding	e
+BP	3	GO:0006458	'de novo' protein folding	e
+BP	3	GO:0006511	ubiquitin-dependent protein catabolic process	e
+BP	3	GO:0006636	unsaturated fatty acid biosynthetic process	e
+BP	3	GO:0007004	telomere maintenance via telomerase	e
+BP	3	GO:0016925	protein sumoylation	e
+BP	3	GO:0016926	protein desumoylation	e
+BP	3	GO:0019367	fatty acid elongation, saturated fatty acid	e
+BP	3	GO:0019941	modification-dependent protein catabolic process	e
+BP	3	GO:0034625	fatty acid elongation, monounsaturated fatty acid	e
+BP	3	GO:0034626	fatty acid elongation, polyunsaturated fatty acid	e
+BP	3	GO:0042026	protein refolding	e
+BP	3	GO:0042761	very long-chain fatty acid biosynthetic process	e
+BP	3	GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	e
+BP	3	GO:0044206	UMP salvage	e
+BP	3	GO:0045292	mRNA cis splicing, via spliceosome	e
+BP	3	GO:0061684	chaperone-mediated autophagy	e
+BP	3	GO:0061740	protein targeting to lysosome involved in chaperone-mediated autophagy	e
+BP	3	GO:0070476	rRNA (guanine-N7)-methylation	e
+BP	4	GO:0001657	ureteric bud development	e
+BP	4	GO:0001706	endoderm formation	e
+BP	4	GO:0003148	outflow tract septum morphogenesis	e
+BP	4	GO:0003149	membranous septum morphogenesis	e
+BP	4	GO:0003163	sinoatrial node development	e
+BP	4	GO:0003323	type B pancreatic cell development	e
+BP	4	GO:0014839	myoblast migration involved in skeletal muscle regeneration	e
+BP	4	GO:0032286	central nervous system myelin maintenance	e
+BP	4	GO:0035990	tendon cell differentiation	e
+BP	4	GO:0035993	deltoid tuberosity development	e
+BP	4	GO:0042476	odontogenesis	e
+BP	4	GO:0048286	lung alveolus development	e
+BP	4	GO:0048291	isotype switching to IgG isotypes	e
+BP	4	GO:0048392	intermediate mesodermal cell differentiation	e
+BP	4	GO:0060010	Sertoli cell fate commitment	e
+BP	4	GO:0060425	lung morphogenesis	e
+BP	4	GO:0060426	lung vasculature development	e
+BP	4	GO:0060428	lung epithelium development	e
+BP	4	GO:0060433	bronchus development	e
+BP	4	GO:0060438	trachea development	e
+BP	4	GO:0060441	epithelial tube branching involved in lung morphogenesis	e
+BP	4	GO:0060502	epithelial cell proliferation involved in lung morphogenesis	e
+BP	4	GO:0060503	bud dilation involved in lung branching	e
+BP	4	GO:0061518	microglial cell proliferation	e
+BP	4	GO:0072179	nephric duct formation	e
+BP	4	GO:0072197	ureter morphogenesis	e
+BP	5	GO:0002021	response to dietary excess	e
+BP	5	GO:0002227	innate immune response in mucosa	e
+BP	5	GO:0006986	response to unfolded protein	e
+BP	5	GO:0009408	response to heat	e
+BP	5	GO:0009409	response to cold	e
+BP	5	GO:0019430	removal of superoxide radicals	e
+BP	5	GO:0032354	response to follicle-stimulating hormone	e
+BP	5	GO:0034514	mitochondrial unfolded protein response	e
+BP	5	GO:0034605	cellular response to heat	e
+BP	5	GO:0035767	endothelial cell chemotaxis	e
+BP	5	GO:0035924	cellular response to vascular endothelial growth factor stimulus	e
+BP	5	GO:0036120	cellular response to platelet-derived growth factor stimulus	e
+BP	5	GO:0042149	cellular response to glucose starvation	e
+BP	5	GO:0051788	response to misfolded protein	e
+BP	5	GO:0061771	response to caloric restriction	e
+BP	5	GO:0070301	cellular response to hydrogen peroxide	e
+BP	5	GO:0070370	cellular heat acclimation	e
+BP	5	GO:0071222	cellular response to lipopolysaccharide	e
+BP	5	GO:0071383	cellular response to steroid hormone stimulus	e
+BP	5	GO:0071456	cellular response to hypoxia	e
+BP	5	GO:0071460	cellular response to cell-matrix adhesion	e
+BP	5	GO:0090400	stress-induced premature senescence	e
+BP	6	GO:0006334	nucleosome assembly	e
+BP	6	GO:0008637	apoptotic mitochondrial changes	e
+BP	6	GO:0030262	apoptotic nuclear changes	e
+BP	6	GO:0030576	Cajal body organization	e
+BP	6	GO:0045793	positive regulation of cell size	e
+BP	6	GO:0051131	chaperone-mediated protein complex assembly	e
+BP	6	GO:1905323	telomerase holoenzyme complex assembly	e
+BP	7	GO:0017038	protein import	e
+BP	7	GO:0030150	protein import into mitochondrial matrix	e
+BP	7	GO:0045041	protein import into mitochondrial intermembrane space	e
+BP	7	GO:0051168	nuclear export	e
+BP	7	GO:0061644	protein localization to CENP-A containing chromatin	e
+BP	7	GO:0097350	neutrophil clearance	e
+BP	8	GO:0019062	virion attachment to host cell	e
+BP	8	GO:0044828	host-mediated suppression of viral genome replication	e
+BP	8	GO:0051702	biological process involved in interaction with symbiont	e
+BP	9	GO:0050821	protein stabilization	e
+CC	1	GO:0000307	cyclin-dependent protein kinase holoenzyme complex	e
+CC	1	GO:0000502	proteasome complex	e
+CC	1	GO:0000974	Prp19 complex	e
+CC	1	GO:0002199	zona pellucida receptor complex	e
+CC	1	GO:0030014	CCR4-NOT complex	e
+CC	1	GO:0034751	aryl hydrocarbon receptor complex	e
+CC	1	GO:0035868	alphav-beta3 integrin-HMGB1 complex	e
+CC	1	GO:0046696	lipopolysaccharide receptor complex	e
+CC	1	GO:1990904	ribonucleoprotein complex	e
+CC	2	GO:0000785	chromatin	e
+CC	2	GO:0000786	nucleosome	e
+CC	2	GO:0005634	nucleus	e
+CC	2	GO:0005654	nucleoplasm	e
+CC	2	GO:0005681	spliceosomal complex	e
+CC	2	GO:0005730	nucleolus	e
+CC	2	GO:0005737	cytoplasm	e
+CC	2	GO:0005829	cytosol	e
+CC	2	GO:0005832	chaperonin-containing T-complex	e
+CC	2	GO:0005840	ribosome	e
+CC	2	GO:0008180	COP9 signalosome	e
+CC	2	GO:0016222	procollagen-proline 4-dioxygenase complex	e
+CC	2	GO:0016235	aggresome	e
+CC	2	GO:0016607	nuclear speck	e
+CC	2	GO:0022626	cytosolic ribosome	e
+CC	2	GO:0030867	rough endoplasmic reticulum membrane	e
+CC	2	GO:0035267	NuA4 histone acetyltransferase complex	e
+CC	2	GO:0035976	transcription factor AP-1 complex	e
+CC	2	GO:0036488	CHOP-C/EBP complex	e
+CC	2	GO:0042272	nuclear RNA export factor complex	e
+CC	2	GO:0042470	melanosome	e
+CC	2	GO:0042583	chromaffin granule	e
+CC	2	GO:0043505	CENP-A containing nucleosome	e
+CC	2	GO:0048471	perinuclear region of cytoplasm	e
+CC	2	GO:0070557	PCNA-p21 complex	e
+CC	2	GO:0071005	U2-type precatalytic spliceosome	e
+CC	2	GO:0071006	U2-type catalytic step 1 spliceosome	e
+CC	2	GO:0071007	U2-type catalytic step 2 spliceosome	e
+CC	2	GO:0071013	catalytic step 2 spliceosome	e
+CC	2	GO:0071014	post-mRNA release spliceosomal complex	e
+CC	2	GO:0071020	post-spliceosomal complex	e
+CC	2	GO:0071682	endocytic vesicle lumen	e
+CC	2	GO:0072380	TRC complex	e
+CC	2	GO:0097418	neurofibrillary tangle	e
+CC	2	GO:0099020	perinuclear endoplasmic reticulum lumen	e
+CC	2	GO:0120293	dynein axonemal particle	e
+CC	2	GO:0140494	migrasome	e
+CC	2	GO:1902562	H4 histone acetyltransferase complex	e
+CC	2	GO:1904813	ficolin-1-rich granule lumen	e
+CC	2	GO:1990565	HSP90-CDC37 chaperone complex	e
+CC	2	GO:1990622	CHOP-ATF3 complex	e
+CC	3	GO:0001533	cornified envelope	e
+CC	3	GO:0044294	dendritic growth cone	e
+CC	3	GO:0044295	axonal growth cone	e
+CC	3	GO:0097226	sperm mitochondrial sheath	e
+CC	3	GO:0097440	apical dendrite	e
+CC	3	GO:0097447	dendritic tree	e
+CC	3	GO:0097524	sperm plasma membrane	e
+MF	1	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	e
+MF	1	GO:0003714	transcription corepressor activity	e
+MF	2	GO:0001530	lipopolysaccharide binding	e
+MF	2	GO:0002134	UTP binding	e
+MF	2	GO:0002135	CTP binding	e
+MF	2	GO:0003676	nucleic acid binding	e
+MF	2	GO:0003688	DNA replication origin binding	e
+MF	2	GO:0003723	RNA binding	e
+MF	2	GO:0003725	double-stranded RNA binding	e
+MF	2	GO:0003729	mRNA binding	e
+MF	2	GO:0005164	tumor necrosis factor receptor binding	e
+MF	2	GO:0005524	ATP binding	e
+MF	2	GO:0005525	GTP binding	e
+MF	2	GO:0017098	sulfonylurea receptor binding	e
+MF	2	GO:0019003	GDP binding	e
+MF	2	GO:0030332	cyclin binding	e
+MF	2	GO:0030544	Hsp70 protein binding	e
+MF	2	GO:0030911	TPR domain binding	e
+MF	2	GO:0031072	heat shock protein binding	e
+MF	2	GO:0031208	POZ domain binding	e
+MF	2	GO:0031418	L-ascorbic acid binding	e
+MF	2	GO:0031625	ubiquitin protein ligase binding	e
+MF	2	GO:0032183	SUMO binding	e
+MF	2	GO:0032564	dATP binding	e
+MF	2	GO:0034186	apolipoprotein A-I binding	e
+MF	2	GO:0035259	nuclear glucocorticoid receptor binding	e
+MF	2	GO:0035497	cAMP response element binding	e
+MF	2	GO:0035925	mRNA 3'-UTR AU-rich region binding	e
+MF	2	GO:0042826	histone deacetylase binding	e
+MF	2	GO:0043008	ATP-dependent protein binding	e
+MF	2	GO:0045296	cadherin binding	e
+MF	2	GO:0046703	natural killer cell lectin-like receptor binding	e
+MF	2	GO:0046982	protein heterodimerization activity	e
+MF	2	GO:0048156	tau protein binding	e
+MF	2	GO:0050750	low-density lipoprotein particle receptor binding	e
+MF	2	GO:0051022	Rho GDP-dissociation inhibitor binding	e
+MF	2	GO:0051087	protein-folding chaperone binding	e
+MF	2	GO:0051787	misfolded protein binding	e
+MF	2	GO:0055131	C3HC4-type RING finger domain binding	e
+MF	2	GO:0070182	DNA polymerase binding	e
+MF	2	GO:0097100	supercoiled DNA binding	e
+MF	2	GO:0097718	disordered domain specific binding	e
+MF	2	GO:0106140	P-TEFb complex binding	e
+MF	2	GO:1904288	BAT3 complex binding	e
+MF	2	GO:1990226	histone methyltransferase binding	e
+MF	3	GO:0001671	ATPase activator activity	e
+MF	3	GO:0005125	cytokine activity	e
+MF	3	GO:0008083	growth factor activity	e
+MF	3	GO:0016015	morphogen activity	e
+MF	3	GO:0042056	chemoattractant activity	e
+MF	3	GO:0048018	receptor ligand activity	e
+MF	3	GO:0140416	transcription regulator inhibitor activity	e
+MF	3	GO:0140537	transcription regulator activator activity	e
+MF	3	GO:0141069	receptor ligand inhibitor activity	e
+MF	4	GO:0003735	structural constituent of ribosome	e
+MF	4	GO:0030527	structural constituent of chromatin	e
+MF	5	GO:0003924	GTPase activity	e
+MF	5	GO:0004535	poly(A)-specific ribonuclease activity	e
+MF	5	GO:0004656	procollagen-proline 4-dioxygenase activity	e
+MF	5	GO:0004861	cyclin-dependent protein serine/threonine kinase inhibitor activity	e
+MF	5	GO:0008330	protein tyrosine/threonine phosphatase activity	e
+MF	5	GO:0009922	fatty acid elongase activity	e
+MF	5	GO:0010858	calcium-dependent protein kinase regulator activity	e
+MF	5	GO:0016435	rRNA (guanine) methyltransferase activity	e
+MF	5	GO:0016887	ATP hydrolysis activity	e
+MF	5	GO:0016929	deSUMOylase activity	e
+MF	5	GO:0017017	MAP kinase tyrosine/serine/threonine phosphatase activity	e
+MF	5	GO:0019834	phospholipase A2 inhibitor activity	e
+MF	5	GO:0030235	nitric-oxide synthase regulator activity	e
+MF	5	GO:0031071	cysteine desulfurase activity	e
+MF	5	GO:0047631	ADP-ribose diphosphatase activity	e
+MF	5	GO:0050659	N-acetylgalactosamine 4-sulfate 6-O-sulfotransferase activity	e
+MF	5	GO:0061501	2',3'-cyclic GMP-AMP synthase activity	e
+MF	5	GO:0061630	ubiquitin protein ligase activity	e
+MF	5	GO:0071558	histone H3K27me2/H3K27me3 demethylase activity	e
+MF	5	GO:0140608	cysteine-type endopeptidase activator activity	e
+MF	5	GO:0140656	endodeoxyribonuclease activator activity	e
+MF	5	GO:1990817	poly(A) RNA polymerase activity	e
+MF	6	GO:0031386	protein tag activity	e
+MF	7	GO:0044183	protein folding chaperone	e
+MF	7	GO:0140545	ATP-dependent protein disaggregase activity	e
+MF	7	GO:0140662	ATP-dependent protein folding chaperone	e
+MF	8	GO:0140311	protein sequestering activity	e
