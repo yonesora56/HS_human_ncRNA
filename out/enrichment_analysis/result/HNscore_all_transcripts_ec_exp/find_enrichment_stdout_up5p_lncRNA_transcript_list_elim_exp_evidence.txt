@@ -1,5 +1,5 @@
-/tmp/hd_l7yhx/stgeee82c88-6934-4c96-8940-4923a9ea0723/go_release_20260805.obo: fmt(1.2) rel(2026-07-26) 51,986 Terms; optional_attrs(consider replaced_by)
-HMS:0:00:01.097518 849,088 annotations READ: /tmp/hd_l7yhx/stgdc09f830-5d58-4d87-9fde-517f9687ab17/transcript_go_association_exp_evidence.txt 
+/tmp/mhfhx7ok/stg2a50588c-9bba-4002-b6ba-9646cd0669dd/go_release_20260805.obo: fmt(1.2) rel(2026-07-26) 51,986 Terms; optional_attrs(consider replaced_by)
+HMS:0:00:01.110675 849,088 annotations READ: /tmp/mhfhx7ok/stgd7f11cd5-428e-4fdc-aa42-572447a8aae7/transcript_go_association_exp_evidence.txt 
 Study: 4716 vs. Population 192396
 
 
@@ -21,8 +21,8 @@ Runing BP Ontology Analysis: current study set of 4716 IDs.
 Calculating 107 uncorrected p-values using fisher_scipy_stats
      107 terms are associated with      6 of 192,396 population items
        0 terms are associated with      0 of  4,716 study items
-[10/24/26 00:44:29] WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
-                             them is likely over-conservative.                                                                                                                                                                             
+[10/31/26 06:57:43] WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely                  go_enrichment.py:562
+                             over-conservative.                                                                                                                                                                                                                         
   METHOD fdr_bh:
        0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
        0 study items associated with significant GO IDs (enriched)
@@ -34,8 +34,8 @@ Runing CC Ontology Analysis: current study set of 4716 IDs.
 Calculating 30 uncorrected p-values using fisher_scipy_stats
       30 terms are associated with      3 of 192,396 population items
        0 terms are associated with      0 of  4,716 study items
-                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
-                             them is likely over-conservative.                                                                                                                                                                             
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely                  go_enrichment.py:562
+                             over-conservative.                                                                                                                                                                                                                         
   METHOD fdr_bh:
        0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
        0 study items associated with significant GO IDs (enriched)
@@ -47,8 +47,8 @@ Runing MF Ontology Analysis: current study set of 4716 IDs.
 Calculating 34 uncorrected p-values using fisher_scipy_stats
       34 terms are associated with      5 of 192,396 population items
        0 terms are associated with      0 of  4,716 study items
-                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of    go_enrichment.py:562
-                             them is likely over-conservative.                                                                                                                                                                             
+                    WARNING  elim scores each GO term conditioned on its neighbours, so its p-values are not independent and are usually read as already accounting for multiple testing. Applying fdr_bh on top of them is likely                  go_enrichment.py:562
+                             over-conservative.                                                                                                                                                                                                                         
   METHOD fdr_bh:
        0 GO terms found significant (< 0.01=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
        0 study items associated with significant GO IDs (enriched)

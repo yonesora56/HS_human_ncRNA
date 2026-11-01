@@ -209,11 +209,13 @@ BP	9	GO:0050821	protein stabilization	e
 CC	1	GO:0000307	cyclin-dependent protein kinase holoenzyme complex	e
 CC	1	GO:0000502	proteasome complex	e
 CC	1	GO:0000974	Prp19 complex	e
+CC	1	GO:0001533	cornified envelope	e
 CC	1	GO:0002199	zona pellucida receptor complex	e
 CC	1	GO:0030014	CCR4-NOT complex	e
 CC	1	GO:0034751	aryl hydrocarbon receptor complex	e
 CC	1	GO:0035868	alphav-beta3 integrin-HMGB1 complex	e
 CC	1	GO:0046696	lipopolysaccharide receptor complex	e
+CC	1	GO:0097524	sperm plasma membrane	e
 CC	1	GO:1990904	ribonucleoprotein complex	e
 CC	2	GO:0000785	chromatin	e
 CC	2	GO:0000786	nucleosome	e
@@ -256,13 +258,11 @@ CC	2	GO:1902562	H4 histone acetyltransferase complex	e
 CC	2	GO:1904813	ficolin-1-rich granule lumen	e
 CC	2	GO:1990565	HSP90-CDC37 chaperone complex	e
 CC	2	GO:1990622	CHOP-ATF3 complex	e
-CC	3	GO:0001533	cornified envelope	e
 CC	3	GO:0044294	dendritic growth cone	e
 CC	3	GO:0044295	axonal growth cone	e
 CC	3	GO:0097226	sperm mitochondrial sheath	e
 CC	3	GO:0097440	apical dendrite	e
 CC	3	GO:0097447	dendritic tree	e
-CC	3	GO:0097524	sperm plasma membrane	e
 MF	1	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	e
 MF	1	GO:0003714	transcription corepressor activity	e
 MF	2	GO:0001530	lipopolysaccharide binding	e

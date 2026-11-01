@@ -113,11 +113,9 @@ CC	1	GO:0000151	ubiquitin ligase complex	e
 CC	1	GO:0000172	ribonuclease MRP complex	e
 CC	1	GO:0019005	SCF ubiquitin ligase complex	e
 CC	1	GO:0030008	TRAPP complex	e
-CC	1	GO:0030688	preribosome, small subunit precursor	e
 CC	1	GO:0031464	Cul4A-RING E3 ubiquitin ligase complex	e
 CC	1	GO:0031515	tRNA (m1A) methyltransferase complex	e
 CC	1	GO:0048476	Holliday junction resolvase complex	e
-CC	1	GO:0097550	transcription preinitiation complex	e
 CC	1	GO:1990234	transferase complex	e
 CC	2	GO:0000228	nuclear chromosome	e
 CC	2	GO:0000444	MIS12/MIND type complex	e
@@ -142,6 +140,7 @@ CC	2	GO:0005658	alpha DNA polymerase:primase complex	e
 CC	2	GO:0005694	chromosome	e
 CC	2	GO:0005721	pericentric heterochromatin	e
 CC	2	GO:0005730	nucleolus	e
+CC	2	GO:0005737	cytoplasm	e
 CC	2	GO:0005739	mitochondrion	e
 CC	2	GO:0005759	mitochondrial matrix	e
 CC	2	GO:0005777	peroxisome	e
@@ -149,6 +148,7 @@ CC	2	GO:0005778	peroxisomal membrane	e
 CC	2	GO:0005813	centrosome	e
 CC	2	GO:0005814	centriole	e
 CC	2	GO:0005819	spindle	e
+CC	2	GO:0005829	cytosol	e
 CC	2	GO:0005848	mRNA cleavage stimulating factor complex	e
 CC	2	GO:0005876	spindle microtubule	e
 CC	2	GO:0016592	mediator complex	e
@@ -160,6 +160,7 @@ CC	2	GO:0031390	Ctf18 RFC-like complex	e
 CC	2	GO:0031422	RecQ family helicase-topoisomerase III complex	e
 CC	2	GO:0032133	chromosome passenger complex	e
 CC	2	GO:0034451	centriolar satellite	e
+CC	2	GO:0034719	SMN-Sm protein complex	e
 CC	2	GO:0035861	site of double-strand break	e
 CC	2	GO:0035869	ciliary transition zone	e
 CC	2	GO:0036064	ciliary basal body	e
@@ -178,12 +179,11 @@ CC	2	GO:0097504	Gemini of Cajal bodies	e
 CC	2	GO:0101019	nucleolar exosome (RNase complex)	e
 CC	2	GO:1990023	mitotic spindle midzone	e
 CC	2	GO:1990423	RZZ complex	e
-CC	3	GO:0005737	cytoplasm	e
-CC	3	GO:0005829	cytosol	e
 CC	3	GO:0030496	midbody	e
-CC	3	GO:0032797	SMN complex	e
-CC	3	GO:0034719	SMN-Sm protein complex	e
 CC	3	GO:0070938	contractile ring	e
+CC	4	GO:0030688	preribosome, small subunit precursor	e
+CC	4	GO:0032797	SMN complex	e
+CC	4	GO:0097550	transcription preinitiation complex	e
 MF	1	GO:0000287	magnesium ion binding	e
 MF	1	GO:0000976	transcription cis-regulatory region binding	e
 MF	1	GO:0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding	e

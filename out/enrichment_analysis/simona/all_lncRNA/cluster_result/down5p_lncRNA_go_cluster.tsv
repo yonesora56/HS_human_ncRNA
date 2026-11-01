@@ -1,0 +1,4 @@
+NS	cluster	id	name	enrichment
+CC	1	GO:0005634	nucleus	e
+CC	1	GO:0005730	nucleolus	e
+CC	1	GO:0005737	cytoplasm	e

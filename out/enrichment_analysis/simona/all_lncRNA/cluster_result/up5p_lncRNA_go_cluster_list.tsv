@@ -1,0 +1,4 @@
+NS	cluster	n_go	go_id	name
+BP	1	2	GO:0000395; GO:0006412	mRNA 5'-splice site recognition; translation
+MF	1	1	GO:0003735	structural constituent of ribosome
+MF	2	2	GO:0030533; GO:0030627	triplet codon-amino acid adaptor activity; pre-mRNA 5'-splice site binding
