@@ -61,3 +61,4 @@ with open(Path(args.summary_file), 'r', encoding='utf-8') as file:
             outfile.write(acc + '\n')
 
     print(f"GEO accessions are saved in {OUTPUT_FILE}")
+    
