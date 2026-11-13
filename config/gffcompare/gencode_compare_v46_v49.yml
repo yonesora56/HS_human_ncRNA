@@ -1,0 +1,12 @@
+# compare GENCODE v46 and v49
+
+reference_gtf_file:
+  class: File
+  location: ../../Data/Database/GENCODE_v46/gencode.v46.chr_patch_hapl_scaff.annotation.gtf
+
+compare_gtf_file:
+  class: File
+  location: ../../Data/Database/GENCODE_v49/gencode.v49.chr_patch_hapl_scaff.annotation.gtf
+
+output_prefix: gencode_compare_v46_v49
+prefix: gencode_compare_v46_v49

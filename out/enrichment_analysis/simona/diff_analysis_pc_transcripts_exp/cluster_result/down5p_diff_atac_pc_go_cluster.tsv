@@ -1,0 +1,22 @@
+NS	cluster	id	name	enrichment
+BP	1	GO:0034214	protein hexamerization	e
+BP	1	GO:1990986	DNA recombinase disassembly	e
+BP	2	GO:0036297	interstrand cross-link repair	e
+BP	2	GO:2000042	negative regulation of double-strand break repair via homologous recombination	e
+CC	1	GO:0000228	nuclear chromosome	e
+CC	1	GO:0000785	chromatin	e
+CC	1	GO:0000794	condensed nuclear chromosome	e
+CC	1	GO:0005634	nucleus	e
+CC	1	GO:0005654	nucleoplasm	e
+CC	1	GO:0005694	chromosome	e
+CC	1	GO:0005730	nucleolus	e
+CC	1	GO:0005759	mitochondrial matrix	e
+CC	1	GO:0031298	replication fork protection complex	e
+CC	1	GO:0032798	Swi5-Sfr1 complex	e
+CC	1	GO:0090734	site of DNA damage	e
+CC	2	GO:0005737	cytoplasm	e
+CC	3	GO:0070685	macropinocytic cup	e
+CC	4	GO:1990391	DNA repair complex	e
+MF	1	GO:0003697	single-stranded DNA binding	e
+MF	1	GO:0005515	protein binding	e
+MF	2	GO:0140776	protein-containing complex destabilizing activity	e

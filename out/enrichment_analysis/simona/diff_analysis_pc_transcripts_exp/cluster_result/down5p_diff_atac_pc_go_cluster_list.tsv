@@ -1,0 +1,9 @@
+NS	cluster	n_go	go_id	name
+BP	1	2	GO:0034214; GO:1990986	protein hexamerization; DNA recombinase disassembly
+BP	2	2	GO:0036297; GO:2000042	interstrand cross-link repair; negative regulation of double-strand break repair via homologous recombination
+CC	1	11	GO:0000228; GO:0000785; GO:0000794; GO:0005634; GO:0005654; GO:0005694; GO:0005730; GO:0005759; GO:0031298; GO:0032798; GO:0090734	nuclear chromosome; chromatin; condensed nuclear chromosome; nucleus; nucleoplasm; chromosome; nucleolus; mitochondrial matrix; replication fork protection complex; Swi5-Sfr1 complex; site of DNA damage
+CC	2	1	GO:0005737	cytoplasm
+CC	3	1	GO:0070685	macropinocytic cup
+CC	4	1	GO:1990391	DNA repair complex
+MF	1	2	GO:0003697; GO:0005515	single-stranded DNA binding; protein binding
+MF	2	1	GO:0140776	protein-containing complex destabilizing activity
